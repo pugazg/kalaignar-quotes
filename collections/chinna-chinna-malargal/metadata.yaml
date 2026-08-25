@@ -1,0 +1,21 @@
+collection_id: chinna-chinna-malargal
+source_id: TVA_BOK_0065639
+title_ta: "கலைஞரின் சின்னச் சின்ன மலர்கள்"
+author_ta: "டாக்டர். கலைஞர் மு.கருணாநிதி"
+source_file: "TVA_BOK_0065639_கலைஞரின்_சின்னச்_சின்ன_மலர்கள்.pdf"
+publisher_ta: "பாரதி பதிப்பகம்"
+publisher_en: "BHARATHI PATHIPPAGAM"
+edition_history_visible:
+  - "Second Edition : September 2002"
+  - "Third Edition : December 2006"
+edition_of_scan: "Third Edition : December 2006"
+price_visible: "Rs. 50.00"
+pdf_page_count: 249
+quote_section:
+  first_pdf_page: 10
+  first_printed_page: 9
+  last_pdf_page_observed: 249
+  last_printed_page_observed: 248
+language: ta
+transcription_authority: source_scan
+status: in_progress

@@ -19,7 +19,7 @@ The scan is the controlling textual authority.
 
 ## Layout observed
 
-The quote section uses a recurring page design:
+The quote section usually uses a recurring page design:
 
 - illustration
 - first quote
@@ -27,14 +27,15 @@ The quote section uses a recurring page design:
 - second quote
 - decorative separator
 
-The recurring layout is a useful navigation aid, but quote boundaries are determined from the scan page itself rather than assumed mechanically.
+This is only a navigation aid. Quote boundaries and quote counts are determined from each source page itself. PDF page 22 / printed page 21 demonstrates the exception: it contains only one quote.
 
 ## Current progress
 
 Verified from scan:
 
-- PDF pages 10-21
-- printed pages 9-20
-- quote IDs `KQ-CCM-0001` through `KQ-CCM-0024`
+- PDF pages 10-25
+- printed pages 9-24
+- quote IDs `KQ-CCM-0001` through `KQ-CCM-0031`
+- all new entries from PDF page 22 onward verified from high-resolution source renderings
 
-See `page-map.md` and `audit.md` for progress.
+See `page-map.md`, `audit.md`, and `HIGH_RES_REAUDIT_0001_0024.md` for progress and verification history.

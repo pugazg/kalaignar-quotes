@@ -13,6 +13,21 @@ This repository is a source-critical archive of quotations attributed to Kalaign
 5. If a glyph or word cannot be read confidently, mark the quote `needs_review` and record the uncertainty in the quote file.
 6. Do not fill missing words from memory, context, another edition, or an online quotation.
 
+## Mandatory visual-verification protocol
+
+A quote must not be marked `verified_from_scan` merely from a reduced page preview.
+
+For every quote:
+
+1. inspect the correct PDF page and printed-page number;
+2. inspect the quote area at sufficient resolution to distinguish individual Tamil glyphs and punctuation;
+3. read the source itself word by word, not an OCR-derived reconstruction;
+4. compare the completed transcription back against the high-resolution source a second time;
+5. pay special attention to visually confusable words, joined forms, vowel marks, punctuation, numerals and quotation marks;
+6. if any reading remains uncertain, use `needs_review` rather than guessing.
+
+If a user or later audit finds a substantial discrepancy in a quote already marked verified, record the correction in `audit.md` and retrospectively re-audit the affected verification batch before adding new source pages.
+
 ## Canonical unit
 
 The canonical archival unit is **one quote per Markdown file** under:
@@ -46,7 +61,7 @@ Sequential quote IDs are never reused after publication.
 
 ## Verification statuses
 
-- `verified_from_scan` — read directly from the scan and checked visually.
+- `verified_from_scan` — read directly from the scan and checked visually under the mandatory high-resolution protocol above.
 - `needs_review` — one or more readings remain uncertain.
 - `provisional` — entered from a non-controlling aid and not yet visually verified. Provisional entries should be avoided whenever the scan is available.
 

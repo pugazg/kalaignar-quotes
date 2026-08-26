@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 57 / printed page 56.
+- Canonical quote files created through PDF page 61 / printed page 60.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-57
-- Printed pages: 9-56
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0094
-- Stored quote count: 94
+- PDF pages: 10-61
+- Printed pages: 9-60
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0102
+- Stored quote count: 102
 - Unresolved readings: none
 
 ## Structural correction
@@ -99,6 +99,14 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0092: joined forms `அதுபோலத்தான்` and `கைதூக்கி`; semicolon in `முடியாதோ;`
 - KQ-CCM-0093: source spacing `ஏமாற்றிக் கொள்கிறார்கள்`
 - KQ-CCM-0094: source forms `உயிர்த்தோழனாகத்` and `வாய்கூசாது`; semicolon in `கூட்டத்தினர்தான்;`
+- KQ-CCM-0095: source forms `வன்னெஞ்சம்` and `வாஞ்சை`; semicolon in `பூக்களும்;`
+- KQ-CCM-0096: source comma in `அணிவோர்க்கும்,`, semicolon in `இருந்தாலும்;`, and joined form `ஈன்றளித்த`
+- KQ-CCM-0097: source form `பொசுக்குவதாகத்தான்`, spacing `எண்ணிக் கொள்கிறது`, joined `தாங்கிக்கொண்டு`, and wording `வெண் சோறு`
+- KQ-CCM-0098: source forms `பாதரசம்`, `இரும்புத்`, and `அமிழாது`; dash preserved in `என்பார்கள் - அதுபோல`
+- KQ-CCM-0099: joined forms `காலைச்சுற்றிக்` and `அந்தப்பாம்பு`, semicolon in `நின்றுவிட்டால்;`, spacing `ஊர்ந்து போய்விடும்`, and source form `இலட்சியவாதிக்கு`
+- KQ-CCM-0100: source forms `அளந்தறியும்` and `அளவுகோல்கள்தான்`; exclamation marks preserved after `பண்பு!`, `பண்பாடு!`, and the closing phrase
+- KQ-CCM-0101: source semicolon in `என்கிறார்களே;`, dash in `திரைப்படமாகவோ - அல்லது`, and joined forms `தொலைக்காட்சியிலோ` and `தணிக்கைக்குழுவினர்`
+- KQ-CCM-0102: source wording `புத்தரை அவதாரமாக்கியது`, `கொள்கைகளைக்`, and `குழி தோண்டிப்`
 
 ## High-resolution batch — PDF 22-25
 
@@ -193,6 +201,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 58-61
+
+- PDF pages: 58-61
+- Printed pages: 57-60
+- Quote IDs: KQ-CCM-0095 to KQ-CCM-0102
+- Quote count in batch: 8
+- Verification: every quote re-read from high-resolution page renderings of the controlling source scan before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 58 / printed page 57 and assign the next stable IDs beginning with `KQ-CCM-0095`, using the same high-resolution verification procedure.
+Continue with PDF page 62 / printed page 61 and assign the next stable IDs beginning with `KQ-CCM-0103`, using the same high-resolution verification procedure.

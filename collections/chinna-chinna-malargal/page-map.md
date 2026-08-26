@@ -30,12 +30,17 @@
 | 35 | 34 | KQ-CCM-0050 | KQ-CCM-0051 | verified_from_scan |
 | 36 | 35 | KQ-CCM-0052 | KQ-CCM-0053 | verified_from_scan |
 | 37 | 36 | KQ-CCM-0054 | KQ-CCM-0055 | verified_from_scan |
-| 38-150 | 37-149 | pending | pending | not_started |
+| 38 | 37 | KQ-CCM-0056 | KQ-CCM-0057 | verified_from_scan |
+| 39 | 38 | KQ-CCM-0058 | KQ-CCM-0059 | verified_from_scan |
+| 40 | 39 | KQ-CCM-0060 | KQ-CCM-0061 | verified_from_scan |
+| 41 | 40 | KQ-CCM-0062 | — | verified_from_scan |
+| 42-150 | 41-149 | pending | pending | not_started |
 
 ## Notes
 
 - PDF page numbering is one greater than the printed page number throughout the quote section observed so far.
 - The controlling PDF contains 150 pages; its final page is printed page 149.
 - PDF page 22 / printed page 21 contains one quote, not two; IDs therefore continue with KQ-CCM-0026 on the next page.
+- PDF page 41 / printed page 40 also contains one quote, not two; IDs therefore continue with KQ-CCM-0063 on the next page.
 - New entries from PDF page 22 onward are verified against high-resolution page renderings before receiving `verified_from_scan` status.
 - The pending range must still be verified page by page; the two-quotes-per-page layout must not be assumed when an individual page is processed.

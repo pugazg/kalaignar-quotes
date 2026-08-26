@@ -27,15 +27,15 @@ The quote section usually uses a recurring page design:
 - second quote
 - decorative separator
 
-This is only a navigation aid. Quote boundaries and quote counts are determined from each source page itself. PDF page 22 / printed page 21 demonstrates the exception: it contains only one quote.
+This is only a navigation aid. Quote boundaries and quote counts are determined from each source page itself. PDF page 22 / printed page 21 and PDF page 41 / printed page 40 are verified exceptions containing only one quote each.
 
 ## Current progress
 
 Verified from scan:
 
-- PDF pages 10-37
-- printed pages 9-36
-- quote IDs `KQ-CCM-0001` through `KQ-CCM-0055`
+- PDF pages 10-41
+- printed pages 9-40
+- quote IDs `KQ-CCM-0001` through `KQ-CCM-0062`
 - all new entries from PDF page 22 onward verified from high-resolution source renderings
 
 See `page-map.md`, `audit.md`, and `HIGH_RES_REAUDIT_0001_0024.md` for progress and verification history.

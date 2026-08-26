@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 65 / printed page 64.
+- Canonical quote files created through PDF page 69 / printed page 68.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-65
-- Printed pages: 9-64
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0110
-- Stored quote count: 110
+- PDF pages: 10-69
+- Printed pages: 9-68
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0118
+- Stored quote count: 118
 - Unresolved readings: none
 
 ## Structural correction
@@ -115,6 +115,14 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0108: source comma after `விளக்குகளாக,` and forms `சூளுரையுடன்`, `இல்வாழ்வில்`, and `அடியெடுத்து`
 - KQ-CCM-0109: source phrase `பல் இளித்து`, dash in `எல்லாம் - நம்முடன்`, and joined forms `பகைவர்களாகத்தான்` and `இருந்திருப்பார்கள்`
 - KQ-CCM-0110: source spacing `பத்திர காளி`, form `தீச்சட்டி`, comma after `பெரியார்,`, quoted wording `“திராவிட இயக்கத்தின் பரிணாம வளர்ச்சி”`, and form `எங்ஙனம்`
+- KQ-CCM-0111: quoted wording `“நெஞ்சு பொறுக்குதில்லையே நிலைகெட்ட மனிதரை நினைந்து விட்டால்”`, semicolon in `செய்வது;`, and emphatic closing `மனிதர்களுக்கு!`
+- KQ-CCM-0112: joined forms `நெஞ்சினிக்கப்` and `நஞ்சினிது`; semicolon in `விட;`
+- KQ-CCM-0113: source wording `பூதக் கண்ணாடி`, semicolon in `தொடங்குவானாயின்;`, and closing `நகரவே மாட்டான்!`
+- KQ-CCM-0114: source semicolons in `அல்ல;` and `எழுதியிருக்கும்போது;`, wording `பண்டித நேருவே`, and closing question `நாடு காடாக வேண்டும்?`
+- KQ-CCM-0115: repeated source form `துறவறம்`, semicolon in `துறந்து;`, and exclamation punctuation preserved
+- KQ-CCM-0116: joined forms `நிலையத்திலுள்ள` and `பாய்ந்தோடுவது`, wording `இரத்த சேமிப்பு`, and closing `இலட்சியவாதிக்கு!`
+- KQ-CCM-0117: joined form `பண்டங்களையெல்லாம்`, source form `விக்ரகம்`, and wording `ஒரு பருக்கையைக் கூட`
+- KQ-CCM-0118: source phrase `அணிதேர்ப் புரவி ஆட்பெரும் படையுடன்`, source spacing `மன்னர்க் கிருக்க`, and wording `ஆன்றோர் வாக்கு!`
 
 ## High-resolution batch — PDF 22-25
 
@@ -229,6 +237,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 66-69
+
+- PDF pages: 66-69
+- Printed pages: 65-68
+- Quote IDs: KQ-CCM-0111 to KQ-CCM-0118
+- Quote count in batch: 8
+- Verification: every quote re-read from high-resolution page renderings of the controlling source scan before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 66 / printed page 65 and assign the next stable IDs beginning with `KQ-CCM-0111`, using the same high-resolution verification procedure.
+Continue with PDF page 70 / printed page 69 and assign the next stable IDs beginning with `KQ-CCM-0119`, using the same high-resolution verification procedure.

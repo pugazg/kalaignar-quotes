@@ -38,7 +38,11 @@
 | 43 | 42 | KQ-CCM-0065 | KQ-CCM-0066 | verified_from_scan |
 | 44 | 43 | KQ-CCM-0067 | KQ-CCM-0068 | verified_from_scan |
 | 45 | 44 | KQ-CCM-0069 | KQ-CCM-0070 | verified_from_scan |
-| 46-150 | 45-149 | pending | pending | not_started |
+| 46 | 45 | KQ-CCM-0071 | KQ-CCM-0072 | verified_from_scan |
+| 47 | 46 | KQ-CCM-0073 | KQ-CCM-0074 | verified_from_scan |
+| 48 | 47 | KQ-CCM-0075 | KQ-CCM-0076 | verified_from_scan |
+| 49 | 48 | KQ-CCM-0077 | KQ-CCM-0078 | verified_from_scan |
+| 50-150 | 49-149 | pending | pending | not_started |
 
 ## Notes
 

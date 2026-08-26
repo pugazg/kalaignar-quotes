@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 45 / printed page 44.
+- Canonical quote files created through PDF page 49 / printed page 48.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-45
-- Printed pages: 9-44
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0070
-- Stored quote count: 70
+- PDF pages: 10-49
+- Printed pages: 9-48
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0078
+- Stored quote count: 78
 - Unresolved readings: none
 
 ## Structural correction
@@ -77,6 +77,13 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0068: source forms `அமுதமான`, `உலைபொங்கி`, `அன்னமெனும்`, and `ஒருசில`
 - KQ-CCM-0069: source wording `விபரீதக் கருத்து`
 - KQ-CCM-0070: source quotation `“கடவுளைத் தேடிக்கொண்டு அலையாமல் கடமையைச் செய்”` and semicolon in `சொன்னார்களோ;`
+- KQ-CCM-0071: source dialogue wording `எதப்பா புல்?`, `அதனால்தான் இறங்கிவிட்டேன்`, and comma after `என்றான்,`
+- KQ-CCM-0072: source forms `தண்ணீர்த் துளி`, `கதிரொளிபட்டு`, and `தகதகவென`
+- KQ-CCM-0073: source spacing `குடிமக்களாகி விடுவார்கள்`
+- KQ-CCM-0074: source joined form `என்கிறவர்களும்தான்`
+- KQ-CCM-0076: source semicolon in `கலந்துவிட்டாலோ;`
+- KQ-CCM-0077: source forms `வாமனாவதாரம்` and joined `கொண்டிருப்பதுதான்`; semicolon in `கூட;`
+- KQ-CCM-0078: source form `சர்வாதிகாரிகளுக்குச்`
 
 ## High-resolution batch — PDF 22-25
 
@@ -141,6 +148,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 46-49
+
+- PDF pages: 46-49
+- Printed pages: 45-48
+- Quote IDs: KQ-CCM-0071 to KQ-CCM-0078
+- Quote count in batch: 8
+- Verification: every quote re-read from the original high-resolution embedded scan images extracted from the controlling PDF before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 46 / printed page 45 and assign the next stable IDs beginning with `KQ-CCM-0071`, using the same high-resolution verification procedure.
+Continue with PDF page 50 / printed page 49 and assign the next stable IDs beginning with `KQ-CCM-0079`, using the same high-resolution verification procedure.

@@ -33,9 +33,9 @@ This is only a navigation aid. Quote boundaries and quote counts are determined 
 
 Verified from scan:
 
-- PDF pages 10-33
-- printed pages 9-32
-- quote IDs `KQ-CCM-0001` through `KQ-CCM-0047`
+- PDF pages 10-37
+- printed pages 9-36
+- quote IDs `KQ-CCM-0001` through `KQ-CCM-0055`
 - all new entries from PDF page 22 onward verified from high-resolution source renderings
 
 See `page-map.md`, `audit.md`, and `HIGH_RES_REAUDIT_0001_0024.md` for progress and verification history.

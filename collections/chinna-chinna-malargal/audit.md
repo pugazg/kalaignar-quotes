@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 33 / printed page 32.
+- Canonical quote files created through PDF page 37 / printed page 36.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-33
-- Printed pages: 9-32
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0047
-- Stored quote count: 47
+- PDF pages: 10-37
+- Printed pages: 9-36
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0055
+- Stored quote count: 55
 - Unresolved readings: none
 
 ## Structural correction
@@ -56,6 +56,13 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0045: source hyphenation in `தேனிருக்கும்-திறக்கும்` / `இருக்கும்-பறக்கும்` and reading `மாண்பிருக்கும்`
 - KQ-CCM-0046: source form `தவற்றை`
 - KQ-CCM-0047: source form `வகையினரேயாவார்`
+- KQ-CCM-0048: source forms `சுடச்சுட`, `சரீரங்களும்`, and `சாகாவரம்`
+- KQ-CCM-0049: source form `அமிழ்தமே` and semicolon in `ஆயினும்;`
+- KQ-CCM-0050: source wording `“காயமே இது பொய்யடா”`, `கழறுபவர்`, and `அறிவியக்கம்`
+- KQ-CCM-0051: source wording `‘சாதி மல்லிகை’` and spacing `மலர்க் கூட்டமும்`
+- KQ-CCM-0053: source forms `வீசக்கண்டோம்` and `தடந்தோள்`; the visible opening single quotation mark before `தமிழ்க்காக்கும்` has no matching closing mark before `என்றபோது` and is preserved without silent repair
+- KQ-CCM-0054: source forms `மலர்ச்செண்டு` and `என்றெண்ணிடும்`
+- KQ-CCM-0055: source semicolon in `பிறக்கவில்லையே;`
 
 ## High-resolution batch — PDF 22-25
 
@@ -88,6 +95,17 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 34-37
+
+- PDF pages: 34-37
+- Printed pages: 33-36
+- Quote IDs: KQ-CCM-0048 to KQ-CCM-0055
+- Quote count in batch: 8
+- Verification: every quote re-read from 300-DPI page renderings of the controlling source scan before commit
+- Source anomaly: KQ-CCM-0053 contains a visible opening single quotation mark before `தமிழ்க்காக்கும்` without a corresponding closing mark before `என்றபோது`; preserved exactly rather than normalized
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 34 / printed page 33 and assign the next stable IDs beginning with `KQ-CCM-0048`, using the same high-resolution verification procedure.
+Continue with PDF page 38 / printed page 37 and assign the next stable IDs beginning with `KQ-CCM-0056`, using the same high-resolution verification procedure.

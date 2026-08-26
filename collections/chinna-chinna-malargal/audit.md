@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 53 / printed page 52.
+- Canonical quote files created through PDF page 57 / printed page 56.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-53
-- Printed pages: 9-52
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0086
-- Stored quote count: 86
+- PDF pages: 10-57
+- Printed pages: 9-56
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0094
+- Stored quote count: 94
 - Unresolved readings: none
 
 ## Structural correction
@@ -92,6 +92,13 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0084: source semicolons in `கொடிகளை;` and `போல;`
 - KQ-CCM-0085: source forms `தேர்க்கால்`, `நிறுத்திவிட்டுப்`, `முல்லைக்`, and `கடையேழு`
 - KQ-CCM-0086: joined source form `பன்னீர்ப்பூக்கள்` and semicolon in `காரியமல்ல;`
+- KQ-CCM-0088: source semicolon after `புகழே;`, joined `உன்னைப்பற்றிக்`, and wording `கவலைப்படாதவர்களைத்`
+- KQ-CCM-0089: joined form `சம்பாதிக்கவேண்டுமெனத்` and source emphasis `துறைக்கே`
+- KQ-CCM-0090: source dash in `என்பதற்கு -`, quoted wording `“இந்து ராஜ்யம்”`, joined form `ஆதிக்கவெறியும்`, and semicolon in `தான்;`; `துடிப்போரின்` is split only by the printed line wrap
+- KQ-CCM-0091: source form `வாடிவதங்கி`, joined `ஓவியமலர்`, and semicolons in `மலர்;` and `முக்கியமல்ல;`
+- KQ-CCM-0092: joined forms `அதுபோலத்தான்` and `கைதூக்கி`; semicolon in `முடியாதோ;`
+- KQ-CCM-0093: source spacing `ஏமாற்றிக் கொள்கிறார்கள்`
+- KQ-CCM-0094: source forms `உயிர்த்தோழனாகத்` and `வாய்கூசாது`; semicolon in `கூட்டத்தினர்தான்;`
 
 ## High-resolution batch — PDF 22-25
 
@@ -176,6 +183,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 54-57
+
+- PDF pages: 54-57
+- Printed pages: 53-56
+- Quote IDs: KQ-CCM-0087 to KQ-CCM-0094
+- Quote count in batch: 8
+- Verification: every quote re-read from high-resolution page renderings; difficult readings were additionally checked against extracted source-page images before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 54 / printed page 53 and assign the next stable IDs beginning with `KQ-CCM-0087`, using the same high-resolution verification procedure.
+Continue with PDF page 58 / printed page 57 and assign the next stable IDs beginning with `KQ-CCM-0095`, using the same high-resolution verification procedure.

@@ -18,7 +18,11 @@
 | 23 | 22 | KQ-CCM-0026 | KQ-CCM-0027 | verified_from_scan |
 | 24 | 23 | KQ-CCM-0028 | KQ-CCM-0029 | verified_from_scan |
 | 25 | 24 | KQ-CCM-0030 | KQ-CCM-0031 | verified_from_scan |
-| 26-150 | 25-149 | pending | pending | not_started |
+| 26 | 25 | KQ-CCM-0032 | KQ-CCM-0033 | verified_from_scan |
+| 27 | 26 | KQ-CCM-0034 | KQ-CCM-0035 | verified_from_scan |
+| 28 | 27 | KQ-CCM-0036 | KQ-CCM-0037 | verified_from_scan |
+| 29 | 28 | KQ-CCM-0038 | KQ-CCM-0039 | verified_from_scan |
+| 30-150 | 29-149 | pending | pending | not_started |
 
 ## Notes
 

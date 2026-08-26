@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 25 / printed page 24.
+- Canonical quote files created through PDF page 29 / printed page 28.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
-- New-source transcription resumed under the strengthened high-resolution verification procedure.
+- New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-25
-- Printed pages: 9-24
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0031
-- Stored quote count: 31
+- PDF pages: 10-29
+- Printed pages: 9-28
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0039
+- Stored quote count: 39
 - Unresolved readings: none
 
 ## Structural correction
@@ -45,6 +45,11 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0024: `இணைந்திருப்பதான`
 - KQ-CCM-0030: joined form `முள்ளையெடுத்து` and source semicolon in `முறித்து; யாரும்`
 - KQ-CCM-0031: joined form `காணமுனைவது` and source punctuation in `இருப்பினும்;`
+- KQ-CCM-0034: joined source form `மாடங்கட்டியல்லவா`
+- KQ-CCM-0036: source contrast `நட்டத்தை இலாபமெனக்` / `இலாபத்தை நட்டமெனக்`
+- KQ-CCM-0037: source wordplay `“மேய்ப்போன்”` / `“எய்ப்போன்”`
+- KQ-CCM-0038: joined forms `வண்ணவண்ண` and `மெழுகுவத்தி`
+- KQ-CCM-0039: joined form `அந்தப்பற்றுக்கு` and source semicolons in `இருந்தாலும்;` / `அடையாளம்;`
 
 ## High-resolution batch — PDF 22-25
 
@@ -57,6 +62,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 26-29
+
+- PDF pages: 26-29
+- Printed pages: 25-28
+- Quote IDs: KQ-CCM-0032 to KQ-CCM-0039
+- Quote count in batch: 8
+- Verification: every quote re-read from 300-DPI page renderings of the controlling source scan before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 26 / printed page 25 and assign the next stable IDs beginning with `KQ-CCM-0032`, using the same high-resolution verification procedure.
+Continue with PDF page 30 / printed page 29 and assign the next stable IDs beginning with `KQ-CCM-0040`, using the same high-resolution verification procedure.

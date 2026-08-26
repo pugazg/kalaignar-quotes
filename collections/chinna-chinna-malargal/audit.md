@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 41 / printed page 40.
+- Canonical quote files created through PDF page 45 / printed page 44.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-41
-- Printed pages: 9-40
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0062
-- Stored quote count: 62
+- PDF pages: 10-45
+- Printed pages: 9-44
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0070
+- Stored quote count: 70
 - Unresolved readings: none
 
 ## Structural correction
@@ -69,6 +69,14 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0060: source semicolon after `என்றால்;` and joined form `மனத்தாங்கல்தான்`
 - KQ-CCM-0061: source forms `செருப்புகூட`, `பாதக் குறட்டிலிருந்து`, `நவரத்தினக்கல்`, `பதைத்துப்போய்`, and `பாபவிமோசனம்`; the colon after `நடக்கிறானே:` is preserved
 - KQ-CCM-0062: source semicolon in `என்றாலும்;` and wording `அறிவுரைக் காவியமாகவும்`
+- KQ-CCM-0063: source semicolon in `கிடைப்பதற்காக;` and form `விலைமாதினும்`
+- KQ-CCM-0064: source form `ஆட்டுமந்தையின்` and joined form `கூடப்பார்க்க`
+- KQ-CCM-0065: source semicolon in `வேண்டுமேயல்லாமல்;` and joined form `கோட்டைவிடும்`
+- KQ-CCM-0066: source spacing `கிடைத்து விடுவதில்லை` and quoted wording `“கிடைத்தது போதும்”`
+- KQ-CCM-0067: source forms `ஓடுதனைப்`, `ஆமையைத்தானே`, and joined `உவமைகாட்ட`
+- KQ-CCM-0068: source forms `அமுதமான`, `உலைபொங்கி`, `அன்னமெனும்`, and `ஒருசில`
+- KQ-CCM-0069: source wording `விபரீதக் கருத்து`
+- KQ-CCM-0070: source quotation `“கடவுளைத் தேடிக்கொண்டு அலையாமல் கடமையைச் செய்”` and semicolon in `சொன்னார்களோ;`
 
 ## High-resolution batch — PDF 22-25
 
@@ -123,6 +131,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 42-45
+
+- PDF pages: 42-45
+- Printed pages: 41-44
+- Quote IDs: KQ-CCM-0063 to KQ-CCM-0070
+- Quote count in batch: 8
+- Verification: every quote re-read from the original high-resolution embedded scan images extracted from the controlling PDF before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 42 / printed page 41 and assign the next stable IDs beginning with `KQ-CCM-0063`, using the same high-resolution verification procedure.
+Continue with PDF page 46 / printed page 45 and assign the next stable IDs beginning with `KQ-CCM-0071`, using the same high-resolution verification procedure.

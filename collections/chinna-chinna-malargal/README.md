@@ -33,8 +33,8 @@ The recurring layout is a useful navigation aid, but quote boundaries are determ
 
 Verified from scan:
 
-- PDF pages 10-17
-- printed pages 9-16
-- quote IDs `KQ-CCM-0001` through `KQ-CCM-0016`
+- PDF pages 10-21
+- printed pages 9-20
+- quote IDs `KQ-CCM-0001` through `KQ-CCM-0024`
 
 See `page-map.md` and `audit.md` for progress.

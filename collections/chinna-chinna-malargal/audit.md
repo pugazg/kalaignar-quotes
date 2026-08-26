@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 29 / printed page 28.
+- Canonical quote files created through PDF page 33 / printed page 32.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-29
-- Printed pages: 9-28
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0039
-- Stored quote count: 39
+- PDF pages: 10-33
+- Printed pages: 9-32
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0047
+- Stored quote count: 47
 - Unresolved readings: none
 
 ## Structural correction
@@ -50,6 +50,12 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0037: source wordplay `“மேய்ப்போன்”` / `“எய்ப்போன்”`
 - KQ-CCM-0038: joined forms `வண்ணவண்ண` and `மெழுகுவத்தி`
 - KQ-CCM-0039: joined form `அந்தப்பற்றுக்கு` and source semicolons in `இருந்தாலும்;` / `அடையாளம்;`
+- KQ-CCM-0040: joined form `செதுக்கிடுமளவுக்கு`
+- KQ-CCM-0042: source spacing `எடுத்துக் காட்டுத்தான்` and year form `1989ல்`
+- KQ-CCM-0043: source semicolon in `வேரில்;`
+- KQ-CCM-0045: source hyphenation in `தேனிருக்கும்-திறக்கும்` / `இருக்கும்-பறக்கும்` and reading `மாண்பிருக்கும்`
+- KQ-CCM-0046: source form `தவற்றை`
+- KQ-CCM-0047: source form `வகையினரேயாவார்`
 
 ## High-resolution batch — PDF 22-25
 
@@ -72,6 +78,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 30-33
+
+- PDF pages: 30-33
+- Printed pages: 29-32
+- Quote IDs: KQ-CCM-0040 to KQ-CCM-0047
+- Quote count in batch: 8
+- Verification: every quote re-read from high-resolution page renderings of the controlling source scan before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 30 / printed page 29 and assign the next stable IDs beginning with `KQ-CCM-0040`, using the same high-resolution verification procedure.
+Continue with PDF page 34 / printed page 33 and assign the next stable IDs beginning with `KQ-CCM-0048`, using the same high-resolution verification procedure.

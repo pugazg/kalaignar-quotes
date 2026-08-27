@@ -62,7 +62,11 @@
 | 67 | 66 | KQ-CCM-0113 | KQ-CCM-0114 | verified_from_scan |
 | 68 | 67 | KQ-CCM-0115 | KQ-CCM-0116 | verified_from_scan |
 | 69 | 68 | KQ-CCM-0117 | KQ-CCM-0118 | verified_from_scan |
-| 70-150 | 69-149 | pending | pending | not_started |
+| 70 | 69 | KQ-CCM-0119 | KQ-CCM-0120 | verified_from_scan |
+| 71 | 70 | KQ-CCM-0121 | KQ-CCM-0122 | verified_from_scan |
+| 72 | 71 | KQ-CCM-0123 | KQ-CCM-0124 | verified_from_scan |
+| 73 | 72 | KQ-CCM-0125 | KQ-CCM-0126 | verified_from_scan |
+| 74-150 | 73-149 | pending | pending | not_started |
 
 ## Notes
 

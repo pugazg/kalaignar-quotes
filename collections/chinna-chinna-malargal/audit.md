@@ -4,79 +4,78 @@
 
 - The attached source scan remains the controlling textual authority.
 - Quote section begins at PDF page 10 / printed page 9.
-- **Source-length correction:** the PDF has more than 300 pages. The earlier repository value of 150 was taken from the file-processing layer's exposed/renderable range and was incorrectly treated as the raw PDF page count.
-- Exact raw-PDF page count is currently pending direct verification; no final PDF page or final printed page is asserted until that check is completed.
+- The materialized controlling PDF has **249 physical PDF pages**.
+- The earlier values `150` and `>300` were not raw-PDF page counts and must not be reused.
 - Fully verified canonical range remains PDF pages 10-81 / printed pages 9-80.
 - Fully verified quote IDs remain `KQ-CCM-0001` through `KQ-CCM-0141`.
-- The latest source-capture iteration covers **25 PDF pages: 82-106 / printed pages 81-105**.
-- That 25-page window maps to `KQ-CCM-0142` through `KQ-CCM-0191` — 50 source quotes in total.
-- All 50 current-window quote files are deliberately `needs_review`, because the available reduced renderings do not satisfy the repository's mandatory high-resolution second-pass rule.
-- Source capture may advance in 25-page windows while this review queue remains explicit; no `needs_review` text may be treated as final or promoted without the required visual recheck.
+- Source capture now reaches PDF page **156** / printed page **155**.
+- Stored quote range now reaches `KQ-CCM-0296`.
+- All quote files from `KQ-CCM-0142` onward remain `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
 
 ## Counts
 
 - Verified quote files: **141**
-- `needs_review` quote files: **50**
-- Stored quote files: **191**
-- Source pages captured: PDF **10-106**
+- `needs_review` quote files: **155**
+- Stored quote files: **296**
+- Source pages captured: PDF **10-156**
 - Fully verified source pages: PDF **10-81**
-- Total source PDF pages: **>300; exact count pending raw-file verification**
+- Physical source PDF pages: **249**
 
-## Page-count correction
+## Source-capture windows completed
 
-The earlier `150 pages / final printed page 149` claim was wrong. It originated from the conversation file-processing layer, which exposed/rendered a 150-page range for this very large source file. That processing metadata must not be treated as authoritative for the raw PDF's physical page count.
+### PDF 82-106 / printed 81-105
 
-Consequences of this correction:
-
-- `metadata.yaml` no longer records `pdf_page_count: 150`.
-- No repository document should describe PDF 150 / printed 149 as the end of the source.
-- Completion percentages based on 150 pages are invalid and must not be reused.
-- The 25-page iteration cadence continues independently of the final page count.
-- Exact source length must be established from the raw PDF before documenting a final-page boundary.
-
-## Current 25-page iteration — PDF 82-106
-
-- PDF pages: 82-106
-- Printed pages: 81-105
 - Quote IDs: `KQ-CCM-0142` to `KQ-CCM-0191`
 - Quote count: 50
-- Status: source captured from controlling scan; high-resolution second pass pending
-- No quote in this range is currently asserted to be `verified_from_scan`.
+- Status: `needs_review`
+- PDF 94 / printed 93 contains one quote.
+- PDF 100 / printed 99 contains three quotes.
+- `KQ-CCM-0179` remains an intentionally incomplete preliminary transcription and requires priority review.
 
-### Structural observations
+### PDF 107-131 / printed 106-130
 
-- PDF page 94 / printed page 93 contains one quote.
-- PDF page 100 / printed page 99 contains three quotes (`KQ-CCM-0177`, `KQ-CCM-0178`, `KQ-CCM-0179`).
-- These structures are recorded from the controlling scan but remain part of the current review range until high-resolution confirmation.
+- Quote IDs: `KQ-CCM-0192` to `KQ-CCM-0245`
+- Quote count: 54
+- Status: `needs_review`
+- Three-quote pages observed at PDF 108, 113, 128, and 131.
+- Source-sensitive readings and difficult wording remain explicitly marked in individual files.
 
-### Focused review items
+### PDF 132-156 / printed 131-155
 
-The entire range requires the normal high-resolution second pass. The following entries additionally contain wording that was especially difficult in the available rendering and must receive priority during review:
+- Quote IDs: `KQ-CCM-0246` to `KQ-CCM-0296`
+- Quote count: 51
+- Status: `needs_review`
+- PDF 141 / printed 140 contains three quotes.
+- PDF pages 132-150 were inspected from the controlling scan; PDF pages 151-156 were also rendered directly from the materialized raw PDF.
+- No quote in this window has been promoted to `verified_from_scan`.
 
-- `KQ-CCM-0149` — dictionary/“ஏழை” wordplay and punctuation
-- `KQ-CCM-0153` — opening description of the மடாலயங்கள்
-- `KQ-CCM-0158` / `0159` — multi-sentence mythological and metaphorical wording
-- `KQ-CCM-0161` — final தாழம்பூ metaphor
-- `KQ-CCM-0166` — second sentence on the single-quote page
-- `KQ-CCM-0170` / `0172` / `0176` — closing clauses
-- `KQ-CCM-0179` — **incomplete transcription**: only the confidently readable opening is stored; the remainder is intentionally withheld rather than guessed
-- `KQ-CCM-0181` — especially uncertain preliminary reading; must not be cited as canonical text
-- `KQ-CCM-0187` / `0189` — middle clauses require a cleaner source view
+### Focused review items in PDF 132-156
 
-## Why these are `needs_review`
+The entire window still needs the standard formal second pass. The following files additionally contain especially uncertain preliminary wording and should receive priority:
 
-`docs/QUOTE_PROCESSING_GUIDE.md` requires a high-resolution visual second pass before `verified_from_scan` can be assigned. The controlling scan pages were inspected directly for this iteration, but the available page renderings are reduced. The repository therefore separates **source capture** from **final verification** rather than weakening the accuracy rule.
+- `KQ-CCM-0247` — quoted epithet, middle clause, closing wording
+- `KQ-CCM-0249` — middle wording before `ஆணவத்தின் உச்சக்கட்டம்`
+- `KQ-CCM-0251` / `0253` — second-sentence / closing wording
+- `KQ-CCM-0256` — full quote requires a clean re-read
+- `KQ-CCM-0259` — first sentence
+- `KQ-CCM-0261` — full quote requires a clean re-read
+- `KQ-CCM-0262` — `வயிற்றுக் கனம்` clause
+- `KQ-CCM-0265` / `0266` — middle/opening wording
+- `KQ-CCM-0267` / `0268` — closing verb and second sentence
+- `KQ-CCM-0271` — full quote requires a clean re-read
+- `KQ-CCM-0274` — full quote is especially uncertain and must not be cited as canonical
+- `KQ-CCM-0275` / `0276` — middle/opening wording
+- `KQ-CCM-0279` — complete wording requires priority re-verification
+- `KQ-CCM-0281` / `0282` — first two sentences / middle wording
+- `KQ-CCM-0289` — punctuation and final clause
 
-This also means that secondary quotations found elsewhere, OCR, context, or modernized versions must not be used to silently repair these files. They may assist review only; the visible scan remains controlling.
+## Why `needs_review` remains mandatory
 
-## Iteration rule
+`docs/QUOTE_PROCESSING_GUIDE.md` requires a high-resolution visual second pass before `verified_from_scan` can be assigned. Source capture and final verification are therefore intentionally separated.
 
-Per the current project instruction, new source capture proceeds in **25 PDF pages per iteration**.
-
-- Uncertainty does not stop capture of the rest of the same 25-page window.
-- Uncertainty must remain visible as `needs_review`.
-- Final verification continues to require the high-resolution protocol.
-- Do not infer the final iteration from the obsolete 150-page value; the source continues beyond page 300.
+- Never silently normalize source spelling, punctuation, spacing, joined forms, quotation marks, numerals, or anomalies.
+- OCR, outside quotations, and contextual inference are aids only.
+- A difficult source reading remains visible as `needs_review`; it is never promoted merely because a plausible modern reading exists.
 
 ## Important historical corrections
 
@@ -88,20 +87,30 @@ A user review caught a serious earlier transcription error. High-resolution insp
 
 The retrospective high-resolution audit found that the source reads `வாய்க்கால் அமைத்து; வயல்`, with a semicolon rather than the earlier comma.
 
-The complete detailed audit history through `KQ-CCM-0141`, including all previously preserved source-visible forms and completed high-resolution batches, is archived in `AUDIT_HISTORY_THROUGH_0141.md`. `HIGH_RES_REAUDIT_0001_0024.md` contains the dedicated retrospective re-audit that followed the KQ-CCM-0010 correction.
+The complete detailed audit history through `KQ-CCM-0141` is preserved in `AUDIT_HISTORY_THROUGH_0141.md`. `HIGH_RES_REAUDIT_0001_0024.md` contains the dedicated retrospective re-audit that followed the KQ-CCM-0010 correction.
 
-## Previously verified structural exceptions
+## Verified structural exceptions
 
 - PDF page 22 / printed page 21 contains one quote.
 - PDF page 41 / printed page 40 contains one quote.
 - PDF page 81 / printed page 80 contains one quote.
 
+Observed structures in later `needs_review` ranges are recorded in `page-map.md` but remain subject to final visual verification.
+
+## Iteration rule
+
+New source capture proceeds in **25 PDF pages per iteration**.
+
+- Uncertainty does not stop capture of the rest of the same 25-page window.
+- Uncertainty must remain explicit as `needs_review`.
+- Final verification continues to require the high-resolution protocol.
+
 ## Next activity
 
-Proceed with the next **25-page source-capture iteration**:
+Proceed with the next 25-page source-capture iteration:
 
-- PDF pages **107-131**
-- printed pages **106-130**
-- next stable ID begins with `KQ-CCM-0192`
+- PDF pages **157-181**
+- printed pages **156-180**
+- next stable ID begins with `KQ-CCM-0297`
 
-Continue to preserve uncertainty explicitly as `needs_review`; do not convert any current or future entry to `verified_from_scan` without the mandatory high-resolution second pass. Separately, establish the exact raw-PDF page count when the raw source can be inspected without the processing-layer page cap.
+The physical PDF contains 249 pages, so source capture continues after PDF 181 until the actual end of the scan.

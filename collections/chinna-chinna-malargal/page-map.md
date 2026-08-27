@@ -149,7 +149,32 @@
 | 154 | 153 | KQ-CCM-0291 | KQ-CCM-0292 | needs_review |
 | 155 | 154 | KQ-CCM-0293 | KQ-CCM-0294 | needs_review |
 | 156 | 155 | KQ-CCM-0295 | KQ-CCM-0296 | needs_review |
-| 157 onward | 156 onward | pending | pending | not_started |
+| 157 | 156 | KQ-CCM-0297 | KQ-CCM-0298 | needs_review |
+| 158 | 157 | KQ-CCM-0299 | KQ-CCM-0300 | needs_review |
+| 159 | 158 | KQ-CCM-0301 | KQ-CCM-0302 | needs_review |
+| 160 | 159 | KQ-CCM-0303 | KQ-CCM-0304 | needs_review |
+| 161 | 160 | KQ-CCM-0305 | KQ-CCM-0306 | needs_review |
+| 162 | 161 | KQ-CCM-0307 | KQ-CCM-0308 | needs_review |
+| 163 | 162 | KQ-CCM-0309 | KQ-CCM-0310 | needs_review |
+| 164 | 163 | KQ-CCM-0311 | KQ-CCM-0312, KQ-CCM-0313 | needs_review |
+| 165 | 164 | KQ-CCM-0314 | KQ-CCM-0315 | needs_review |
+| 166 | 165 | KQ-CCM-0316 | KQ-CCM-0317 | needs_review |
+| 167 | 166 | KQ-CCM-0318 | KQ-CCM-0319 | needs_review |
+| 168 | 167 | KQ-CCM-0320 | KQ-CCM-0321 | needs_review |
+| 169 | 168 | KQ-CCM-0322 | KQ-CCM-0323 | needs_review |
+| 170 | 169 | KQ-CCM-0324 | KQ-CCM-0325 | needs_review |
+| 171 | 170 | KQ-CCM-0326 | KQ-CCM-0327 | needs_review |
+| 172 | 171 | KQ-CCM-0328 | KQ-CCM-0329 | needs_review |
+| 173 | 172 | KQ-CCM-0330 | KQ-CCM-0331 | needs_review |
+| 174 | 173 | KQ-CCM-0332 | KQ-CCM-0333 | needs_review |
+| 175 | 174 | KQ-CCM-0334 | KQ-CCM-0335 | needs_review |
+| 176 | 175 | KQ-CCM-0336 | KQ-CCM-0337 | needs_review |
+| 177 | 176 | KQ-CCM-0338 | KQ-CCM-0339 | needs_review |
+| 178 | 177 | KQ-CCM-0340 | KQ-CCM-0341 | needs_review |
+| 179 | 178 | KQ-CCM-0342 | — | needs_review |
+| 180 | 179 | KQ-CCM-0343 | KQ-CCM-0344 | needs_review |
+| 181 | 180 | KQ-CCM-0345 | KQ-CCM-0346 | needs_review |
+| 182 onward | 181 onward | pending | pending | not_started |
 
 ## Notes
 
@@ -157,8 +182,8 @@
 - The materialized controlling PDF contains **249 physical PDF pages**.
 - Earlier `150` and `>300` source-length claims were incorrect and must not be reused.
 - Verified one-quote structural exceptions: PDF 22 / printed 21, PDF 41 / printed 40, and PDF 81 / printed 80.
-- Observed `needs_review` structural exceptions: PDF 94 / printed 93 has one quote; PDF 100 / printed 99, PDF 108 / printed 107, PDF 113 / printed 112, PDF 128 / printed 127, PDF 131 / printed 130, and PDF 141 / printed 140 have three quotes each.
+- Observed `needs_review` structural exceptions: PDF 94 / printed 93 and PDF 179 / printed 178 have one quote; PDF 100 / printed 99, PDF 108 / printed 107, PDF 113 / printed 112, PDF 128 / printed 127, PDF 131 / printed 130, PDF 141 / printed 140, and PDF 164 / printed 163 have three quotes each.
 - `verified_from_scan` is reserved for quotes that completed the repository's mandatory high-resolution visual second pass.
-- PDF pages 82-156 are source-captured and remain `needs_review` pending formal second-pass verification.
+- PDF pages 82-181 are source-captured and remain `needs_review` pending formal second-pass verification.
 - Source-capture iterations cover 25 PDF pages at a time while unresolved readings remain explicitly visible rather than silently normalized or guessed.
-- The next 25-page source-capture iteration is PDF pages 157-181 / printed pages 156-180, beginning with `KQ-CCM-0297`.
+- The next 25-page source-capture iteration is PDF pages 182-206 / printed pages 181-205, beginning with `KQ-CCM-0347`.

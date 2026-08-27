@@ -12,74 +12,72 @@ This collection transcribes the quotations in the scanned book **கலைஞர
 - Publisher visible in scan: `பாரதி பதிப்பகம் / BHARATHI PATHIPPAGAM`
 - Edition statement visible in scan: `Third Edition : December 2006`
 - Physical PDF pages: **249**, verified by opening the materialized raw controlling PDF directly
-- Quote section begins: PDF page 10 / printed page 9
-- Current source capture reaches: PDF page 181 / printed page 180
+- Quote section: PDF pages **10-249** / printed pages **9-248**
+- First-pass source capture: **COMPLETE through the physical end of the PDF**
 
-The scan is the controlling textual authority.
+The scan is the controlling textual authority. OCR, outside quotations, contextual inference and modern spelling are aids only and must never silently replace source-visible text.
 
-> **Page-count correction:** earlier repository states incorrectly used 150 and later `>300` as source lengths. Neither was a raw-PDF count. The attached controlling PDF has 249 physical PDF pages.
-
-## Layout observed
-
-The quote section usually uses a recurring page design with an illustration, quote text, and decorative separators. This is only a navigation aid; quote counts and boundaries come from each source page.
-
-Fully verified one-quote exceptions established before the current review range:
-
-- PDF page 22 / printed page 21
-- PDF page 41 / printed page 40
-- PDF page 81 / printed page 80
-
-Observed structures in the `needs_review` range include:
-
-- PDF page 94 / printed page 93: one quote
-- PDF page 100 / printed page 99: three quotes
-- PDF page 108 / printed page 107: three quotes
-- PDF page 113 / printed page 112: three quotes
-- PDF page 128 / printed page 127: three quotes
-- PDF page 131 / printed page 130: three quotes
-- PDF page 141 / printed page 140: three quotes
-- PDF page 164 / printed page 163: three quotes
-- PDF page 179 / printed page 178: one quote
-
-These structures remain subject to the same formal high-resolution second pass as their text.
+> **Page-count correction:** earlier repository states incorrectly used `150` and later `>300` as source lengths. Neither was a raw-PDF count. This controlling PDF has **249 physical PDF pages**.
 
 ## Current progress
 
 ### Fully verified from scan
 
-- PDF pages 10-81
-- printed pages 9-80
+- PDF pages **10-81**
+- printed pages **9-80**
 - quote IDs `KQ-CCM-0001` through `KQ-CCM-0141`
 - verified quote files: **141**
 
 ### Source captured, final verification pending
 
-- PDF pages 82-181
-- printed pages 81-180
-- quote IDs `KQ-CCM-0142` through `KQ-CCM-0346`
-- `needs_review` quote files: **205**
+- PDF pages **82-249**
+- printed pages **81-248**
+- quote IDs `KQ-CCM-0142` through `KQ-CCM-0497`
+- `needs_review` quote files: **356**
 - this range is source-captured but is not represented as final canonical transcription
-- difficult readings are explicitly called out in individual quote files and in `audit.md`
 
-Total stored quote files: **346**.
+**Total stored quote files: 497.**
 
-## Iteration cadence
+## Source-capture windows
 
-Source capture proceeds in **25 PDF pages per iteration**. An uncertain reading stays explicitly in the review queue rather than being silently normalized or promoted.
+Completed first-pass windows:
 
-Completed 25-page capture windows now include:
+- PDF 82-106 → `KQ-CCM-0142`-`0191`
+- PDF 107-131 → `KQ-CCM-0192`-`0245`
+- PDF 132-156 → `KQ-CCM-0246`-`0296`
+- PDF 157-181 → `KQ-CCM-0297`-`0346`
+- PDF 182-206 → `KQ-CCM-0347`-`0398`
+- PDF 207-231 → `KQ-CCM-0399`-`0457`
+- PDF 232-249 → `KQ-CCM-0458`-`0497`
 
-- PDF 82-106
-- PDF 107-131
-- PDF 132-156
-- PDF 157-181
+The last window is shorter because PDF page 249 is the physical end of the source.
 
-The next source-capture iteration is:
+## Structural exceptions observed
 
-- PDF pages **182-206**
-- printed pages **181-205**
-- beginning with `KQ-CCM-0347`
+Verified one-quote pages before the review range:
 
-The physical PDF ends at page 249, so further iterations will continue after PDF 206 until the source itself ends.
+- PDF 22 / printed 21
+- PDF 41 / printed 40
+- PDF 81 / printed 80
 
-See `page-map.md` and `audit.md` for the current capture/verification split. Detailed completed audit history through `KQ-CCM-0141` is preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the earlier retrospective source-fidelity audit.
+Observed later one-quote pages:
+
+- PDF 94 / printed 93
+- PDF 179 / printed 178
+- PDF 243 / printed 242
+
+Observed three-quote pages include PDF 100, 108, 113, 128, 131, 141, 164, 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231, 232, 234, 235, 242 and 244. These later structures remain subject to the same formal second-pass verification as their text.
+
+## Next phase
+
+First-pass source capture is finished. The project now moves to the mandatory **high-resolution second-pass verification** of `needs_review` material.
+
+To preserve the agreed 25-page cadence, the next review iteration is:
+
+- PDF pages **82-106** / printed pages **81-105**
+- quote IDs `KQ-CCM-0142`-`KQ-CCM-0191`
+- `KQ-CCM-0179` receives priority because its preliminary transcription was intentionally left incomplete rather than guessed.
+
+No quote is promoted to `verified_from_scan` until it completes that source-critical visual comparison.
+
+See `page-map.md` and `audit.md` for the capture/verification split. Detailed completed audit history through `KQ-CCM-0141` remains preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the retrospective audit triggered by the earlier page-10 correction.

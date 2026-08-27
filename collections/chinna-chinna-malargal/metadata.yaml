@@ -12,12 +12,17 @@ edition_of_scan: "Third Edition : December 2006"
 price_visible: "Rs. 50.00"
 pdf_page_count: 249
 pdf_page_count_status: "verified_from_raw_pdf"
-pdf_page_count_note: "The materialized controlling PDF was opened directly and contains 249 physical PDF pages. The earlier values 150 and >300 were not raw-PDF counts and must not be used."
+pdf_page_count_note: "The materialized controlling PDF was opened directly and contains 249 physical PDF pages. Earlier values 150 and >300 were not raw-PDF counts and must not be used."
 quote_section:
   first_pdf_page: 10
   first_printed_page: 9
-  last_pdf_page_observed: 181
-  last_printed_page_observed: 180
+  last_pdf_page_observed: 249
+  last_printed_page_observed: 248
+  first_pass_source_capture_complete: true
+quote_counts:
+  total_stored: 497
+  verified_from_scan: 141
+  needs_review: 356
 language: ta
 transcription_authority: source_scan
-status: in_progress
+status: source_capture_complete_review_pending

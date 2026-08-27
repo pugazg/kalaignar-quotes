@@ -10,14 +10,14 @@ edition_history_visible:
   - "Third Edition : December 2006"
 edition_of_scan: "Third Edition : December 2006"
 price_visible: "Rs. 50.00"
-pdf_page_count: null
-pdf_page_count_status: "exact_raw_count_pending"
-pdf_page_count_note: "The source PDF has more than 300 pages. The earlier value 150 came from the file-processing layer's exposed page range and was incorrectly treated as the raw PDF page count. Do not use 150 as the source length."
+pdf_page_count: 249
+pdf_page_count_status: "verified_from_raw_pdf"
+pdf_page_count_note: "The materialized controlling PDF was opened directly and contains 249 physical PDF pages. The earlier values 150 and >300 were not raw-PDF counts and must not be used."
 quote_section:
   first_pdf_page: 10
   first_printed_page: 9
-  last_pdf_page_observed: 106
-  last_printed_page_observed: 105
+  last_pdf_page_observed: 131
+  last_printed_page_observed: 130
 language: ta
 transcription_authority: source_scan
 status: in_progress

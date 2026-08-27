@@ -19,31 +19,50 @@ The scan is the controlling textual authority.
 
 ## Layout observed
 
-The quote section usually uses a recurring page design:
+The quote section usually uses a recurring page design with an illustration, quote text, and decorative separators. This is only a navigation aid; quote counts and boundaries come from each source page.
 
-- illustration
-- first quote
-- decorative separator
-- second quote
-- decorative separator
+Fully verified one-quote exceptions already established before the current review range:
 
-This is only a navigation aid. Quote boundaries and quote counts are determined from each source page itself. PDF page 22 / printed page 21, PDF page 41 / printed page 40, and PDF page 81 / printed page 80 are verified exceptions containing only one quote each.
+- PDF page 22 / printed page 21
+- PDF page 41 / printed page 40
+- PDF page 81 / printed page 80
+
+Observed structures in the current `needs_review` range:
+
+- PDF page 94 / printed page 93: one quote
+- PDF page 100 / printed page 99: three quotes
+
+These current-range structures will remain subject to the same high-resolution second pass as their text.
 
 ## Current progress
 
-Fully verified from scan:
+### Fully verified from scan
 
 - PDF pages 10-81
 - printed pages 9-80
 - quote IDs `KQ-CCM-0001` through `KQ-CCM-0141`
+- verified quote files: 141
 
-Current review queue:
+### Source captured, high-resolution review pending
 
-- preliminary controlling-scan readings stored as `needs_review`: `KQ-CCM-0142` through `KQ-CCM-0148`
-- these cover PDF pages 82-84 completely and the first quote on PDF page 85 / printed page 84
-- the second quote on PDF page 85 / printed page 84 remains untranscribed pending a sufficiently high-resolution reading; its next stable ID will be `KQ-CCM-0149`
-- PDF page 86 onward must not be started until this queue is cleared
+- PDF pages 82-106
+- printed pages 81-105
+- quote IDs `KQ-CCM-0142` through `KQ-CCM-0191`
+- review-queue quote files: 50
+- all are deliberately marked `needs_review`; they are not being represented as final source-verified transcriptions
+- `KQ-CCM-0179` contains only the confidently readable opening portion and explicitly records that the remainder is withheld pending a higher-resolution source re-read
+- several other files carry focused review notes where wording or punctuation is especially source-sensitive
 
-The `needs_review` entries are intentionally **not** counted as verified because the mandatory high-resolution second-pass requirement could not be completed in the current execution environment.
+Total stored quote files: **191**.
 
-See `page-map.md` and `audit.md` for current status. The detailed completed audit history through `KQ-CCM-0141` is preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the earlier retrospective source-fidelity audit.
+## Iteration cadence
+
+Source capture now proceeds in **25 PDF pages per iteration**. An uncertain reading stays in the review queue rather than being guessed, but it does not stop capture of the remaining pages inside the same 25-page window.
+
+The next source-capture iteration is:
+
+- PDF pages **107-131**
+- printed pages **106-130**
+- beginning with `KQ-CCM-0192`
+
+See `page-map.md` and `audit.md` for the current capture/verification split. Detailed completed audit history through `KQ-CCM-0141` is preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the earlier retrospective source-fidelity audit.

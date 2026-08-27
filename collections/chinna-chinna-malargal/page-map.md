@@ -74,7 +74,11 @@
 | 79 | 78 | KQ-CCM-0137 | KQ-CCM-0138 | verified_from_scan |
 | 80 | 79 | KQ-CCM-0139 | KQ-CCM-0140 | verified_from_scan |
 | 81 | 80 | KQ-CCM-0141 | — | verified_from_scan |
-| 82-150 | 81-149 | pending | pending | not_started |
+| 82 | 81 | KQ-CCM-0142 | KQ-CCM-0143 | needs_review |
+| 83 | 82 | KQ-CCM-0144 | KQ-CCM-0145 | needs_review |
+| 84 | 83 | KQ-CCM-0146 | KQ-CCM-0147 | needs_review |
+| 85 | 84 | KQ-CCM-0148 | pending (KQ-CCM-0149) | needs_review |
+| 86-150 | 85-149 | pending | pending | not_started |
 
 ## Notes
 
@@ -83,5 +87,7 @@
 - PDF page 22 / printed page 21 contains one quote, not two; IDs therefore continue with KQ-CCM-0026 on the next page.
 - PDF page 41 / printed page 40 also contains one quote, not two; IDs therefore continue with KQ-CCM-0063 on the next page.
 - PDF page 81 / printed page 80 also contains one quote, not two; IDs therefore continue with KQ-CCM-0142 on the next page.
-- New entries from PDF page 22 onward are verified against high-resolution page renderings or original embedded scan images before receiving `verified_from_scan` status.
-- The pending range must still be verified page by page; the two-quotes-per-page layout must not be assumed when an individual page is processed.
+- New entries normally require high-resolution page renderings or original embedded scan images before receiving `verified_from_scan` status.
+- KQ-CCM-0142 through KQ-CCM-0148 are deliberately `needs_review`: only reduced controlling-scan renderings were available during this pass, so the repository's mandatory high-resolution second check has not yet been completed.
+- The second quote on PDF page 85 / printed page 84 remains untranscribed rather than guessed; it is expected to receive KQ-CCM-0149 once its complete source wording is resolved.
+- Do not resume at PDF page 86 until the PDF 82-85 review queue is cleared.

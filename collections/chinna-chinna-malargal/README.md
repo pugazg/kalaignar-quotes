@@ -13,7 +13,7 @@ This collection transcribes the quotations in the scanned book **கலைஞர
 - Edition statement visible in scan: `Third Edition : December 2006`
 - Physical PDF pages: **249**, verified by opening the materialized raw controlling PDF directly
 - Quote section begins: PDF page 10 / printed page 9
-- Current source capture reaches: PDF page 156 / printed page 155
+- Current source capture reaches: PDF page 181 / printed page 180
 
 The scan is the controlling textual authority.
 
@@ -38,6 +38,8 @@ Observed structures in the `needs_review` range include:
 - PDF page 128 / printed page 127: three quotes
 - PDF page 131 / printed page 130: three quotes
 - PDF page 141 / printed page 140: three quotes
+- PDF page 164 / printed page 163: three quotes
+- PDF page 179 / printed page 178: one quote
 
 These structures remain subject to the same formal high-resolution second pass as their text.
 
@@ -52,14 +54,14 @@ These structures remain subject to the same formal high-resolution second pass a
 
 ### Source captured, final verification pending
 
-- PDF pages 82-156
-- printed pages 81-155
-- quote IDs `KQ-CCM-0142` through `KQ-CCM-0296`
-- `needs_review` quote files: **155**
+- PDF pages 82-181
+- printed pages 81-180
+- quote IDs `KQ-CCM-0142` through `KQ-CCM-0346`
+- `needs_review` quote files: **205**
 - this range is source-captured but is not represented as final canonical transcription
 - difficult readings are explicitly called out in individual quote files and in `audit.md`
 
-Total stored quote files: **296**.
+Total stored quote files: **346**.
 
 ## Iteration cadence
 
@@ -70,13 +72,14 @@ Completed 25-page capture windows now include:
 - PDF 82-106
 - PDF 107-131
 - PDF 132-156
+- PDF 157-181
 
 The next source-capture iteration is:
 
-- PDF pages **157-181**
-- printed pages **156-180**
-- beginning with `KQ-CCM-0297`
+- PDF pages **182-206**
+- printed pages **181-205**
+- beginning with `KQ-CCM-0347`
 
-The physical PDF ends at page 249, so further iterations will continue after PDF 181 until the source itself ends.
+The physical PDF ends at page 249, so further iterations will continue after PDF 206 until the source itself ends.
 
 See `page-map.md` and `audit.md` for the current capture/verification split. Detailed completed audit history through `KQ-CCM-0141` is preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the earlier retrospective source-fidelity audit.

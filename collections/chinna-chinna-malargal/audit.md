@@ -8,16 +8,16 @@
 - The earlier values `150` and `>300` were not raw-PDF page counts and must not be reused.
 - Fully verified canonical range remains PDF pages 10-81 / printed pages 9-80.
 - Fully verified quote IDs remain `KQ-CCM-0001` through `KQ-CCM-0141`.
-- Source capture now reaches PDF page **156** / printed page **155**.
-- Stored quote range now reaches `KQ-CCM-0296`.
+- Source capture now reaches PDF page **181** / printed page **180**.
+- Stored quote range now reaches `KQ-CCM-0346`.
 - All quote files from `KQ-CCM-0142` onward remain `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
 
 ## Counts
 
 - Verified quote files: **141**
-- `needs_review` quote files: **155**
-- Stored quote files: **296**
-- Source pages captured: PDF **10-156**
+- `needs_review` quote files: **205**
+- Stored quote files: **346**
+- Source pages captured: PDF **10-181**
 - Fully verified source pages: PDF **10-81**
 - Physical source PDF pages: **249**
 
@@ -49,6 +49,16 @@
 - PDF pages 132-150 were inspected from the controlling scan; PDF pages 151-156 were also rendered directly from the materialized raw PDF.
 - No quote in this window has been promoted to `verified_from_scan`.
 
+### PDF 157-181 / printed 156-180
+
+- Quote IDs: `KQ-CCM-0297` to `KQ-CCM-0346`
+- Quote count: **50**
+- Status: `needs_review`
+- The embedded source image for every page was extracted directly from the materialized raw 249-page PDF and visually inspected for first-pass source capture.
+- PDF 164 / printed 163 contains three quotes.
+- PDF 179 / printed 178 contains one long quote; the historical anecdote is one source unit because no decorative quote separator divides its paragraphs.
+- No quote in this window has been promoted to `verified_from_scan`.
+
 ### Focused review items in PDF 132-156
 
 The entire window still needs the standard formal second pass. The following files additionally contain especially uncertain preliminary wording and should receive priority:
@@ -68,6 +78,16 @@ The entire window still needs the standard formal second pass. The following fil
 - `KQ-CCM-0279` — complete wording requires priority re-verification
 - `KQ-CCM-0281` / `0282` — first two sentences / middle wording
 - `KQ-CCM-0289` — punctuation and final clause
+
+### Focused review items in PDF 157-181
+
+The entire window requires the normal formal second visual pass. Priority items are:
+
+- `KQ-CCM-0302` — opening word provisionally read as `விலைகளால்`
+- `KQ-CCM-0304` — source form provisionally read as `இரணமான`
+- `KQ-CCM-0309` — opening word provisionally read as `பாதிரியாருக்கு`
+- `KQ-CCM-0331` — unusual source-visible spacing `கண்ணாடி யாகவும்` retained provisionally
+- `KQ-CCM-0342` — long Warren Hastings / Edmund Burke anecdote; historical names and punctuation need especially careful second-pass comparison
 
 ## Why `needs_review` remains mandatory
 
@@ -109,8 +129,8 @@ New source capture proceeds in **25 PDF pages per iteration**.
 
 Proceed with the next 25-page source-capture iteration:
 
-- PDF pages **157-181**
-- printed pages **156-180**
-- next stable ID begins with `KQ-CCM-0297`
+- PDF pages **182-206**
+- printed pages **181-205**
+- next stable ID begins with `KQ-CCM-0347`
 
-The physical PDF contains 249 pages, so source capture continues after PDF 181 until the actual end of the scan.
+The physical PDF contains 249 pages, so source capture continues after PDF 206 until the actual end of the scan.

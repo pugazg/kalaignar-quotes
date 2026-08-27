@@ -99,16 +99,66 @@
 | 104 | 103 | KQ-CCM-0186 | KQ-CCM-0187 | needs_review |
 | 105 | 104 | KQ-CCM-0188 | KQ-CCM-0189 | needs_review |
 | 106 | 105 | KQ-CCM-0190 | KQ-CCM-0191 | needs_review |
-| 107 onward | 106 onward | pending | pending | not_started |
+| 107 | 106 | KQ-CCM-0192 | KQ-CCM-0193 | needs_review |
+| 108 | 107 | KQ-CCM-0194 | KQ-CCM-0195, KQ-CCM-0196 | needs_review |
+| 109 | 108 | KQ-CCM-0197 | KQ-CCM-0198 | needs_review |
+| 110 | 109 | KQ-CCM-0199 | KQ-CCM-0200 | needs_review |
+| 111 | 110 | KQ-CCM-0201 | KQ-CCM-0202 | needs_review |
+| 112 | 111 | KQ-CCM-0203 | KQ-CCM-0204 | needs_review |
+| 113 | 112 | KQ-CCM-0205 | KQ-CCM-0206, KQ-CCM-0207 | needs_review |
+| 114 | 113 | KQ-CCM-0208 | KQ-CCM-0209 | needs_review |
+| 115 | 114 | KQ-CCM-0210 | KQ-CCM-0211 | needs_review |
+| 116 | 115 | KQ-CCM-0212 | KQ-CCM-0213 | needs_review |
+| 117 | 116 | KQ-CCM-0214 | KQ-CCM-0215 | needs_review |
+| 118 | 117 | KQ-CCM-0216 | KQ-CCM-0217 | needs_review |
+| 119 | 118 | KQ-CCM-0218 | KQ-CCM-0219 | needs_review |
+| 120 | 119 | KQ-CCM-0220 | KQ-CCM-0221 | needs_review |
+| 121 | 120 | KQ-CCM-0222 | KQ-CCM-0223 | needs_review |
+| 122 | 121 | KQ-CCM-0224 | KQ-CCM-0225 | needs_review |
+| 123 | 122 | KQ-CCM-0226 | KQ-CCM-0227 | needs_review |
+| 124 | 123 | KQ-CCM-0228 | KQ-CCM-0229 | needs_review |
+| 125 | 124 | KQ-CCM-0230 | KQ-CCM-0231 | needs_review |
+| 126 | 125 | KQ-CCM-0232 | KQ-CCM-0233 | needs_review |
+| 127 | 126 | KQ-CCM-0234 | KQ-CCM-0235 | needs_review |
+| 128 | 127 | KQ-CCM-0236 | KQ-CCM-0237, KQ-CCM-0238 | needs_review |
+| 129 | 128 | KQ-CCM-0239 | KQ-CCM-0240 | needs_review |
+| 130 | 129 | KQ-CCM-0241 | KQ-CCM-0242 | needs_review |
+| 131 | 130 | KQ-CCM-0243 | KQ-CCM-0244, KQ-CCM-0245 | needs_review |
+| 132 | 131 | KQ-CCM-0246 | KQ-CCM-0247 | needs_review |
+| 133 | 132 | KQ-CCM-0248 | KQ-CCM-0249 | needs_review |
+| 134 | 133 | KQ-CCM-0250 | KQ-CCM-0251 | needs_review |
+| 135 | 134 | KQ-CCM-0252 | KQ-CCM-0253 | needs_review |
+| 136 | 135 | KQ-CCM-0254 | KQ-CCM-0255 | needs_review |
+| 137 | 136 | KQ-CCM-0256 | KQ-CCM-0257 | needs_review |
+| 138 | 137 | KQ-CCM-0258 | KQ-CCM-0259 | needs_review |
+| 139 | 138 | KQ-CCM-0260 | KQ-CCM-0261 | needs_review |
+| 140 | 139 | KQ-CCM-0262 | KQ-CCM-0263 | needs_review |
+| 141 | 140 | KQ-CCM-0264 | KQ-CCM-0265, KQ-CCM-0266 | needs_review |
+| 142 | 141 | KQ-CCM-0267 | KQ-CCM-0268 | needs_review |
+| 143 | 142 | KQ-CCM-0269 | KQ-CCM-0270 | needs_review |
+| 144 | 143 | KQ-CCM-0271 | KQ-CCM-0272 | needs_review |
+| 145 | 144 | KQ-CCM-0273 | KQ-CCM-0274 | needs_review |
+| 146 | 145 | KQ-CCM-0275 | KQ-CCM-0276 | needs_review |
+| 147 | 146 | KQ-CCM-0277 | KQ-CCM-0278 | needs_review |
+| 148 | 147 | KQ-CCM-0279 | KQ-CCM-0280 | needs_review |
+| 149 | 148 | KQ-CCM-0281 | KQ-CCM-0282 | needs_review |
+| 150 | 149 | KQ-CCM-0283 | KQ-CCM-0284 | needs_review |
+| 151 | 150 | KQ-CCM-0285 | KQ-CCM-0286 | needs_review |
+| 152 | 151 | KQ-CCM-0287 | KQ-CCM-0288 | needs_review |
+| 153 | 152 | KQ-CCM-0289 | KQ-CCM-0290 | needs_review |
+| 154 | 153 | KQ-CCM-0291 | KQ-CCM-0292 | needs_review |
+| 155 | 154 | KQ-CCM-0293 | KQ-CCM-0294 | needs_review |
+| 156 | 155 | KQ-CCM-0295 | KQ-CCM-0296 | needs_review |
+| 157 onward | 156 onward | pending | pending | not_started |
 
 ## Notes
 
 - PDF page numbering has so far been observed as one greater than the printed page number in the quote section.
-- **Do not use 150 as the source PDF length.** The source PDF has more than 300 pages; the exact raw-PDF page count is still pending direct verification.
-- The earlier 150-page endpoint came from the file-processing layer's exposed/renderable range and was incorrectly treated as the physical PDF endpoint.
+- The materialized controlling PDF contains **249 physical PDF pages**.
+- Earlier `150` and `>300` source-length claims were incorrect and must not be reused.
 - Verified one-quote structural exceptions: PDF 22 / printed 21, PDF 41 / printed 40, and PDF 81 / printed 80.
-- In the current review batch, PDF page 94 / printed page 93 contains one quote and PDF page 100 / printed page 99 contains three quotes. These are recorded as observed source structures and remain subject to the batch's high-resolution review.
+- Observed `needs_review` structural exceptions: PDF 94 / printed 93 has one quote; PDF 100 / printed 99, PDF 108 / printed 107, PDF 113 / printed 112, PDF 128 / printed 127, PDF 131 / printed 130, and PDF 141 / printed 140 have three quotes each.
 - `verified_from_scan` is reserved for quotes that completed the repository's mandatory high-resolution visual second pass.
-- PDF pages 82-106 were captured directly from the controlling scan in one 25-page iteration and are deliberately `needs_review`; no quote in this range is being represented as final source-verified text yet.
-- Source-capture iterations cover 25 PDF pages at a time, while unresolved readings remain explicitly in the review queue rather than being silently normalized or guessed.
-- The next 25-page source-capture iteration is PDF pages 107-131 / printed pages 106-130, beginning with `KQ-CCM-0192`.
+- PDF pages 82-156 are source-captured and remain `needs_review` pending formal second-pass verification.
+- Source-capture iterations cover 25 PDF pages at a time while unresolved readings remain explicitly visible rather than silently normalized or guessed.
+- The next 25-page source-capture iteration is PDF pages 157-181 / printed pages 156-180, beginning with `KQ-CCM-0297`.

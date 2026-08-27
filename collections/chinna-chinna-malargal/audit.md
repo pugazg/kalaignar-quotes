@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 77 / printed page 76.
+- Canonical quote files created through PDF page 81 / printed page 80.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-77
-- Printed pages: 9-76
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0134
-- Stored quote count: 134
+- PDF pages: 10-81
+- Printed pages: 9-80
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0141
+- Stored quote count: 141
 - Unresolved readings: none
 
 ## Structural correction
@@ -139,6 +139,13 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0132: source forms `அடக்கப்`, `எண்ணிக்கையில்`, `ஆதிக்கக்காரன்`, and `பத்திரிகைத்துறை`
 - KQ-CCM-0133: quoted question/answer punctuation preserved; joined `அவனாகத்தானிருக்கும்` and `இருக்கவேண்டும்`, while the source separately spaces `இருக்க வேண்டும்` in the closing phrase
 - KQ-CCM-0134: source wordplay `வாய்ச் சொல்`, `வாய்மையும்`, and `நெஞ்சில் வீரமும்`; semicolon in `இருப்பதில்லை;`
+- KQ-CCM-0135: quoted wording `“பாவை”` / `“பாப்பா”`, source semicolon in `காரணம்;`, and joined form `தனிப்பரிவுடன்`
+- KQ-CCM-0136: source forms `கஷ்டத்தைப்`, `நகைகளைக்`, and `களவாடிக் கொள்ளுமாறு`; semicolon in `இருக்கின்றனவே;`
+- KQ-CCM-0137: source form `ஓட்டைப்`, wording `நடைபாதையில்`, and semicolon in `என்கிறார்களே;`
+- KQ-CCM-0138: joined form `தூக்கிப்போட`, quoted wording `‘விதி’`, joined `கண்டுபிடித்துச்`, and spacing `சோம்பேறி ஆகிவிட்டான்`
+- KQ-CCM-0139: joined form `ஒருவரையொருவர்`, semicolon in `உண்டு;`, and source phrase `அசை போட்டவாறும்`
+- KQ-CCM-0140: joined form `பூசாரிகள்தான்` and source wording `கொடுப்பதாகச் சொல்லி`
+- KQ-CCM-0141: source forms `நாவல்கள்`, `இலட்சியத்துக்காக`, `சிறைக்கோட்டங்களில்`, `சித்ரவதை`, and `சிறைக் கொட்டடியில்`; spacing `விசாரித்த போது` and `மன்னிப்புக் கேட்டுக் கொண்டு`; comma before `எப்படி கதை?`
 
 ## High-resolution batch — PDF 22-25
 
@@ -283,6 +290,17 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 78-81
+
+- PDF pages: 78-81
+- Printed pages: 77-80
+- Quote IDs: KQ-CCM-0135 to KQ-CCM-0141
+- Quote count in batch: 7
+- PDF page 81 / printed page 80 contains only one quote; this was verified structurally rather than assuming the usual two-quote layout.
+- Verification: every quote re-read from high-resolution page renderings of the controlling source scan before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 78 / printed page 77 and assign the next stable IDs beginning with `KQ-CCM-0135`, using the same high-resolution verification procedure.
+Continue with PDF page 82 / printed page 81 and assign the next stable IDs beginning with `KQ-CCM-0142`, using the same high-resolution verification procedure.

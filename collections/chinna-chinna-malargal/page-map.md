@@ -1,6 +1,6 @@
 # Page Map — கலைஞரின் சின்னச் சின்ன மலர்கள்
 
-| PDF page | Printed page | First quote | Second quote | Status |
+| PDF page | Printed page | First quote | Additional quote(s) | Status |
 |---:|---:|---|---|---|
 | 10 | 9 | KQ-CCM-0001 | KQ-CCM-0002 | verified_from_scan |
 | 11 | 10 | KQ-CCM-0003 | KQ-CCM-0004 | verified_from_scan |
@@ -77,17 +77,37 @@
 | 82 | 81 | KQ-CCM-0142 | KQ-CCM-0143 | needs_review |
 | 83 | 82 | KQ-CCM-0144 | KQ-CCM-0145 | needs_review |
 | 84 | 83 | KQ-CCM-0146 | KQ-CCM-0147 | needs_review |
-| 85 | 84 | KQ-CCM-0148 | pending (KQ-CCM-0149) | needs_review |
-| 86-150 | 85-149 | pending | pending | not_started |
+| 85 | 84 | KQ-CCM-0148 | KQ-CCM-0149 | needs_review |
+| 86 | 85 | KQ-CCM-0150 | KQ-CCM-0151 | needs_review |
+| 87 | 86 | KQ-CCM-0152 | KQ-CCM-0153 | needs_review |
+| 88 | 87 | KQ-CCM-0154 | KQ-CCM-0155 | needs_review |
+| 89 | 88 | KQ-CCM-0156 | KQ-CCM-0157 | needs_review |
+| 90 | 89 | KQ-CCM-0158 | KQ-CCM-0159 | needs_review |
+| 91 | 90 | KQ-CCM-0160 | KQ-CCM-0161 | needs_review |
+| 92 | 91 | KQ-CCM-0162 | KQ-CCM-0163 | needs_review |
+| 93 | 92 | KQ-CCM-0164 | KQ-CCM-0165 | needs_review |
+| 94 | 93 | KQ-CCM-0166 | — | needs_review |
+| 95 | 94 | KQ-CCM-0167 | KQ-CCM-0168 | needs_review |
+| 96 | 95 | KQ-CCM-0169 | KQ-CCM-0170 | needs_review |
+| 97 | 96 | KQ-CCM-0171 | KQ-CCM-0172 | needs_review |
+| 98 | 97 | KQ-CCM-0173 | KQ-CCM-0174 | needs_review |
+| 99 | 98 | KQ-CCM-0175 | KQ-CCM-0176 | needs_review |
+| 100 | 99 | KQ-CCM-0177 | KQ-CCM-0178, KQ-CCM-0179 | needs_review |
+| 101 | 100 | KQ-CCM-0180 | KQ-CCM-0181 | needs_review |
+| 102 | 101 | KQ-CCM-0182 | KQ-CCM-0183 | needs_review |
+| 103 | 102 | KQ-CCM-0184 | KQ-CCM-0185 | needs_review |
+| 104 | 103 | KQ-CCM-0186 | KQ-CCM-0187 | needs_review |
+| 105 | 104 | KQ-CCM-0188 | KQ-CCM-0189 | needs_review |
+| 106 | 105 | KQ-CCM-0190 | KQ-CCM-0191 | needs_review |
+| 107-150 | 106-149 | pending | pending | not_started |
 
 ## Notes
 
 - PDF page numbering is one greater than the printed page number throughout the quote section observed so far.
 - The controlling PDF contains 150 pages; its final page is printed page 149.
-- PDF page 22 / printed page 21 contains one quote, not two; IDs therefore continue with KQ-CCM-0026 on the next page.
-- PDF page 41 / printed page 40 also contains one quote, not two; IDs therefore continue with KQ-CCM-0063 on the next page.
-- PDF page 81 / printed page 80 also contains one quote, not two; IDs therefore continue with KQ-CCM-0142 on the next page.
-- New entries normally require high-resolution page renderings or original embedded scan images before receiving `verified_from_scan` status.
-- KQ-CCM-0142 through KQ-CCM-0148 are deliberately `needs_review`: only reduced controlling-scan renderings were available during this pass, so the repository's mandatory high-resolution second check has not yet been completed.
-- The second quote on PDF page 85 / printed page 84 remains untranscribed rather than guessed; it is expected to receive KQ-CCM-0149 once its complete source wording is resolved.
-- Do not resume at PDF page 86 until the PDF 82-85 review queue is cleared.
+- Verified one-quote structural exceptions: PDF 22 / printed 21, PDF 41 / printed 40, and PDF 81 / printed 80.
+- In the current review batch, PDF page 94 / printed page 93 contains one quote and PDF page 100 / printed page 99 contains three quotes. These are recorded as observed source structures and remain subject to the batch's high-resolution review.
+- `verified_from_scan` is reserved for quotes that completed the repository's mandatory high-resolution visual second pass.
+- PDF pages 82-106 were captured directly from the controlling scan in one 25-page iteration and are deliberately `needs_review`; no quote in this range is being represented as final source-verified text yet.
+- From this point, source-capture iterations should cover 25 PDF pages at a time (or the remaining pages if fewer than 25), while unresolved readings remain explicitly in the review queue rather than being silently normalized or guessed.
+- The next 25-page source-capture iteration is PDF pages 107-131 / printed pages 106-130, beginning with `KQ-CCM-0192`.

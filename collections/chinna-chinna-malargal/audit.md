@@ -7,16 +7,16 @@
 - Quote section start identified at PDF page 10 / printed page 9.
 - Controlling PDF page count confirmed as 150 pages.
 - Final source page checked at PDF page 150 / printed page 149.
-- Canonical quote files created through PDF page 69 / printed page 68.
+- Canonical quote files created through PDF page 73 / printed page 72.
 - Retrospective high-resolution visual re-audit completed for `KQ-CCM-0001` through `KQ-CCM-0024`.
 - New-source transcription continues under the strengthened high-resolution verification procedure.
 
 ## Transcription range currently stored
 
-- PDF pages: 10-69
-- Printed pages: 9-68
-- Quote IDs: KQ-CCM-0001 to KQ-CCM-0118
-- Stored quote count: 118
+- PDF pages: 10-73
+- Printed pages: 9-72
+- Quote IDs: KQ-CCM-0001 to KQ-CCM-0126
+- Stored quote count: 126
 - Unresolved readings: none
 
 ## Structural correction
@@ -123,6 +123,14 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - KQ-CCM-0116: joined forms `நிலையத்திலுள்ள` and `பாய்ந்தோடுவது`, wording `இரத்த சேமிப்பு`, and closing `இலட்சியவாதிக்கு!`
 - KQ-CCM-0117: joined form `பண்டங்களையெல்லாம்`, source form `விக்ரகம்`, and wording `ஒரு பருக்கையைக் கூட`
 - KQ-CCM-0118: source phrase `அணிதேர்ப் புரவி ஆட்பெரும் படையுடன்`, source spacing `மன்னர்க் கிருக்க`, and wording `ஆன்றோர் வாக்கு!`
+- KQ-CCM-0119: source wording `பின் பூஞ்சோலைகள்`, `பொழியும் அருவிகள்`, `ஆய்வகங்கள்`, and source spacing `மாட கூடங்கள்`
+- KQ-CCM-0120: source wording `வளைந்து நெளிகின்ற`, `வளைய விடாமல்`, and `வீரனது`
+- KQ-CCM-0121: quoted wording `“மூக்குக் கண்ணாடி”`, source phrase `இரு புறத்துப் பிடிப்புச் சட்டங்களையும்`, joined `இருட்டடிப்புச்`, and semicolon in `கொண்டிருக்கின்றன;`
+- KQ-CCM-0122: source forms `மூடியுள்ள`, `ஊமத்தங்காய்`, and `பலாக்கள்`
+- KQ-CCM-0123: source semicolon in `இலக்கியம்;`, wording `பிரதிபலிக்கும்`, and form `போடப்படும்`
+- KQ-CCM-0124: quoted wording `“இந்து ராஜ்யமே”` / `“இந்திக்கார ராஜ்யமே”`, source form `இ.காங்கிரஸ்`, and wording `ஊறுபடுத்தக் கூடியவை`
+- KQ-CCM-0125: source forms `இருப்பதுபோல்`, `துன்பங்களைக்`, and `இருந்திட`
+- KQ-CCM-0126: source semicolons in `என்றும்;` and `குயிலாகிவிடாது;`, joined form `சொல்லிவிட்டால்`, and spacing `கோட்டானாகி விடாது!`
 
 ## High-resolution batch — PDF 22-25
 
@@ -247,6 +255,16 @@ The high-resolution workflow has explicitly preserved source-visible forms that 
 - Corrections after high-resolution verification: none required
 - Unresolved readings: none
 
+## High-resolution batch — PDF 70-73
+
+- PDF pages: 70-73
+- Printed pages: 69-72
+- Quote IDs: KQ-CCM-0119 to KQ-CCM-0126
+- Quote count in batch: 8
+- Verification: every quote re-read from high-resolution page renderings of the controlling source scan before commit
+- Corrections after high-resolution verification: none required
+- Unresolved readings: none
+
 ## Next activity
 
-Continue with PDF page 70 / printed page 69 and assign the next stable IDs beginning with `KQ-CCM-0119`, using the same high-resolution verification procedure.
+Continue with PDF page 74 / printed page 73 and assign the next stable IDs beginning with `KQ-CCM-0127`, using the same high-resolution verification procedure.

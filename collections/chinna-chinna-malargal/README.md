@@ -11,11 +11,13 @@ This collection transcribes the quotations in the scanned book **கலைஞர
 - Author visible in scan: `டாக்டர். கலைஞர் மு.கருணாநிதி`
 - Publisher visible in scan: `பாரதி பதிப்பகம் / BHARATHI PATHIPPAGAM`
 - Edition statement visible in scan: `Third Edition : December 2006`
-- PDF pages: 150
+- PDF pages: **more than 300; exact raw-PDF count still to be verified directly**
 - Quote section begins: PDF page 10 / printed page 9
-- Last observed quote page: PDF page 150 / printed page 149
+- Current source capture reaches: PDF page 106 / printed page 105
 
 The scan is the controlling textual authority.
+
+> **Page-count correction:** an earlier repository state incorrectly recorded the PDF as 150 pages. That number came from the file-processing layer's exposed/renderable range and was not the raw PDF's true page count. Do not use 150 as the source length.
 
 ## Layout observed
 
@@ -57,12 +59,14 @@ Total stored quote files: **191**.
 
 ## Iteration cadence
 
-Source capture now proceeds in **25 PDF pages per iteration**. An uncertain reading stays in the review queue rather than being guessed, but it does not stop capture of the remaining pages inside the same 25-page window.
+Source capture proceeds in **25 PDF pages per iteration**. An uncertain reading stays in the review queue rather than being guessed, but it does not stop capture of the remaining pages inside the same 25-page window.
 
 The next source-capture iteration is:
 
 - PDF pages **107-131**
 - printed pages **106-130**
 - beginning with `KQ-CCM-0192`
+
+This is **not** the final or penultimate source window; the PDF continues beyond page 300. The exact final PDF page must be established from the raw source before any completion percentage or remaining-page count is stated.
 
 See `page-map.md` and `audit.md` for the current capture/verification split. Detailed completed audit history through `KQ-CCM-0141` is preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the earlier retrospective source-fidelity audit.

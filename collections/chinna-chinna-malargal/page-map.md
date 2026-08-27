@@ -99,15 +99,16 @@
 | 104 | 103 | KQ-CCM-0186 | KQ-CCM-0187 | needs_review |
 | 105 | 104 | KQ-CCM-0188 | KQ-CCM-0189 | needs_review |
 | 106 | 105 | KQ-CCM-0190 | KQ-CCM-0191 | needs_review |
-| 107-150 | 106-149 | pending | pending | not_started |
+| 107 onward | 106 onward | pending | pending | not_started |
 
 ## Notes
 
-- PDF page numbering is one greater than the printed page number throughout the quote section observed so far.
-- The controlling PDF contains 150 pages; its final page is printed page 149.
+- PDF page numbering has so far been observed as one greater than the printed page number in the quote section.
+- **Do not use 150 as the source PDF length.** The source PDF has more than 300 pages; the exact raw-PDF page count is still pending direct verification.
+- The earlier 150-page endpoint came from the file-processing layer's exposed/renderable range and was incorrectly treated as the physical PDF endpoint.
 - Verified one-quote structural exceptions: PDF 22 / printed 21, PDF 41 / printed 40, and PDF 81 / printed 80.
 - In the current review batch, PDF page 94 / printed page 93 contains one quote and PDF page 100 / printed page 99 contains three quotes. These are recorded as observed source structures and remain subject to the batch's high-resolution review.
 - `verified_from_scan` is reserved for quotes that completed the repository's mandatory high-resolution visual second pass.
 - PDF pages 82-106 were captured directly from the controlling scan in one 25-page iteration and are deliberately `needs_review`; no quote in this range is being represented as final source-verified text yet.
-- From this point, source-capture iterations should cover 25 PDF pages at a time (or the remaining pages if fewer than 25), while unresolved readings remain explicitly in the review queue rather than being silently normalized or guessed.
+- Source-capture iterations cover 25 PDF pages at a time, while unresolved readings remain explicitly in the review queue rather than being silently normalized or guessed.
 - The next 25-page source-capture iteration is PDF pages 107-131 / printed pages 106-130, beginning with `KQ-CCM-0192`.

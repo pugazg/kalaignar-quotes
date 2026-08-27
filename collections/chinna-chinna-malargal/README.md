@@ -31,11 +31,19 @@ This is only a navigation aid. Quote boundaries and quote counts are determined 
 
 ## Current progress
 
-Verified from scan:
+Fully verified from scan:
 
 - PDF pages 10-81
 - printed pages 9-80
 - quote IDs `KQ-CCM-0001` through `KQ-CCM-0141`
-- all new entries from PDF page 22 onward verified from high-resolution source renderings or original embedded scan images
 
-See `page-map.md`, `audit.md`, and `HIGH_RES_REAUDIT_0001_0024.md` for progress and verification history.
+Current review queue:
+
+- preliminary controlling-scan readings stored as `needs_review`: `KQ-CCM-0142` through `KQ-CCM-0148`
+- these cover PDF pages 82-84 completely and the first quote on PDF page 85 / printed page 84
+- the second quote on PDF page 85 / printed page 84 remains untranscribed pending a sufficiently high-resolution reading; its next stable ID will be `KQ-CCM-0149`
+- PDF page 86 onward must not be started until this queue is cleared
+
+The `needs_review` entries are intentionally **not** counted as verified because the mandatory high-resolution second-pass requirement could not be completed in the current execution environment.
+
+See `page-map.md` and `audit.md` for current status. The detailed completed audit history through `KQ-CCM-0141` is preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the earlier retrospective source-fidelity audit.

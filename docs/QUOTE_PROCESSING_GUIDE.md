@@ -26,7 +26,18 @@ For every quote:
 5. pay special attention to visually confusable words, joined forms, vowel marks, punctuation, numerals and quotation marks;
 6. if any reading remains uncertain, use `needs_review` rather than guessing.
 
-If a user or later audit finds a substantial discrepancy in a quote already marked verified, record the correction in `audit.md` and retrospectively re-audit the affected verification batch before adding new source pages.
+If a user or later audit finds a substantial discrepancy in a quote already marked verified, record the correction in `audit.md` and retrospectively re-audit the affected verification batch.
+
+## Source-capture iteration size
+
+For this collection, work in **25-PDF-page source-capture iterations** unless fewer than 25 source pages remain.
+
+- Process every source page in the 25-page window before moving the capture boundary.
+- Do not force uncertain readings into `verified_from_scan` merely to complete an iteration.
+- If the available rendering is insufficient for final verification, store the direct-scan reading as `needs_review` and record the uncertainty.
+- An unresolved quote does not require abandoning the rest of the same 25-page capture window; it remains explicitly in the review queue.
+- High-resolution verification may therefore trail source capture. The audit and page map must distinguish the captured range from the fully verified range.
+- Never use the 25-page cadence as permission to guess, modernize, or silently repair source text.
 
 ## Canonical unit
 
@@ -58,11 +69,12 @@ Sequential quote IDs are never reused after publication.
 - Do not add explanatory words inside the transcription.
 - Decorative separators and illustrations are not part of the quote text.
 - If one quote spans multiple paragraphs on the page, keep it as one quote file.
+- If a preliminary `needs_review` transcription is incomplete, say so in the review note rather than inventing missing source wording.
 
 ## Verification statuses
 
 - `verified_from_scan` — read directly from the scan and checked visually under the mandatory high-resolution protocol above.
-- `needs_review` — one or more readings remain uncertain.
+- `needs_review` — one or more readings remain uncertain or the high-resolution second pass is still pending.
 - `provisional` — entered from a non-controlling aid and not yet visually verified. Provisional entries should be avoided whenever the scan is available.
 
 ## Page mapping
@@ -72,7 +84,7 @@ Every collection must maintain `page-map.md`, mapping:
 - PDF page
 - printed page
 - first quote ID
-- second quote ID
+- any additional quote ID(s)
 - verification state
 
 Do not assume every source has exactly two quotes per page; record what the scan actually contains.
@@ -89,9 +101,9 @@ Theme classification, translations, keywords, or modernized renderings may be ad
 
 Each collection keeps `audit.md` with:
 
-- transcription progress
-- verified ranges
-- unresolved readings
+- source-capture progress
+- fully verified ranges
+- review queues and unresolved readings
 - structural anomalies
 - any corrected quote IDs
 

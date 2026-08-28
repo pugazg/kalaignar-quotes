@@ -6,8 +6,7 @@ Individual quote files contain the authoritative `pdf_page`, `printed_page`, and
 
 | PDF range | Printed range | Quote ID range | Status | Notes |
 |---|---|---|---|---|
-| 10-81 | 9-80 | KQ-CCM-0001-0141 | verified_from_scan | one-quote pages: 22, 41, 81 |
-| 82-106 | 81-105 | KQ-CCM-0142-0191 | needs_review | PDF 94 has 1 quote; PDF 100 has 3 |
+| 10-106 | 9-105 | KQ-CCM-0001-0191 | verified_from_scan | one-quote pages: 22, 41, 81, 94; PDF 100 has 3 quotes |
 | 107-131 | 106-130 | KQ-CCM-0192-0245 | needs_review | PDF 108, 113, 128, 131 have 3 quotes |
 | 132-156 | 131-155 | KQ-CCM-0246-0296 | needs_review | PDF 141 has 3 quotes |
 | 157-181 | 156-180 | KQ-CCM-0297-0346 | needs_review | PDF 164 has 3 quotes; PDF 179 has 1 |
@@ -92,5 +91,6 @@ Individual quote files contain the authoritative `pdf_page`, `printed_page`, and
 
 - PDF page numbering in the quotation section is one greater than the printed page number.
 - `verified_from_scan` is reserved for material that completed the mandatory high-resolution visual second pass.
-- First-pass source capture now reaches the physical end of the 249-page PDF.
-- All quote files from `KQ-CCM-0142` through `KQ-CCM-0497` remain `needs_review` until formally reverified.
+- First-pass source capture reaches the physical end of the 249-page PDF.
+- The second-pass verification boundary now reaches PDF **106** / printed **105** / `KQ-CCM-0191`.
+- All quote files from `KQ-CCM-0192` through `KQ-CCM-0497` remain `needs_review` until formally reverified.

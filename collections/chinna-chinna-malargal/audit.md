@@ -6,18 +6,18 @@
 - The materialized controlling PDF has **249 physical PDF pages**.
 - The quotation section runs from PDF **10-249** / printed **9-248**.
 - **First-pass source capture is complete through the physical end of the PDF.**
-- Fully verified canonical range remains PDF **10-81** / printed **9-80**.
-- Fully verified quote IDs remain `KQ-CCM-0001` through `KQ-CCM-0141`.
-- Stored quote range now reaches `KQ-CCM-0497`.
-- Every quote from `KQ-CCM-0142` onward remains `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
+- Fully verified canonical range now reaches PDF **10-106** / printed **9-105**.
+- Fully verified quote IDs now reach `KQ-CCM-0001` through `KQ-CCM-0191`.
+- Stored quote range reaches `KQ-CCM-0497`.
+- Every quote from `KQ-CCM-0192` onward remains `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
 
 ## Counts
 
-- Verified quote files: **141**
-- `needs_review` quote files: **356**
+- Verified quote files: **191**
+- `needs_review` quote files: **306**
 - Stored quote files: **497**
 - Source pages captured: PDF **10-249**
-- Fully verified source pages: PDF **10-81**
+- Fully verified source pages: PDF **10-106**
 - Physical source PDF pages: **249**
 
 ## Completed first-pass source-capture windows
@@ -32,32 +32,53 @@
 
 The final window is shorter because PDF 249 is the physical end of the source.
 
-## Structural observations in the review range
+## Completed high-resolution second-pass windows
 
-One-quote pages observed after PDF 81:
+### PDF 82-106 / printed 81-105
 
-- PDF 94 / printed 93
+- Quote IDs: `KQ-CCM-0142` through `KQ-CCM-0191`
+- Quote count: **50**
+- Status: **verified_from_scan**
+- PDF 94 / printed 93 confirmed as a one-quote page.
+- PDF 100 / printed 99 confirmed as a three-quote page.
+- The previously incomplete `KQ-CCM-0179` is now fully recovered from the source scan.
+
+This second pass produced numerous substantive corrections to the preliminary capture. Examples include source-visible forms and wording such as:
+
+- `KQ-CCM-0143`: `கரைபுடைத்துச்`, `பயன்படாதது`, `பயனுமில்லை`
+- `KQ-CCM-0149`: complete `பன்மொழிப் பண்டிதர்களை ... “பஞ்சை, பராரி” ... “செல்வச் சீமான்”` wording
+- `KQ-CCM-0153`: `விபச்சாரதளங்கள்`, `மகான்கள் மனித மிருகங்கள்`, `விழிப்படையாத`
+- `KQ-CCM-0158`: `பிர்மாவுக்கும்`, `பிர்மாவின்`, `“பிர்மஹத்தி”`
+- `KQ-CCM-0159`: corrected to the source opening `பச்சைக் கொடியல்ல; பச்சைப் பாம்பு...`
+- `KQ-CCM-0166`: `பாவம்; கடவுளே கணக்கில்லாத பொருள்களை...`
+- `KQ-CCM-0170`: `உலைக்களத்து` and `படைக்கலனாகவே`
+- `KQ-CCM-0179`: complete `கட்டபொம்மன் / வெள்ளைக்காரன்` quotation
+- `KQ-CCM-0182`: source `“விரசம்” பூசிய கண்ணாடிகளாக`
+- `KQ-CCM-0187`: fully corrected source wording about `மாயாவிகளானாலும்` and `காவல் துறையினர்தான்`
+- `KQ-CCM-0188`: source `“நவநாகரீக காலம்”`
+- `KQ-CCM-0189` and `KQ-CCM-0190`: substantial source corrections
+
+No source spelling, spacing, punctuation, or unusual lexical form was silently modernized.
+
+## Structural observations remaining in the review range
+
+One-quote pages still awaiting formal second-pass verification:
+
 - PDF 179 / printed 178
 - PDF 243 / printed 242
 
-Three-quote pages observed after PDF 81:
+Three-quote pages still awaiting formal second-pass verification:
 
-- PDF 100, 108, 113, 128, 131, 141, 164, 203, 205
+- PDF 108, 113, 128, 131, 141, 164, 203, 205
 - PDF 207, 208, 209, 212, 220, 222, 226, 230, 231
 - PDF 232, 234, 235, 242, 244
 
-These structures remain `needs_review` until the same second-pass visual protocol confirms them.
-
 ## Priority second-pass review queue
 
-Earlier priority items remain in force, including:
+Priority items still ahead include:
 
-- `KQ-CCM-0179` — intentionally incomplete preliminary transcription; must be resolved before promotion
 - `KQ-CCM-0274` and `KQ-CCM-0279` — especially uncertain preliminary wording
 - `KQ-CCM-0302`, `0304`, `0309`, `0331`, `0342` — source-sensitive or long passages requiring close comparison
-
-Additional priority items from the final source-capture windows:
-
 - `KQ-CCM-0416` — long poetic `தமிழே!` passage; multiple uncommon forms require glyph-by-glyph comparison
 - `KQ-CCM-0421` — source-visible `தேவையில்லைபென்று` retained provisionally
 - `KQ-CCM-0431` — source-visible reading provisionally captured as `ஏசறணைகளைப்`
@@ -90,13 +111,10 @@ The complete detailed audit history through `KQ-CCM-0141` remains preserved in `
 
 ## Next activity
 
-Source capture is no longer the next task: it is complete.
+Proceed with the next **25-page high-resolution second-pass verification iteration**:
 
-Proceed with the first **25-page high-resolution second-pass verification iteration**:
-
-- PDF pages **82-106**
-- printed pages **81-105**
-- quote IDs `KQ-CCM-0142` through `KQ-CCM-0191`
-- resolve `KQ-CCM-0179` as a priority
+- PDF pages **107-131**
+- printed pages **106-130**
+- quote IDs `KQ-CCM-0192` through `KQ-CCM-0245`
 
 Only after direct visual comparison should corrected entries be promoted from `needs_review` to `verified_from_scan`.

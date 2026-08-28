@@ -23,17 +23,17 @@ The scan is the controlling textual authority. OCR, outside quotations, contextu
 
 ### Fully verified from scan
 
-- PDF pages **10-81**
-- printed pages **9-80**
-- quote IDs `KQ-CCM-0001` through `KQ-CCM-0141`
-- verified quote files: **141**
+- PDF pages **10-106**
+- printed pages **9-105**
+- quote IDs `KQ-CCM-0001` through `KQ-CCM-0191`
+- verified quote files: **191**
 
 ### Source captured, final verification pending
 
-- PDF pages **82-249**
-- printed pages **81-248**
-- quote IDs `KQ-CCM-0142` through `KQ-CCM-0497`
-- `needs_review` quote files: **356**
+- PDF pages **107-249**
+- printed pages **106-248**
+- quote IDs `KQ-CCM-0192` through `KQ-CCM-0497`
+- `needs_review` quote files: **306**
 - this range is source-captured but is not represented as final canonical transcription
 
 **Total stored quote files: 497.**
@@ -52,31 +52,44 @@ Completed first-pass windows:
 
 The last window is shorter because PDF page 249 is the physical end of the source.
 
-## Structural exceptions observed
+## High-resolution second-pass verification
 
-Verified one-quote pages before the review range:
+Completed verification windows:
+
+- PDF **82-106** / printed **81-105** → `KQ-CCM-0142`-`0191` → **50 quotes verified**
+- PDF 94 / printed 93 is confirmed as a one-quote page.
+- PDF 100 / printed 99 is confirmed as a three-quote page.
+
+The second pass corrected multiple preliminary readings, including the previously incomplete `KQ-CCM-0179`.
+
+## Structural exceptions
+
+Verified one-quote pages:
 
 - PDF 22 / printed 21
 - PDF 41 / printed 40
 - PDF 81 / printed 80
-
-Observed later one-quote pages:
-
 - PDF 94 / printed 93
+
+Verified three-quote page in the completed second-pass range:
+
+- PDF 100 / printed 99
+
+Observed later one-quote pages still awaiting formal second-pass verification:
+
 - PDF 179 / printed 178
 - PDF 243 / printed 242
 
-Observed three-quote pages include PDF 100, 108, 113, 128, 131, 141, 164, 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231, 232, 234, 235, 242 and 244. These later structures remain subject to the same formal second-pass verification as their text.
+Observed later three-quote pages awaiting formal second-pass verification include PDF 108, 113, 128, 131, 141, 164, 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231, 232, 234, 235, 242 and 244.
 
 ## Next phase
 
-First-pass source capture is finished. The project now moves to the mandatory **high-resolution second-pass verification** of `needs_review` material.
+First-pass source capture is finished. High-resolution second-pass verification continues in the agreed 25-page cadence.
 
-To preserve the agreed 25-page cadence, the next review iteration is:
+The next review iteration is:
 
-- PDF pages **82-106** / printed pages **81-105**
-- quote IDs `KQ-CCM-0142`-`KQ-CCM-0191`
-- `KQ-CCM-0179` receives priority because its preliminary transcription was intentionally left incomplete rather than guessed.
+- PDF pages **107-131** / printed pages **106-130**
+- quote IDs `KQ-CCM-0192`-`KQ-CCM-0245`
 
 No quote is promoted to `verified_from_scan` until it completes that source-critical visual comparison.
 

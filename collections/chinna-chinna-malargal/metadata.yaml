@@ -21,8 +21,14 @@ quote_section:
   first_pass_source_capture_complete: true
 quote_counts:
   total_stored: 497
-  verified_from_scan: 141
-  needs_review: 356
+  verified_from_scan: 191
+  needs_review: 306
+verification_progress:
+  last_pdf_page_verified: 106
+  last_printed_page_verified: 105
+  last_quote_id_verified: "KQ-CCM-0191"
+  next_review_pdf_range: "107-131"
+  next_review_quote_range: "KQ-CCM-0192-KQ-CCM-0245"
 language: ta
 transcription_authority: source_scan
 status: source_capture_complete_review_pending

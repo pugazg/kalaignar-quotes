@@ -6,18 +6,18 @@
 - The materialized controlling PDF has **249 physical PDF pages**.
 - The quotation section runs from PDF **10-249** / printed **9-248**.
 - **First-pass source capture is complete through the physical end of the PDF.**
-- Fully verified canonical range now reaches PDF **10-156** / printed **9-155**.
-- Fully verified quote IDs now reach `KQ-CCM-0001` through `KQ-CCM-0296`.
+- Fully verified canonical range now reaches PDF **10-181** / printed **9-180**.
+- Fully verified quote IDs now reach `KQ-CCM-0001` through `KQ-CCM-0346`.
 - Stored quote range reaches `KQ-CCM-0497`.
-- Every quote from `KQ-CCM-0297` onward remains `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
+- Every quote from `KQ-CCM-0347` onward remains `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
 
 ## Counts
 
-- Verified quote files: **296**
-- `needs_review` quote files: **201**
+- Verified quote files: **346**
+- `needs_review` quote files: **151**
 - Stored quote files: **497**
 - Source pages captured: PDF **10-249**
-- Fully verified source pages: PDF **10-156**
+- Fully verified source pages: PDF **10-181**
 - Physical source PDF pages: **249**
 
 ## Completed first-pass source-capture windows
@@ -91,18 +91,37 @@ This window required many substantive corrections to the first-pass capture. Rep
 - `KQ-CCM-0289`: source final clause is `ஈடுபடத்தான் தோன்றும்`.
 - `KQ-CCM-0290`: corrected preliminary `புற்றுருவிகளாகும்` to source `புல்லுருவிகளாகும்`.
 
+### PDF 157-181 / printed 156-180
+
+- Quote IDs: `KQ-CCM-0297` through `KQ-CCM-0346`
+- Quote count: **50**
+- Status: **verified_from_scan**
+- PDF 164 / printed 163 confirmed as a three-quote page.
+- PDF 179 / printed 178 confirmed as a one-quote page.
+
+This window also required substantive first-pass corrections and close source-sensitive retention. Representative results include:
+
+- `KQ-CCM-0309`: corrected preliminary `பாதிரியாருக்கு` to source `பாரதியாருக்கு`.
+- `KQ-CCM-0310`: corrected to source `பாவையரின்`.
+- `KQ-CCM-0323`: corrected preliminary `சமூக நீதியான` to source `சமூக ரீதியான`.
+- `KQ-CCM-0329`: source punctuation preserved in `“நாத்திகம் வாழ்க!”`.
+- `KQ-CCM-0330`: source joined form `ஏங்கித்தவிக்கும்` retained.
+- `KQ-CCM-0331`: source-visible spacing `கண்ணாடி யாகவும்` retained without normalization.
+- `KQ-CCM-0342`: priority historical-name and punctuation re-read completed directly from the scan; PDF 179 is a single-quote page.
+- `KQ-CCM-0344`: corrected preliminary `கடமைக்கும்` to source `கடமைகூட`.
+- `KQ-CCM-0346`: corrected preliminary parenthetical `(ர)` to the source-visible Tamil vowel marker `(ா)`, preserving the printed wordplay from `சதி` to `சாதி`.
+
 No source spelling, spacing, punctuation, or unusual lexical form was silently modernized.
 
 ## Structural observations remaining in the review range
 
-One-quote pages still awaiting formal second-pass verification:
+One-quote page still awaiting formal second-pass verification:
 
-- PDF 179 / printed 178
 - PDF 243 / printed 242
 
 Three-quote pages still awaiting formal second-pass verification:
 
-- PDF 164, 203, 205
+- PDF 203, 205
 - PDF 207, 208, 209, 212, 220, 222, 226, 230, 231
 - PDF 232, 234, 235, 242, 244
 
@@ -110,7 +129,6 @@ Three-quote pages still awaiting formal second-pass verification:
 
 Priority items still ahead include:
 
-- `KQ-CCM-0302`, `0304`, `0309`, `0331`, `0342` — source-sensitive or long passages requiring close comparison
 - `KQ-CCM-0416` — long poetic `தமிழே!` passage; multiple uncommon forms require glyph-by-glyph comparison
 - `KQ-CCM-0421` — source-visible `தேவையில்லைபென்று` retained provisionally
 - `KQ-CCM-0431` — source-visible reading provisionally captured as `ஏசறணைகளைப்`
@@ -145,8 +163,8 @@ The complete detailed audit history through `KQ-CCM-0141` remains preserved in `
 
 Proceed with the next **25-page high-resolution second-pass verification iteration**:
 
-- PDF pages **157-181**
-- printed pages **156-180**
-- quote IDs `KQ-CCM-0297` through `KQ-CCM-0346`
+- PDF pages **182-206**
+- printed pages **181-205**
+- quote IDs `KQ-CCM-0347` through `KQ-CCM-0398`
 
 Only after direct visual comparison should corrected entries be promoted from `needs_review` to `verified_from_scan`.

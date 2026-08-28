@@ -6,18 +6,18 @@
 - The materialized controlling PDF has **249 physical PDF pages**.
 - The quotation section runs from PDF **10-249** / printed **9-248**.
 - **First-pass source capture is complete through the physical end of the PDF.**
-- Fully verified canonical range now reaches PDF **10-131** / printed **9-130**.
-- Fully verified quote IDs now reach `KQ-CCM-0001` through `KQ-CCM-0245`.
+- Fully verified canonical range now reaches PDF **10-156** / printed **9-155**.
+- Fully verified quote IDs now reach `KQ-CCM-0001` through `KQ-CCM-0296`.
 - Stored quote range reaches `KQ-CCM-0497`.
-- Every quote from `KQ-CCM-0246` onward remains `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
+- Every quote from `KQ-CCM-0297` onward remains `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
 
 ## Counts
 
-- Verified quote files: **245**
-- `needs_review` quote files: **252**
+- Verified quote files: **296**
+- `needs_review` quote files: **201**
 - Stored quote files: **497**
 - Source pages captured: PDF **10-249**
-- Fully verified source pages: PDF **10-131**
+- Fully verified source pages: PDF **10-156**
 - Physical source PDF pages: **249**
 
 ## Completed first-pass source-capture windows
@@ -66,6 +66,31 @@ Corrections and source-sensitive readings from this window include:
 - `KQ-CCM-0241`: unusual source form `கனிவர்க்கமாகும்` retained.
 - `KQ-CCM-0243`: corrected preliminary `அம்பனைத்` to source `அற்பனைத்`.
 
+### PDF 132-156 / printed 131-155
+
+- Quote IDs: `KQ-CCM-0246` through `KQ-CCM-0296`
+- Quote count: **51**
+- Status: **verified_from_scan**
+- PDF 141 / printed 140 confirmed as a three-quote page.
+
+This window required many substantive corrections to the first-pass capture. Representative source-fidelity corrections include:
+
+- `KQ-CCM-0258`: corrected to source `நீலவண்ணம்`, `ஒருமுகமாக`, and `காதலர்களுக்கிடையிலேயும்`.
+- `KQ-CCM-0259`: corrected the first sentence to source `இயற்கை பாரபட்சமாக நடந்து கொள்வதில்லை`.
+- `KQ-CCM-0261`: substantially corrected the passage to source wording beginning `நாடு என்கிற இந்தப் பரந்து விரிந்த பூங்காவில்` and including `வகுப்புவாத நச்சரவங்கள்`.
+- `KQ-CCM-0262`: corrected to source `படுதீவிரவாதியாகத்`, `வழியில் பணம் தடுக்கினால்`, and `கோழைகள்`.
+- `KQ-CCM-0267`: corrected to `தன் நிழலைக்கண்டே` and `பின்தொடர்வதற்கு வெட்கப்படும்`.
+- `KQ-CCM-0268`: substantially corrected the second sentence, including `அந்தப் பழைய ஆயுதங்களை` and the source conclusion that the gods cannot face the modern weapons.
+- `KQ-CCM-0271`: substantially corrected to the source metaphor `ஆடுமாடுகள் எனப் புகுந்து மேய்வதற்காகப் பாய்ந்து வருகின்றனர்` / `வேலிகளை வலுப்படுத்த`.
+- `KQ-CCM-0274`: priority re-read completed; preliminary wording was substantially wrong, with source-visible forms including `வகுப்புவாத சக்தி`, `பகுத்தறிவுச் சிந்தனைக்குப் பகையாகவும்`, and `மூளைச்சலவை`.
+- `KQ-CCM-0279`: priority re-read completed; corrected to source `மாலைக்கென`, `பூச்செண்டில்`, and `‘அத்தர்’` wording.
+- `KQ-CCM-0281`: substantially corrected to `பிரார்த்தனை செய்யாமல் உலகில் பிறந்து` and `இருநிலைகளுக்குமிடையில் நிலைகுலையாமல் நேர்மையாக`.
+- `KQ-CCM-0282`: corrected to source `ஊசிகொண்டு குத்துபவர்கள்`.
+- `KQ-CCM-0283`: corrected festival wording to `கார்த்திகை`, `செய்திடத் தீபாவளி`, and `ஒரே விழா பொங்கல் விழாதானே`.
+- `KQ-CCM-0284`: corrected to `காட்டிக் கொள்கிறது` and `வேம்பினும்`.
+- `KQ-CCM-0289`: source final clause is `ஈடுபடத்தான் தோன்றும்`.
+- `KQ-CCM-0290`: corrected preliminary `புற்றுருவிகளாகும்` to source `புல்லுருவிகளாகும்`.
+
 No source spelling, spacing, punctuation, or unusual lexical form was silently modernized.
 
 ## Structural observations remaining in the review range
@@ -77,7 +102,7 @@ One-quote pages still awaiting formal second-pass verification:
 
 Three-quote pages still awaiting formal second-pass verification:
 
-- PDF 141, 164, 203, 205
+- PDF 164, 203, 205
 - PDF 207, 208, 209, 212, 220, 222, 226, 230, 231
 - PDF 232, 234, 235, 242, 244
 
@@ -85,7 +110,6 @@ Three-quote pages still awaiting formal second-pass verification:
 
 Priority items still ahead include:
 
-- `KQ-CCM-0274` and `KQ-CCM-0279` — especially uncertain preliminary wording
 - `KQ-CCM-0302`, `0304`, `0309`, `0331`, `0342` — source-sensitive or long passages requiring close comparison
 - `KQ-CCM-0416` — long poetic `தமிழே!` passage; multiple uncommon forms require glyph-by-glyph comparison
 - `KQ-CCM-0421` — source-visible `தேவையில்லைபென்று` retained provisionally
@@ -121,8 +145,8 @@ The complete detailed audit history through `KQ-CCM-0141` remains preserved in `
 
 Proceed with the next **25-page high-resolution second-pass verification iteration**:
 
-- PDF pages **132-156**
-- printed pages **131-155**
-- quote IDs `KQ-CCM-0246` through `KQ-CCM-0296`
+- PDF pages **157-181**
+- printed pages **156-180**
+- quote IDs `KQ-CCM-0297` through `KQ-CCM-0346`
 
 Only after direct visual comparison should corrected entries be promoted from `needs_review` to `verified_from_scan`.

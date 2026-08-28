@@ -23,17 +23,17 @@ The scan is the controlling textual authority. OCR, outside quotations, contextu
 
 ### Fully verified from scan
 
-- PDF pages **10-131**
-- printed pages **9-130**
-- quote IDs `KQ-CCM-0001` through `KQ-CCM-0245`
-- verified quote files: **245**
+- PDF pages **10-156**
+- printed pages **9-155**
+- quote IDs `KQ-CCM-0001` through `KQ-CCM-0296`
+- verified quote files: **296**
 
 ### Source captured, final verification pending
 
-- PDF pages **132-249**
-- printed pages **131-248**
-- quote IDs `KQ-CCM-0246` through `KQ-CCM-0497`
-- `needs_review` quote files: **252**
+- PDF pages **157-249**
+- printed pages **156-248**
+- quote IDs `KQ-CCM-0297` through `KQ-CCM-0497`
+- `needs_review` quote files: **201**
 - this range is source-captured but is not represented as final canonical transcription
 
 **Total stored quote files: 497.**
@@ -58,6 +58,7 @@ Completed verification windows:
 
 - PDF **82-106** / printed **81-105** → `KQ-CCM-0142`-`0191` → **50 quotes verified**
 - PDF **107-131** / printed **106-130** → `KQ-CCM-0192`-`0245` → **54 quotes verified**
+- PDF **132-156** / printed **131-155** → `KQ-CCM-0246`-`0296` → **51 quotes verified**
 
 Confirmed structural exceptions in these windows:
 
@@ -67,8 +68,9 @@ Confirmed structural exceptions in these windows:
 - PDF 113 / printed 112 — three quotes
 - PDF 128 / printed 127 — three quotes
 - PDF 131 / printed 130 — three quotes
+- PDF 141 / printed 140 — three quotes
 
-The second pass corrected several preliminary readings in the PDF 107-131 window, including `ஈ, எறும்பு`, `பாப விமோசனத்துக்கான`, joined `அளிக்கப்படவேண்டிய`, `தங்கத்துகள்கள்`, and `அற்பனைத்`. Source-sensitive forms such as `தவடையில்`, `தாமம்`, and `கனிவர்க்கமாகும்` were retained exactly as printed.
+The PDF 132-156 second pass corrected many substantive first-pass readings. Representative source-confirmed corrections include `நீலவண்ணம்`, `இயற்கை பாரபட்சமாக`, `வகுப்புவாத நச்சரவங்கள்`, `படுதீவிரவாதியாகத்`, `பின்தொடர்வதற்கு வெட்கப்படும்`, `மாலைக்கென ... பூச்செண்டில் ... ‘அத்தர்’`, `கார்த்திகை`, `வேம்பினும்`, and `புல்லுருவிகளாகும்`.
 
 ## Structural exceptions
 
@@ -86,13 +88,14 @@ Verified three-quote pages:
 - PDF 113 / printed 112
 - PDF 128 / printed 127
 - PDF 131 / printed 130
+- PDF 141 / printed 140
 
 Observed later one-quote pages still awaiting formal second-pass verification:
 
 - PDF 179 / printed 178
 - PDF 243 / printed 242
 
-Observed later three-quote pages awaiting formal second-pass verification include PDF 141, 164, 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231, 232, 234, 235, 242 and 244.
+Observed later three-quote pages awaiting formal second-pass verification include PDF 164, 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231, 232, 234, 235, 242 and 244.
 
 ## Next phase
 
@@ -100,8 +103,8 @@ First-pass source capture is finished. High-resolution second-pass verification 
 
 The next review iteration is:
 
-- PDF pages **132-156** / printed pages **131-155**
-- quote IDs `KQ-CCM-0246`-`KQ-CCM-0296`
+- PDF pages **157-181** / printed pages **156-180**
+- quote IDs `KQ-CCM-0297`-`KQ-CCM-0346`
 
 No quote is promoted to `verified_from_scan` until it completes that source-critical visual comparison.
 

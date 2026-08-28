@@ -23,17 +23,17 @@ The scan is the controlling textual authority. OCR, outside quotations, contextu
 
 ### Fully verified from scan
 
-- PDF pages **10-156**
-- printed pages **9-155**
-- quote IDs `KQ-CCM-0001` through `KQ-CCM-0296`
-- verified quote files: **296**
+- PDF pages **10-181**
+- printed pages **9-180**
+- quote IDs `KQ-CCM-0001` through `KQ-CCM-0346`
+- verified quote files: **346**
 
 ### Source captured, final verification pending
 
-- PDF pages **157-249**
-- printed pages **156-248**
-- quote IDs `KQ-CCM-0297` through `KQ-CCM-0497`
-- `needs_review` quote files: **201**
+- PDF pages **182-249**
+- printed pages **181-248**
+- quote IDs `KQ-CCM-0347` through `KQ-CCM-0497`
+- `needs_review` quote files: **151**
 - this range is source-captured but is not represented as final canonical transcription
 
 **Total stored quote files: 497.**
@@ -59,6 +59,7 @@ Completed verification windows:
 - PDF **82-106** / printed **81-105** → `KQ-CCM-0142`-`0191` → **50 quotes verified**
 - PDF **107-131** / printed **106-130** → `KQ-CCM-0192`-`0245` → **54 quotes verified**
 - PDF **132-156** / printed **131-155** → `KQ-CCM-0246`-`0296` → **51 quotes verified**
+- PDF **157-181** / printed **156-180** → `KQ-CCM-0297`-`0346` → **50 quotes verified**
 
 Confirmed structural exceptions in these windows:
 
@@ -69,8 +70,10 @@ Confirmed structural exceptions in these windows:
 - PDF 128 / printed 127 — three quotes
 - PDF 131 / printed 130 — three quotes
 - PDF 141 / printed 140 — three quotes
+- PDF 164 / printed 163 — three quotes
+- PDF 179 / printed 178 — one quote
 
-The PDF 132-156 second pass corrected many substantive first-pass readings. Representative source-confirmed corrections include `நீலவண்ணம்`, `இயற்கை பாரபட்சமாக`, `வகுப்புவாத நச்சரவங்கள்`, `படுதீவிரவாதியாகத்`, `பின்தொடர்வதற்கு வெட்கப்படும்`, `மாலைக்கென ... பூச்செண்டில் ... ‘அத்தர்’`, `கார்த்திகை`, `வேம்பினும்`, and `புல்லுருவிகளாகும்`.
+The PDF 157-181 second pass resolved the priority items in that window and corrected substantive preliminary readings including `பாரதியாருக்கு`, `பாவையரின்`, `சமூக ரீதியான`, source punctuation in `“நாத்திகம் வாழ்க!”`, `கடமைகூட`, and the source-visible wordplay marker `(ா)` in `KQ-CCM-0346`. Source-visible spacing such as `கண்ணாடி யாகவும்` was retained rather than normalized.
 
 ## Structural exceptions
 
@@ -80,6 +83,7 @@ Verified one-quote pages:
 - PDF 41 / printed 40
 - PDF 81 / printed 80
 - PDF 94 / printed 93
+- PDF 179 / printed 178
 
 Verified three-quote pages:
 
@@ -89,13 +93,13 @@ Verified three-quote pages:
 - PDF 128 / printed 127
 - PDF 131 / printed 130
 - PDF 141 / printed 140
+- PDF 164 / printed 163
 
-Observed later one-quote pages still awaiting formal second-pass verification:
+Observed later one-quote page still awaiting formal second-pass verification:
 
-- PDF 179 / printed 178
 - PDF 243 / printed 242
 
-Observed later three-quote pages awaiting formal second-pass verification include PDF 164, 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231, 232, 234, 235, 242 and 244.
+Observed later three-quote pages awaiting formal second-pass verification include PDF 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231, 232, 234, 235, 242 and 244.
 
 ## Next phase
 
@@ -103,8 +107,8 @@ First-pass source capture is finished. High-resolution second-pass verification 
 
 The next review iteration is:
 
-- PDF pages **157-181** / printed pages **156-180**
-- quote IDs `KQ-CCM-0297`-`KQ-CCM-0346`
+- PDF pages **182-206** / printed pages **181-205**
+- quote IDs `KQ-CCM-0347`-`KQ-CCM-0398`
 
 No quote is promoted to `verified_from_scan` until it completes that source-critical visual comparison.
 

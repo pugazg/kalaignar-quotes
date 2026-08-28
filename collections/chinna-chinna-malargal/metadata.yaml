@@ -21,14 +21,14 @@ quote_section:
   first_pass_source_capture_complete: true
 quote_counts:
   total_stored: 497
-  verified_from_scan: 296
-  needs_review: 201
+  verified_from_scan: 346
+  needs_review: 151
 verification_progress:
-  last_pdf_page_verified: 156
-  last_printed_page_verified: 155
-  last_quote_id_verified: "KQ-CCM-0296"
-  next_review_pdf_range: "157-181"
-  next_review_quote_range: "KQ-CCM-0297-KQ-CCM-0346"
+  last_pdf_page_verified: 181
+  last_printed_page_verified: 180
+  last_quote_id_verified: "KQ-CCM-0346"
+  next_review_pdf_range: "182-206"
+  next_review_quote_range: "KQ-CCM-0347-KQ-CCM-0398"
 language: ta
 transcription_authority: source_scan
 status: source_capture_complete_review_pending

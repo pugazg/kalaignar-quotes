@@ -4,15 +4,15 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.6**
+- Working vocabulary version: **0.7**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0301`–`KQ-CCM-0325`
-- Keyword keys currently defined: **174**
-- Version 0.6 additions: **7 evidence-driven keys**
+- Extended through keyword batch: `KQ-CCM-0326`–`KQ-CCM-0350`
+- Keyword keys currently defined: **177**
+- Version 0.7 additions: **3 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0326`–`KQ-CCM-0350`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0351`–`KQ-CCM-0375`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -220,6 +220,14 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `widowhood` | விதவை நிலை / விதவைத் துயர் | Widowhood or the suffering of widowed women when explicitly presented as the social or human condition under discussion. |
 | `women` | பெண்கள் / பெண்மை | Women or femininity when women as a social group, their condition or their self-perception is materially discussed. Use a more specific women's-rights key when the text explicitly supplies that issue. |
 
+## Controlled keywords — additions in version 0.7
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `capitalism` | முதலாளித்துவம் | Capitalism when `முதலாளித்துவம்` is explicitly named as the economic or class system materially under discussion. Do not import external ideological claims beyond the source wording. |
+| `emotion` | உணர்ச்சி | Emotion or emotional responsiveness when the presence, absence or loss of balance through emotion is explicitly central. Distinguish from `infatuation`, which is limited to uncritical or infatuated absorption. |
+| `punctuation` | கேள்விக் குறி / ஆச்சரியக் குறி | Punctuation marks when the marks themselves, their shapes or their written function are the direct subject of the proposition. |
+
 ## Vocabulary review notes
 
 - Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
@@ -243,5 +251,8 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 - `birds` is intentionally limited to directly stated bird comparisons such as `KQ-CCM-0314`; it does not license inferring what human qualities eagles or pigeons represent.
 - `rebirth` is introduced because the concept itself is explicit and central in both `KQ-CCM-0315` and `KQ-CCM-0317`.
 - `humility` is kept distinct from `modesty` and `self-restraint` because `அடக்கம்` in praise/victory contexts is a reusable character concept rather than `நாணம்` or merely measured action.
+- Version 0.7 adds three reusable concepts directly required by `KQ-CCM-0326`–`KQ-CCM-0350`: `capitalism`, `emotion`, and `punctuation`.
+- `capitalism` is introduced only where the canonical text itself explicitly names `முதலாளித்துவம்`; its scope does not import outside economic theory.
+- `punctuation` is limited to cases where punctuation marks themselves are materially discussed, rather than using the broader `grammar` key for a distinct written-form concept.
 
-No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.6.
+No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.7.

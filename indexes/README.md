@@ -18,7 +18,8 @@ Available indexes:
 - [`theme-0201-0225.md`](theme-0201-0225.md) — ninth theme-classification batch for `KQ-CCM-0201`–`KQ-CCM-0225`.
 - [`theme-0226-0250.md`](theme-0226-0250.md) — tenth theme-classification batch for `KQ-CCM-0226`–`KQ-CCM-0250`.
 - [`theme-0251-0275.md`](theme-0251-0275.md) — eleventh theme-classification batch for `KQ-CCM-0251`–`KQ-CCM-0275`.
-- [`theme-0276-0300.md`](theme-0276-0300.md) — twelfth theme-classification batch for `KQ-CCM-0276`–`KQ-CCM-0300`; overall theme-classification coverage is now **300 / 497 quotes**.
+- [`theme-0276-0300.md`](theme-0276-0300.md) — twelfth theme-classification batch for `KQ-CCM-0276`–`KQ-CCM-0300`.
+- [`theme-0301-0325.md`](theme-0301-0325.md) — thirteenth theme-classification batch for `KQ-CCM-0301`–`KQ-CCM-0325`; overall theme-classification coverage is now **325 / 497 quotes**.
 
 Construction/audit shards retained for opening-word traceability:
 
@@ -41,9 +42,9 @@ Construction/audit shards retained for opening-word traceability:
 
 The consolidated opening-word index was validated for **497 unique quote IDs with no gaps from `KQ-CCM-0001` through `KQ-CCM-0497`**. It represents the canonical verification states without changing them: **496 quotes are `verified_from_scan` and `KQ-CCM-0391` remains `needs_review`** because of the documented physical source blemish. Its unaffected opening word is indexed, but the unresolved source reading is not promoted or inferred.
 
-Theme classification is in progress under taxonomy version 1.0. The first twelve batches cover **300 / 497 quotes**, all preserving their canonical `verified_from_scan` states. Classification is based only on canonical quote text, assigns exactly one primary theme and at most two secondary themes, and does not edit source transcriptions.
+Theme classification is in progress under taxonomy version 1.0. The first thirteen batches cover **325 / 497 quotes**, all preserving their canonical `verified_from_scan` states. Classification is based only on canonical quote text, assigns exactly one primary theme and at most two secondary themes, and does not edit source transcriptions.
 
-The next theme-classification batch is `KQ-CCM-0301`–`KQ-CCM-0325`.
+The next theme-classification batch is `KQ-CCM-0326`–`KQ-CCM-0350`.
 
 Planned later discovery work may include:
 

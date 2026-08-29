@@ -7,7 +7,8 @@ This file defines the controlled vocabulary for the repository's **derived theme
 - Taxonomy version: **1.0**
 - Scope: `chinna-chinna-malargal`
 - Canonical quote range available for classification: `KQ-CCM-0001`–`KQ-CCM-0497`
-- Theme assignment: **not yet started**
+- Theme assignment: **in progress — classified through `KQ-CCM-0025` (25 / 497)**
+- Next classification batch: `KQ-CCM-0026`–`KQ-CCM-0050`
 - Source verification states remain unchanged by classification: **496 `verified_from_scan`**, **1 `needs_review` (`KQ-CCM-0391`)**
 
 ## Classification principles

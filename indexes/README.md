@@ -5,7 +5,7 @@ This directory contains **derived** discovery indexes across quote collections.
 Available indexes:
 
 - [`source-page.md`](source-page.md) — source-level and page-map discovery across collections
-- [`opening-word.md`](opening-word.md) — alphabetical/opening-word discovery; currently under construction in 25-quote batches and indexed through `KQ-CCM-0025`
+- [`opening-word.md`](opening-word.md) — alphabetical/opening-word discovery; currently under construction in 25-quote batches and indexed through `KQ-CCM-0050` (**50 / 497 quotes**)
 
 Planned indexes may include:
 

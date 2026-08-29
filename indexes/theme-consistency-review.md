@@ -8,7 +8,7 @@ This document records the full consistency pass over the completed quote-level t
 - Theme batch files reviewed: **20**
 - Quote range reviewed: `KQ-CCM-0001`–`KQ-CCM-0497`
 - Quote rows reviewed: **497 / 497**
-- Result: **pass complete; consolidated theme-index publication may proceed**
+- Result: **pass complete; consolidated theme-index publication completed in [`theme.md`](theme.md)**
 - Canonical quote files changed by this pass: **none**
 
 ## Structural checks
@@ -66,6 +66,8 @@ The pass rechecked the explicit taxonomy boundaries across all twenty batches:
 - `ideals-commitment-struggle` vs `human-values-dignity-character`: the 13 corrections above remove the identified cases where general courage, resolve or self-reliance had been treated as cause-oriented commitment.
 - `education-knowledge-literature-art-media` vs `nature-science-metaphor`: science/learning/literature remains distinct from natural or physical observations and comparisons; the corrections to `KQ-CCM-0097` and `KQ-CCM-0146` also enforce the no-inference rule for purely explicit physical imagery.
 
-## Publication readiness
+## Publication record
 
-After the corrections recorded above, quote-level theme assignments are structurally complete and internally consistent under taxonomy version 1.0. The next theme-index activity is to publish the **consolidated theme index** for all `KQ-CCM-0001`–`KQ-CCM-0497` assignments, while continuing to preserve `KQ-CCM-0391` as `needs_review`.
+After the corrections recorded above, quote-level theme assignments were structurally complete and internally consistent under taxonomy version 1.0. The consolidated publication is now available in [`theme.md`](theme.md), covering all `KQ-CCM-0001`–`KQ-CCM-0497` assignments while continuing to preserve `KQ-CCM-0391` as `needs_review`.
+
+Theme-index publication under taxonomy version 1.0 is complete. Any future changes to the controlled taxonomy must follow the version-increment and migration rule in [`theme-taxonomy.md`](theme-taxonomy.md).

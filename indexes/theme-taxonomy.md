@@ -10,7 +10,8 @@ This file defines the controlled vocabulary for the repository's **derived theme
 - Theme assignment: **complete — classified through `KQ-CCM-0497` (497 / 497)**
 - Full consistency pass: **complete** — see [`theme-consistency-review.md`](theme-consistency-review.md)
 - Consistency corrections applied: **13 assignment corrections across 10 batch files**
-- Next theme-index activity: **publish the consolidated theme index**
+- Consolidated theme index: **published — [`theme.md`](theme.md), 497 / 497 quotes**
+- Next theme-index activity: **none — taxonomy v1.0 quote-level theme publication is complete**
 - Source verification states remain unchanged by classification: **496 `verified_from_scan`**, **1 `needs_review` (`KQ-CCM-0391`)**
 
 ## Classification principles
@@ -90,3 +91,5 @@ Theme assignment should proceed in small sequential batches. After each batch:
 - never edit canonical quote text as part of thematic classification.
 
 After all 497 quotes are classified, perform a full consistency pass for duplicate IDs, missing IDs, invalid theme keys, overuse of `T16-other-unclear`, and inconsistent primary/secondary choices before publishing the consolidated theme index.
+
+That sequence is now complete: the consistency pass is recorded in [`theme-consistency-review.md`](theme-consistency-review.md), and the consolidated publication is [`theme.md`](theme.md).

@@ -11,9 +11,10 @@ Available indexes:
 - [`opening-word-0151-0175.md`](opening-word-0151-0175.md) — continuation batch for `KQ-CCM-0151`–`KQ-CCM-0175`
 - [`opening-word-0176-0200.md`](opening-word-0176-0200.md) — continuation batch for `KQ-CCM-0176`–`KQ-CCM-0200`
 - [`opening-word-0201-0225.md`](opening-word-0201-0225.md) — continuation batch for `KQ-CCM-0201`–`KQ-CCM-0225`
-- [`opening-word-0226-0250.md`](opening-word-0226-0250.md) — continuation batch for `KQ-CCM-0226`–`KQ-CCM-0250`; overall opening-word coverage is now **250 / 497 quotes**
+- [`opening-word-0226-0250.md`](opening-word-0226-0250.md) — continuation batch for `KQ-CCM-0226`–`KQ-CCM-0250`
+- [`opening-word-0251-0275.md`](opening-word-0251-0275.md) — continuation batch for `KQ-CCM-0251`–`KQ-CCM-0275`; overall opening-word coverage is now **275 / 497 quotes**
 
-The next opening-word construction batch is `KQ-CCM-0251`–`KQ-CCM-0275`. Continuation batches are kept separate so the established consolidated master index is not rewritten or risked during incremental construction; final Tamil-collation consolidation can be performed after full coverage.
+The next opening-word construction batch is `KQ-CCM-0276`–`KQ-CCM-0300`. Continuation batches are kept separate so the established consolidated master index is not rewritten or risked during incremental construction; final Tamil-collation consolidation can be performed after full coverage.
 
 Planned indexes may include:
 

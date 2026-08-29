@@ -5,29 +5,30 @@ This directory contains **derived** discovery indexes across quote collections.
 Available indexes:
 
 - [`source-page.md`](source-page.md) — source-level and page-map discovery across collections
-- [`opening-word.md`](opening-word.md) — consolidated alphabetical/opening-word discovery through `KQ-CCM-0100` (**100 / 497 quotes**)
-- [`opening-word-0101-0125.md`](opening-word-0101-0125.md) — continuation batch for `KQ-CCM-0101`–`KQ-CCM-0125`
-- [`opening-word-0126-0150.md`](opening-word-0126-0150.md) — continuation batch for `KQ-CCM-0126`–`KQ-CCM-0150`
-- [`opening-word-0151-0175.md`](opening-word-0151-0175.md) — continuation batch for `KQ-CCM-0151`–`KQ-CCM-0175`
-- [`opening-word-0176-0200.md`](opening-word-0176-0200.md) — continuation batch for `KQ-CCM-0176`–`KQ-CCM-0200`
-- [`opening-word-0201-0225.md`](opening-word-0201-0225.md) — continuation batch for `KQ-CCM-0201`–`KQ-CCM-0225`
-- [`opening-word-0226-0250.md`](opening-word-0226-0250.md) — continuation batch for `KQ-CCM-0226`–`KQ-CCM-0250`
-- [`opening-word-0251-0275.md`](opening-word-0251-0275.md) — continuation batch for `KQ-CCM-0251`–`KQ-CCM-0275`
-- [`opening-word-0276-0300.md`](opening-word-0276-0300.md) — continuation batch for `KQ-CCM-0276`–`KQ-CCM-0300`
-- [`opening-word-0301-0325.md`](opening-word-0301-0325.md) — continuation batch for `KQ-CCM-0301`–`KQ-CCM-0325`
-- [`opening-word-0326-0350.md`](opening-word-0326-0350.md) — continuation batch for `KQ-CCM-0326`–`KQ-CCM-0350`
-- [`opening-word-0351-0375.md`](opening-word-0351-0375.md) — continuation batch for `KQ-CCM-0351`–`KQ-CCM-0375`
-- [`opening-word-0376-0400.md`](opening-word-0376-0400.md) — continuation batch for `KQ-CCM-0376`–`KQ-CCM-0400`. This batch preserves `KQ-CCM-0391` as `needs_review` and does not promote its unresolved source reading.
-- [`opening-word-0401-0425.md`](opening-word-0401-0425.md) — continuation batch for `KQ-CCM-0401`–`KQ-CCM-0425`
-- [`opening-word-0426-0450.md`](opening-word-0426-0450.md) — continuation batch for `KQ-CCM-0426`–`KQ-CCM-0450`
-- [`opening-word-0451-0475.md`](opening-word-0451-0475.md) — continuation batch for `KQ-CCM-0451`–`KQ-CCM-0475`
-- [`opening-word-0476-0497.md`](opening-word-0476-0497.md) — final construction batch for `KQ-CCM-0476`–`KQ-CCM-0497`; overall opening-word construction coverage is now **497 / 497 quotes**
+- [`opening-word.md`](opening-word.md) — complete consolidated opening-word discovery for `KQ-CCM-0001`–`KQ-CCM-0497` (**497 / 497 quotes**). Final collation review preserves Tamil initial-letter group order and deterministic literal-Unicode ordering within each group.
 
-Opening-word construction coverage is complete for the collection. Across the canonical collection, **496 quotes are `verified_from_scan` and 1 quote (`KQ-CCM-0391`) remains `needs_review`** because of the documented physical source blemish; indexing that quote does not change its canonical verification state.
+Construction/audit shards retained for traceability:
 
-The next opening-word activity is final consolidation and Tamil-collation review: merge the established master index and all continuation batches into one complete discovery index while preserving canonical spellings, page references, quote IDs, and `KQ-CCM-0391`'s unresolved status.
+- [`opening-word-0101-0125.md`](opening-word-0101-0125.md)
+- [`opening-word-0126-0150.md`](opening-word-0126-0150.md)
+- [`opening-word-0151-0175.md`](opening-word-0151-0175.md)
+- [`opening-word-0176-0200.md`](opening-word-0176-0200.md)
+- [`opening-word-0201-0225.md`](opening-word-0201-0225.md)
+- [`opening-word-0226-0250.md`](opening-word-0226-0250.md)
+- [`opening-word-0251-0275.md`](opening-word-0251-0275.md)
+- [`opening-word-0276-0300.md`](opening-word-0276-0300.md)
+- [`opening-word-0301-0325.md`](opening-word-0301-0325.md)
+- [`opening-word-0326-0350.md`](opening-word-0326-0350.md)
+- [`opening-word-0351-0375.md`](opening-word-0351-0375.md)
+- [`opening-word-0376-0400.md`](opening-word-0376-0400.md)
+- [`opening-word-0401-0425.md`](opening-word-0401-0425.md)
+- [`opening-word-0426-0450.md`](opening-word-0426-0450.md)
+- [`opening-word-0451-0475.md`](opening-word-0451-0475.md)
+- [`opening-word-0476-0497.md`](opening-word-0476-0497.md)
 
-Planned indexes may include:
+The consolidated opening-word index was validated for **497 unique quote IDs with no gaps from `KQ-CCM-0001` through `KQ-CCM-0497`**. It represents the canonical verification states without changing them: **496 quotes are `verified_from_scan` and `KQ-CCM-0391` remains `needs_review`** because of the documented physical source blemish. Its unaffected opening word is indexed, but the unresolved source reading is not promoted or inferred.
+
+Planned derived discovery work may include:
 
 - theme index
 - keyword index

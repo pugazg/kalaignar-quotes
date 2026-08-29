@@ -4,15 +4,15 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.2**
+- Working vocabulary version: **0.3**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0026`–`KQ-CCM-0050`
-- Keyword keys currently defined: **89**
-- Version 0.2 additions: **43 evidence-driven keys**
+- Extended through keyword batch: `KQ-CCM-0051`–`KQ-CCM-0075`
+- Keyword keys currently defined: **128**
+- Version 0.3 additions: **39 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0051`–`KQ-CCM-0075`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0076`–`KQ-CCM-0100`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -115,6 +115,50 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `worship` | வழிபாடு / மண்டியிடுதல் | Worship or ritual reverence directly recoverable from the described practice, including kneeling before an object treated as sacred. |
 | `wrongdoing` | தவறு செய்தல் | Explicit wrongdoing or repeated commission of acts described as `தவறு`. |
 
+## Controlled keywords — additions in version 0.3
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `absorption` | உறிஞ்சுதல் | Physical absorption or soaking up when the process itself is a material part of the canonical observation. |
+| `art` | கலை | Art as a subject, practice or social object when materially discussed. |
+| `art-for-art-sake` | கலை கலைக்காக | The explicit doctrine or formulation that art exists only for art itself. |
+| `betrayal` | துரோகம் | Betrayal or treachery explicitly named or materially described. Distinguish from general `enmity`, which does not require breach of loyalty. |
+| `caste` | சாதி | Caste or caste distinction when materially discussed or criticized. |
+| `clean-air` | சுத்தமான காற்று | Clean air as a material living condition explicitly contrasted with another civic or social condition. |
+| `compassion` | பரிதாபம் / இரக்கம் | Pity, sympathy or compassionate concern for another person's suffering. Distinguish from broader `humaneness` when the quote specifically concerns feeling or showing pity. |
+| `conscience` | மனச்சாட்சி | Conscience as an internal moral judge or source of accountability when explicitly invoked. |
+| `courage` | துணிவு / மனவலிமை | Courage, bravery or mental strength in facing danger, death or fear. Distinguish from `resolve`, which emphasizes firmness of decision. |
+| `cowardice` | கோழைத்தனம் | Cowardice or the condition of being a coward when explicitly contrasted with courage or bravery. |
+| `credulity` | எளிதில் நம்புதல் | Believing an implausible or deceptive claim when the act of believing it is materially criticized. |
+| `criticism` | குறை சுட்டிக்காட்டல் | Having one's errors or faults pointed out when receiving criticism is material to the proposition. |
+| `deification` | கடவுளாக்குதல் | Turning a person into a god or treating a person as divine when that act itself is criticized or discussed. |
+| `democracy` | ஜனநாயகம் | Democracy or democratic method when materially discussed as a political process or system. |
+| `duty` | கடமை | Duty or obligation explicitly presented as something that should be performed or remembered. |
+| `future-generations` | வருங்காலத் தலைமுறைகள் | Benefits, responsibilities or outcomes explicitly extending to descendants or later generations. |
+| `gratitude` | நன்றி | Gratitude or thankfulness explicitly presented as a moral quality. |
+| `grievance` | மனத்தாங்கல் | Hurt, grievance or resentment explicitly described as an outcome of conduct or a transaction. |
+| `hindi-language` | இந்தி | Hindi when the language itself is materially involved in domination, policy, identity or civic status. |
+| `hindi-state` | இந்தி ராஜ்யம் | The explicit political formulation `இந்தி ராஜ்யம்` when materially discussed. Do not broaden it beyond the source wording. |
+| `hindu-state` | இந்து ராஜ்யம் | The explicit political formulation `இந்து ராஜ்யம்` when materially discussed. Do not broaden it beyond the source wording. |
+| `ideals` | இலட்சியம் | Explicit ideals or an ideal-directed path, goal or cause. Distinguish from `principles`, which indexes `கொள்கை` or doctrinal principles. |
+| `impropriety` | முறைகேடு | Improper, irregular or unethical conduct explicitly described as `முறைகேடு`, when no more specific existing misuse key fits. |
+| `ingratitude` | நன்றியின்மை | Failure to acknowledge or remain grateful for a prior benefit or benefactor. |
+| `light` | ஒளி | Light or illumination when it is itself a central part of a direct physical or visual observation. |
+| `national-unity` | இந்திய ஒருமைப்பாடு | Indian national unity when explicitly named as the civic condition being protected or threatened. |
+| `physical-strength` | உடலுறுதி | Bodily strength, bodily protection or physical robustness when explicitly contrasted with inner resolve or courage. |
+| `poison` | விஷம் | Poison when it is materially central to the proposition or comparison. |
+| `poverty` | ஏழ்மை | Poverty, destitution or materially poor living conditions when explicitly discussed. |
+| `religious-devotion` | பக்தி | Devotion, devotees or devotional concern when the practice or attitude itself is materially part of the proposition. |
+| `second-class-citizenship` | இரண்டாம் தரக் குடிமக்கள் | Explicit warning or condition of a group becoming second-class citizens. |
+| `self-correction` | திருந்திக் கொள்வது | Correcting one's own fault after it is identified or pointed out. Distinguish from `self-examination`, which concerns independently examining oneself for faults. |
+| `sharing` | பகிர்ந்து உண்ணுதல் | Sharing resources or benefits with others when the act of sharing is materially presented. |
+| `sheep` | ஆடுகள் / ஆட்டுமந்தை | Sheep or a flock when the animals themselves are central to a direct observation rather than incidental imagery. |
+| `struggle` | போர் / போராட்டம் | Explicit struggle, battle or sustained fight directed toward a stated cause or objective. |
+| `tamils` | தமிழர்கள் | Tamils as an explicitly named people/community when their civic, linguistic or social status is materially discussed. |
+| `transaction` | கொடுக்கல் வாங்கல் | Giving-and-taking, exchange or transaction when conduct within the transaction is the direct subject. |
+| `volunteers` | தொண்டர்கள் | Volunteers or service workers explicitly described as `தொண்டர்கள்` when their role or conduct is material. |
+| `water-drop` | தண்ணீர்த் துளி | A water drop when it is itself central to the canonical physical observation. |
+
 ## Vocabulary review notes
 
 - Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
@@ -122,6 +166,8 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 - The specific person keys `periyar` and `anna` were introduced only at `KQ-CCM-0043`, where use of those names is itself material to the propaganda/deception proposition. Their earlier incidental or attribution-like appearances remain unkeyed pending the final consistency pass.
 - `ariviyakkam` intentionally preserves the canonical Tamil source term as a transliterated stable key rather than interpreting it as a named organization or doctrine.
 - Literal object keys `fireworks`, `candle` and `tulsi` are retained because those objects are themselves central to their respective propositions, not decorative mentions.
-- Nature imagery elsewhere in the batch was not automatically turned into one-off keywords when the text supplied a clearer reusable concept.
+- Version 0.3 adds reusable social, ethical, linguistic and civic concepts only where `KQ-CCM-0051`–`KQ-CCM-0075` directly requires them. Literal observation keys such as `sheep`, `light` and `water-drop` are limited to quotes whose canonical proposition is itself a direct observation rather than an inferred social metaphor.
+- `hindu-state` and `hindi-state` preserve the exact political formulations explicitly present in `KQ-CCM-0074`; their scope is intentionally not expanded using outside context.
+- `tamils` and `second-class-citizenship` are introduced at `KQ-CCM-0073` because both the community and the warned civic status are explicit in the canonical wording.
 
-No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.2.
+No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.3.

@@ -5,9 +5,9 @@ This is a **derived discovery index** across canonical quote files. Canonical tr
 ## Construction status
 
 - Collection currently indexed: `chinna-chinna-malargal`
-- Indexed quote range: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Indexed quotes: **25 / 497**
-- Next construction batch: `KQ-CCM-0026`–`KQ-CCM-0050`
+- Indexed quote range: `KQ-CCM-0001`–`KQ-CCM-0050`
+- Indexed quotes: **50 / 497**
+- Next construction batch: `KQ-CCM-0051`–`KQ-CCM-0075`
 - Status: **partial — construction in 25-quote batches**
 
 ## Index-key method
@@ -19,7 +19,7 @@ This is a **derived discovery index** across canonical quote files. Canonical tr
 - Within each initial-letter group, this construction pass orders the literal Unicode opening-word keys for reproducibility. A final Tamil-collation review will be performed after all 497 quotes are covered.
 - PDF and printed-page values are copied from the canonical quote files.
 
-All 25 quote files in this first construction batch are `verified_from_scan`.
+All 50 quote files indexed so far are `verified_from_scan`.
 
 ## அ
 
@@ -40,10 +40,19 @@ All 25 quote files in this first construction batch are `verified_from_scan`.
 | `அளந்து` | [`KQ-CCM-0004`](../collections/chinna-chinna-malargal/quotes/0004.md) | 11 | 10 |
 | `அஷ்டமா` | [`KQ-CCM-0009`](../collections/chinna-chinna-malargal/quotes/0009.md) | 14 | 13 |
 
+## உ
+
+| Opening word | Quote | PDF | Printed |
+|---|---|---:|---:|
+| `உயிரினங்கள்` | [`KQ-CCM-0029`](../collections/chinna-chinna-malargal/quotes/0029.md) | 24 | 23 |
+| `உறுதி` | [`KQ-CCM-0028`](../collections/chinna-chinna-malargal/quotes/0028.md) | 24 | 23 |
+
 ## எ
 
 | Opening word | Quote | PDF | Printed |
 |---|---|---:|---:|
+| `எங்கும்` | [`KQ-CCM-0026`](../collections/chinna-chinna-malargal/quotes/0026.md) | 23 | 22 |
+| `எதை` | [`KQ-CCM-0027`](../collections/chinna-chinna-malargal/quotes/0027.md) | 23 | 22 |
 | `எழுத்துக்கு` | [`KQ-CCM-0025`](../collections/chinna-chinna-malargal/quotes/0025.md) | 22 | 21 |
 
 ## ஒ
@@ -70,3 +79,49 @@ All 25 quote files in this first construction batch are `verified_from_scan`.
 | `கலங்கரை` | [`KQ-CCM-0017`](../collections/chinna-chinna-malargal/quotes/0017.md) | 18 | 17 |
 | `குடிமக்களின்` | [`KQ-CCM-0015`](../collections/chinna-chinna-malargal/quotes/0015.md) | 17 | 16 |
 | `குறைந்த` | [`KQ-CCM-0016`](../collections/chinna-chinna-malargal/quotes/0016.md) | 17 | 16 |
+
+## ச
+
+| Opening word | Quote | PDF | Printed |
+|---|---|---:|---:|
+| `சுயநலவாதி` | [`KQ-CCM-0040`](../collections/chinna-chinna-malargal/quotes/0040.md) | 30 | 29 |
+
+## த
+
+| Opening word | Quote | PDF | Printed |
+|---|---|---:|---:|
+| `தவறு` | [`KQ-CCM-0032`](../collections/chinna-chinna-malargal/quotes/0032.md) | 26 | 25 |
+| `தாயை` | [`KQ-CCM-0033`](../collections/chinna-chinna-malargal/quotes/0033.md) | 26 | 25 |
+| `திராவிட` | [`KQ-CCM-0042`](../collections/chinna-chinna-malargal/quotes/0042.md) | 31 | 30 |
+| `திராவிட` | [`KQ-CCM-0043`](../collections/chinna-chinna-malargal/quotes/0043.md) | 31 | 30 |
+| `தேனிருக்கும்-திறக்கும்` | [`KQ-CCM-0045`](../collections/chinna-chinna-malargal/quotes/0045.md) | 32 | 31 |
+| `தேன்கூடும்` | [`KQ-CCM-0044`](../collections/chinna-chinna-malargal/quotes/0044.md) | 32 | 31 |
+
+## ந
+
+| Opening word | Quote | PDF | Printed |
+|---|---|---:|---:|
+| `நன்மைகள்` | [`KQ-CCM-0031`](../collections/chinna-chinna-malargal/quotes/0031.md) | 25 | 24 |
+| `நமது` | [`KQ-CCM-0030`](../collections/chinna-chinna-malargal/quotes/0030.md) | 25 | 24 |
+| `நம்முடன்` | [`KQ-CCM-0041`](../collections/chinna-chinna-malargal/quotes/0041.md) | 30 | 29 |
+| `நியாயத்திற்காகக்` | [`KQ-CCM-0046`](../collections/chinna-chinna-malargal/quotes/0046.md) | 33 | 32 |
+| `நீதியற்ற` | [`KQ-CCM-0047`](../collections/chinna-chinna-malargal/quotes/0047.md) | 33 | 32 |
+| `நெஞ்சில்` | [`KQ-CCM-0049`](../collections/chinna-chinna-malargal/quotes/0049.md) | 34 | 33 |
+| `நெருப்பில்` | [`KQ-CCM-0048`](../collections/chinna-chinna-malargal/quotes/0048.md) | 34 | 33 |
+
+## ப
+
+| Opening word | Quote | PDF | Printed |
+|---|---|---:|---:|
+| `பூ` | [`KQ-CCM-0050`](../collections/chinna-chinna-malargal/quotes/0050.md) | 35 | 34 |
+
+## ம
+
+| Opening word | Quote | PDF | Printed |
+|---|---|---:|---:|
+| `மதப்பற்று` | [`KQ-CCM-0039`](../collections/chinna-chinna-malargal/quotes/0039.md) | 29 | 28 |
+| `மத்தாப்பு` | [`KQ-CCM-0038`](../collections/chinna-chinna-malargal/quotes/0038.md) | 29 | 28 |
+| `மாந்தர்` | [`KQ-CCM-0034`](../collections/chinna-chinna-malargal/quotes/0034.md) | 27 | 26 |
+| `மாற்றாரின்` | [`KQ-CCM-0035`](../collections/chinna-chinna-malargal/quotes/0035.md) | 27 | 26 |
+| `மேதைகளுக்கு` | [`KQ-CCM-0036`](../collections/chinna-chinna-malargal/quotes/0036.md) | 28 | 27 |
+| `மேய்ப்போன்` | [`KQ-CCM-0037`](../collections/chinna-chinna-malargal/quotes/0037.md) | 28 | 27 |

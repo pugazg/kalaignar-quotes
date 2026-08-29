@@ -6,8 +6,9 @@ Individual quote files contain the authoritative `pdf_page`, `printed_page`, and
 
 | PDF range | Printed range | Quote ID range | Status | Notes |
 |---|---|---|---|---|
-| 10-181 | 9-180 | KQ-CCM-0001-0346 | verified_from_scan | one-quote pages: 22, 41, 81, 94, 179; three-quote pages: 100, 108, 113, 128, 131, 141, 164 |
-| 182-206 | 181-205 | KQ-CCM-0347-0398 | needs_review | PDF 203 and 205 have 3 quotes |
+| 10-202 | 9-201 | KQ-CCM-0001-0388 | verified_from_scan | contiguous fully verified range; one-quote pages: 22, 41, 81, 94, 179; three-quote pages: 100, 108, 113, 128, 131, 141, 164 |
+| 203 | 202 | KQ-CCM-0389-0391 | mixed | 3 quotes; 0389-0390 verified; 0391 needs_review because a source blemish obscures the glyph after `திருப்பி` |
+| 204-206 | 203-205 | KQ-CCM-0392-0398 | verified_from_scan | post-gap verified range; PDF 205 has 3 quotes |
 | 207-231 | 206-230 | KQ-CCM-0399-0457 | needs_review | PDF 207, 208, 209, 212, 220, 222, 226, 230, 231 have 3 quotes |
 | 232-249 | 231-248 | KQ-CCM-0458-0497 | needs_review | PDF 232, 234, 235, 242, 244 have 3 quotes; PDF 243 has 1 |
 
@@ -15,31 +16,31 @@ Individual quote files contain the authoritative `pdf_page`, `printed_page`, and
 
 | PDF page | Printed page | First quote | Additional quote(s) | Status |
 |---:|---:|---|---|---|
-| 182 | 181 | KQ-CCM-0347 | KQ-CCM-0348 | needs_review |
-| 183 | 182 | KQ-CCM-0349 | KQ-CCM-0350 | needs_review |
-| 184 | 183 | KQ-CCM-0351 | KQ-CCM-0352 | needs_review |
-| 185 | 184 | KQ-CCM-0353 | KQ-CCM-0354 | needs_review |
-| 186 | 185 | KQ-CCM-0355 | KQ-CCM-0356 | needs_review |
-| 187 | 186 | KQ-CCM-0357 | KQ-CCM-0358 | needs_review |
-| 188 | 187 | KQ-CCM-0359 | KQ-CCM-0360 | needs_review |
-| 189 | 188 | KQ-CCM-0361 | KQ-CCM-0362 | needs_review |
-| 190 | 189 | KQ-CCM-0363 | KQ-CCM-0364 | needs_review |
-| 191 | 190 | KQ-CCM-0365 | KQ-CCM-0366 | needs_review |
-| 192 | 191 | KQ-CCM-0367 | KQ-CCM-0368 | needs_review |
-| 193 | 192 | KQ-CCM-0369 | KQ-CCM-0370 | needs_review |
-| 194 | 193 | KQ-CCM-0371 | KQ-CCM-0372 | needs_review |
-| 195 | 194 | KQ-CCM-0373 | KQ-CCM-0374 | needs_review |
-| 196 | 195 | KQ-CCM-0375 | KQ-CCM-0376 | needs_review |
-| 197 | 196 | KQ-CCM-0377 | KQ-CCM-0378 | needs_review |
-| 198 | 197 | KQ-CCM-0379 | KQ-CCM-0380 | needs_review |
-| 199 | 198 | KQ-CCM-0381 | KQ-CCM-0382 | needs_review |
-| 200 | 199 | KQ-CCM-0383 | KQ-CCM-0384 | needs_review |
-| 201 | 200 | KQ-CCM-0385 | KQ-CCM-0386 | needs_review |
-| 202 | 201 | KQ-CCM-0387 | KQ-CCM-0388 | needs_review |
-| 203 | 202 | KQ-CCM-0389 | KQ-CCM-0390, KQ-CCM-0391 | needs_review |
-| 204 | 203 | KQ-CCM-0392 | KQ-CCM-0393 | needs_review |
-| 205 | 204 | KQ-CCM-0394 | KQ-CCM-0395, KQ-CCM-0396 | needs_review |
-| 206 | 205 | KQ-CCM-0397 | KQ-CCM-0398 | needs_review |
+| 182 | 181 | KQ-CCM-0347 | KQ-CCM-0348 | verified_from_scan |
+| 183 | 182 | KQ-CCM-0349 | KQ-CCM-0350 | verified_from_scan |
+| 184 | 183 | KQ-CCM-0351 | KQ-CCM-0352 | verified_from_scan |
+| 185 | 184 | KQ-CCM-0353 | KQ-CCM-0354 | verified_from_scan |
+| 186 | 185 | KQ-CCM-0355 | KQ-CCM-0356 | verified_from_scan |
+| 187 | 186 | KQ-CCM-0357 | KQ-CCM-0358 | verified_from_scan |
+| 188 | 187 | KQ-CCM-0359 | KQ-CCM-0360 | verified_from_scan |
+| 189 | 188 | KQ-CCM-0361 | KQ-CCM-0362 | verified_from_scan |
+| 190 | 189 | KQ-CCM-0363 | KQ-CCM-0364 | verified_from_scan |
+| 191 | 190 | KQ-CCM-0365 | KQ-CCM-0366 | verified_from_scan |
+| 192 | 191 | KQ-CCM-0367 | KQ-CCM-0368 | verified_from_scan |
+| 193 | 192 | KQ-CCM-0369 | KQ-CCM-0370 | verified_from_scan |
+| 194 | 193 | KQ-CCM-0371 | KQ-CCM-0372 | verified_from_scan |
+| 195 | 194 | KQ-CCM-0373 | KQ-CCM-0374 | verified_from_scan |
+| 196 | 195 | KQ-CCM-0375 | KQ-CCM-0376 | verified_from_scan |
+| 197 | 196 | KQ-CCM-0377 | KQ-CCM-0378 | verified_from_scan |
+| 198 | 197 | KQ-CCM-0379 | KQ-CCM-0380 | verified_from_scan |
+| 199 | 198 | KQ-CCM-0381 | KQ-CCM-0382 | verified_from_scan |
+| 200 | 199 | KQ-CCM-0383 | KQ-CCM-0384 | verified_from_scan |
+| 201 | 200 | KQ-CCM-0385 | KQ-CCM-0386 | verified_from_scan |
+| 202 | 201 | KQ-CCM-0387 | KQ-CCM-0388 | verified_from_scan |
+| 203 | 202 | KQ-CCM-0389 | KQ-CCM-0390, KQ-CCM-0391 | mixed — KQ-CCM-0391 needs_review |
+| 204 | 203 | KQ-CCM-0392 | KQ-CCM-0393 | verified_from_scan |
+| 205 | 204 | KQ-CCM-0394 | KQ-CCM-0395, KQ-CCM-0396 | verified_from_scan |
+| 206 | 205 | KQ-CCM-0397 | KQ-CCM-0398 | verified_from_scan |
 | 207 | 206 | KQ-CCM-0399 | KQ-CCM-0400, KQ-CCM-0401 | needs_review |
 | 208 | 207 | KQ-CCM-0402 | KQ-CCM-0403, KQ-CCM-0404 | needs_review |
 | 209 | 208 | KQ-CCM-0405 | KQ-CCM-0406, KQ-CCM-0407 | needs_review |
@@ -89,5 +90,7 @@ Individual quote files contain the authoritative `pdf_page`, `printed_page`, and
 - PDF page numbering in the quotation section is one greater than the printed page number.
 - `verified_from_scan` is reserved for material that completed the mandatory high-resolution visual second pass.
 - First-pass source capture reaches the physical end of the 249-page PDF.
-- The second-pass verification boundary now reaches PDF **181** / printed **180** / `KQ-CCM-0346`.
-- All quote files from `KQ-CCM-0347` through `KQ-CCM-0497` remain `needs_review` until formally reverified.
+- The second-pass **review** now reaches PDF **206** / printed **205** / `KQ-CCM-0398`.
+- The contiguous fully verified boundary is PDF **202** / printed **201** / `KQ-CCM-0388` because `KQ-CCM-0391` remains unresolved on PDF 203.
+- `KQ-CCM-0389`, `KQ-CCM-0390`, and `KQ-CCM-0392` through `KQ-CCM-0398` are individually `verified_from_scan` after that gap.
+- Future second-pass work begins at PDF **207** / `KQ-CCM-0399`; `KQ-CCM-0391` remains separately in the unresolved queue.

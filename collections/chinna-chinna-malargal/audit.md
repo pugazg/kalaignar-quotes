@@ -6,19 +6,23 @@
 - The materialized controlling PDF has **249 physical PDF pages**.
 - The quotation section runs from PDF **10-249** / printed **9-248**.
 - **First-pass source capture is complete through the physical end of the PDF.**
-- Fully verified canonical range now reaches PDF **10-181** / printed **9-180**.
-- Fully verified quote IDs now reach `KQ-CCM-0001` through `KQ-CCM-0346`.
+- High-resolution second-pass review now reaches PDF **206** / printed **205** / `KQ-CCM-0398`.
+- The contiguous fully verified canonical range reaches PDF **10-202** / printed **9-201** / `KQ-CCM-0001` through `KQ-CCM-0388`.
+- `KQ-CCM-0389`, `KQ-CCM-0390`, and `KQ-CCM-0392` through `KQ-CCM-0398` are individually `verified_from_scan` after the unresolved PDF-203 gap.
+- `KQ-CCM-0391` remains `needs_review` because a physical blemish obscures the terminal glyph immediately after visible `திருப்பி`.
 - Stored quote range reaches `KQ-CCM-0497`.
-- Every quote from `KQ-CCM-0347` onward remains `needs_review` until the mandatory formal high-resolution second visual comparison is completed.
 
 ## Counts
 
-- Verified quote files: **346**
-- `needs_review` quote files: **151**
+- Verified quote files: **397**
+- `needs_review` quote files: **100**
 - Stored quote files: **497**
 - Source pages captured: PDF **10-249**
-- Fully verified source pages: PDF **10-181**
+- Second-pass pages reviewed: through PDF **206**
+- Contiguous fully verified source pages: PDF **10-202**
 - Physical source PDF pages: **249**
+
+The 100 `needs_review` files are `KQ-CCM-0391` plus the future second-pass queue `KQ-CCM-0399` through `KQ-CCM-0497`.
 
 ## Completed first-pass source-capture windows
 
@@ -38,7 +42,7 @@ The final window is shorter because PDF 249 is the physical end of the source.
 
 - Quote IDs: `KQ-CCM-0142` through `KQ-CCM-0191`
 - Quote count: **50**
-- Status: **verified_from_scan**
+- Status: **50/50 verified_from_scan**
 - PDF 94 / printed 93 confirmed as a one-quote page.
 - PDF 100 / printed 99 confirmed as a three-quote page.
 - The previously incomplete `KQ-CCM-0179` was fully recovered from the source scan.
@@ -49,7 +53,7 @@ This second pass produced numerous substantive corrections, including `பஞ்
 
 - Quote IDs: `KQ-CCM-0192` through `KQ-CCM-0245`
 - Quote count: **54**
-- Status: **verified_from_scan**
+- Status: **54/54 verified_from_scan**
 - PDF 108 / printed 107 confirmed as a three-quote page.
 - PDF 113 / printed 112 confirmed as a three-quote page.
 - PDF 128 / printed 127 confirmed as a three-quote page.
@@ -70,7 +74,7 @@ Corrections and source-sensitive readings from this window include:
 
 - Quote IDs: `KQ-CCM-0246` through `KQ-CCM-0296`
 - Quote count: **51**
-- Status: **verified_from_scan**
+- Status: **51/51 verified_from_scan**
 - PDF 141 / printed 140 confirmed as a three-quote page.
 
 This window required many substantive corrections to the first-pass capture. Representative source-fidelity corrections include:
@@ -95,7 +99,7 @@ This window required many substantive corrections to the first-pass capture. Rep
 
 - Quote IDs: `KQ-CCM-0297` through `KQ-CCM-0346`
 - Quote count: **50**
-- Status: **verified_from_scan**
+- Status: **50/50 verified_from_scan**
 - PDF 164 / printed 163 confirmed as a three-quote page.
 - PDF 179 / printed 178 confirmed as a one-quote page.
 
@@ -111,9 +115,32 @@ This window also required substantive first-pass corrections and close source-se
 - `KQ-CCM-0344`: corrected preliminary `கடமைக்கும்` to source `கடமைகூட`.
 - `KQ-CCM-0346`: corrected preliminary parenthetical `(ர)` to the source-visible Tamil vowel marker `(ா)`, preserving the printed wordplay from `சதி` to `சாதி`.
 
+### PDF 182-206 / printed 181-205
+
+- Quote IDs: `KQ-CCM-0347` through `KQ-CCM-0398`
+- Quote count: **52**
+- Status: **51 verified_from_scan; 1 needs_review (`KQ-CCM-0391`)**
+- PDF 203 / printed 202 confirmed as a three-quote page.
+- PDF 205 / printed 204 confirmed as a three-quote page.
+- The complete 25-page window was visually reviewed; the unresolved source damage in `KQ-CCM-0391` does not block verification of the other quotes.
+
+Representative source-fidelity results from this window include:
+
+- `KQ-CCM-0349`: corrected preliminary `வேதாரிகள்` to source `வேடதாரிகள்`.
+- `KQ-CCM-0352`: corrected preliminary `கொற்றை` to source `கொற்கை`.
+- `KQ-CCM-0354`: corrected preliminary `புகழ்வாரித்` to source `புழுதிவாரித்`.
+- `KQ-CCM-0364`: preserved the scan punctuation `பக்குவமாகவும்:` rather than the preliminary semicolon.
+- `KQ-CCM-0367`: corrected the substantially wrong opening `பதவிப் போய்விட்டது` to source `பழகிப் போய்விட்டது`.
+- `KQ-CCM-0371`: unusual source-visible spacing `போகாத திலிருந்து` was retained rather than normalized.
+- `KQ-CCM-0372`: source punctuation `இதில்; இரண்டாவது` was preserved.
+- `KQ-CCM-0383`: the source visibly prints five periods in `வாய்நாடி.....`; the preliminary punctuation was corrected.
+- `KQ-CCM-0385`: corrected preliminary colon to source semicolon in `இந்தக் கேள்விக்குப் பதில்;`.
+- `KQ-CCM-0397`: unusual source-visible `சத்தற்றவை` was confirmed and retained.
+- `KQ-CCM-0391`: a physical blemish covers the terminal glyph immediately after visible `திருப்பி`. The first-pass reading `திருப்பித்` remains explicitly noncanonical and `needs_review`; no contextual guess was promoted.
+
 No source spelling, spacing, punctuation, or unusual lexical form was silently modernized.
 
-## Structural observations remaining in the review range
+## Structural observations remaining in the future review range
 
 One-quote page still awaiting formal second-pass verification:
 
@@ -121,11 +148,14 @@ One-quote page still awaiting formal second-pass verification:
 
 Three-quote pages still awaiting formal second-pass verification:
 
-- PDF 203, 205
 - PDF 207, 208, 209, 212, 220, 222, 226, 230, 231
 - PDF 232, 234, 235, 242, 244
 
 ## Priority second-pass review queue
+
+Unresolved from the completed window:
+
+- `KQ-CCM-0391` — PDF 203 physical blemish obscures the terminal glyph after visible `திருப்பி`; first-pass `திருப்பித்` is not canonical.
 
 Priority items still ahead include:
 
@@ -163,8 +193,8 @@ The complete detailed audit history through `KQ-CCM-0141` remains preserved in `
 
 Proceed with the next **25-page high-resolution second-pass verification iteration**:
 
-- PDF pages **182-206**
-- printed pages **181-205**
-- quote IDs `KQ-CCM-0347` through `KQ-CCM-0398`
+- PDF pages **207-231**
+- printed pages **206-230**
+- quote IDs `KQ-CCM-0399` through `KQ-CCM-0457`
 
-Only after direct visual comparison should corrected entries be promoted from `needs_review` to `verified_from_scan`.
+Keep `KQ-CCM-0391` separately in the unresolved queue unless a better source image makes the obscured glyph directly readable. Do not infer it from grammar, memory, or outside editions.

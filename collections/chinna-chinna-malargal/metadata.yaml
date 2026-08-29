@@ -21,14 +21,23 @@ quote_section:
   first_pass_source_capture_complete: true
 quote_counts:
   total_stored: 497
-  verified_from_scan: 346
-  needs_review: 151
+  verified_from_scan: 397
+  needs_review: 100
 verification_progress:
-  last_pdf_page_verified: 181
-  last_printed_page_verified: 180
-  last_quote_id_verified: "KQ-CCM-0346"
-  next_review_pdf_range: "182-206"
-  next_review_quote_range: "KQ-CCM-0347-KQ-CCM-0398"
+  last_pdf_page_verified: 202
+  last_printed_page_verified: 201
+  last_quote_id_verified: "KQ-CCM-0388"
+  second_pass_reviewed_through_pdf: 206
+  second_pass_reviewed_through_printed: 205
+  second_pass_reviewed_through_quote_id: "KQ-CCM-0398"
+  verified_after_gap:
+    - "KQ-CCM-0389-KQ-CCM-0390"
+    - "KQ-CCM-0392-KQ-CCM-0398"
+  unresolved_quote_ids:
+    - "KQ-CCM-0391"
+  unresolved_note: "KQ-CCM-0391 remains needs_review because a physical source blemish obscures the terminal glyph immediately after visible திருப்பி; first-pass திருப்பித் is not treated as canonical verified text."
+  next_review_pdf_range: "207-231"
+  next_review_quote_range: "KQ-CCM-0399-KQ-CCM-0457"
 language: ta
 transcription_authority: source_scan
 status: source_capture_complete_review_pending

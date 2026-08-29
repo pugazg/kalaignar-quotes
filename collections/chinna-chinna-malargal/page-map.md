@@ -9,7 +9,7 @@ Individual quote files contain the authoritative `pdf_page`, `printed_page`, and
 | 10-181 | 9-180 | KQ-CCM-0001-0346 | verified_from_scan | one-quote pages: 22, 41, 81, 94, 179; three-quote pages: 100, 108, 113, 128, 131, 141, 164 |
 | 182-206 | 181-205 | KQ-CCM-0347-0398 | second_pass_complete_with_gap | 51 verified; KQ-CCM-0391 remains needs_review because of a physical source blemish; PDF 203 and 205 have 3 quotes |
 | 207-231 | 206-230 | KQ-CCM-0399-0457 | verified_from_scan | PDF 207, 208, 209, 212, 220, 222, 226, 230, 231 have 3 quotes |
-| 232-249 | 231-248 | KQ-CCM-0458-0497 | needs_review | PDF 232, 234, 235, 242, 244 have 3 quotes; PDF 243 has 1 |
+| 232-249 | 231-248 | KQ-CCM-0458-0497 | verified_from_scan | PDF 232, 234, 235, 242, 244 have 3 quotes; PDF 243 has 1 |
 
 ## Detailed mapping — PDF 182-249
 
@@ -65,30 +65,29 @@ Individual quote files contain the authoritative `pdf_page`, `printed_page`, and
 | 229 | 228 | KQ-CCM-0450 | KQ-CCM-0451 | verified_from_scan |
 | 230 | 229 | KQ-CCM-0452 | KQ-CCM-0453, KQ-CCM-0454 | verified_from_scan |
 | 231 | 230 | KQ-CCM-0455 | KQ-CCM-0456, KQ-CCM-0457 | verified_from_scan |
-| 232 | 231 | KQ-CCM-0458 | KQ-CCM-0459, KQ-CCM-0460 | needs_review |
-| 233 | 232 | KQ-CCM-0461 | KQ-CCM-0462 | needs_review |
-| 234 | 233 | KQ-CCM-0463 | KQ-CCM-0464, KQ-CCM-0465 | needs_review |
-| 235 | 234 | KQ-CCM-0466 | KQ-CCM-0467, KQ-CCM-0468 | needs_review |
-| 236 | 235 | KQ-CCM-0469 | KQ-CCM-0470 | needs_review |
-| 237 | 236 | KQ-CCM-0471 | KQ-CCM-0472 | needs_review |
-| 238 | 237 | KQ-CCM-0473 | KQ-CCM-0474 | needs_review |
-| 239 | 238 | KQ-CCM-0475 | KQ-CCM-0476 | needs_review |
-| 240 | 239 | KQ-CCM-0477 | KQ-CCM-0478 | needs_review |
-| 241 | 240 | KQ-CCM-0479 | KQ-CCM-0480 | needs_review |
-| 242 | 241 | KQ-CCM-0481 | KQ-CCM-0482, KQ-CCM-0483 | needs_review |
-| 243 | 242 | KQ-CCM-0484 | — | needs_review |
-| 244 | 243 | KQ-CCM-0485 | KQ-CCM-0486, KQ-CCM-0487 | needs_review |
-| 245 | 244 | KQ-CCM-0488 | KQ-CCM-0489 | needs_review |
-| 246 | 245 | KQ-CCM-0490 | KQ-CCM-0491 | needs_review |
-| 247 | 246 | KQ-CCM-0492 | KQ-CCM-0493 | needs_review |
-| 248 | 247 | KQ-CCM-0494 | KQ-CCM-0495 | needs_review |
-| 249 | 248 | KQ-CCM-0496 | KQ-CCM-0497 | needs_review |
+| 232 | 231 | KQ-CCM-0458 | KQ-CCM-0459, KQ-CCM-0460 | verified_from_scan |
+| 233 | 232 | KQ-CCM-0461 | KQ-CCM-0462 | verified_from_scan |
+| 234 | 233 | KQ-CCM-0463 | KQ-CCM-0464, KQ-CCM-0465 | verified_from_scan |
+| 235 | 234 | KQ-CCM-0466 | KQ-CCM-0467, KQ-CCM-0468 | verified_from_scan |
+| 236 | 235 | KQ-CCM-0469 | KQ-CCM-0470 | verified_from_scan |
+| 237 | 236 | KQ-CCM-0471 | KQ-CCM-0472 | verified_from_scan |
+| 238 | 237 | KQ-CCM-0473 | KQ-CCM-0474 | verified_from_scan |
+| 239 | 238 | KQ-CCM-0475 | KQ-CCM-0476 | verified_from_scan |
+| 240 | 239 | KQ-CCM-0477 | KQ-CCM-0478 | verified_from_scan |
+| 241 | 240 | KQ-CCM-0479 | KQ-CCM-0480 | verified_from_scan |
+| 242 | 241 | KQ-CCM-0481 | KQ-CCM-0482, KQ-CCM-0483 | verified_from_scan |
+| 243 | 242 | KQ-CCM-0484 | — | verified_from_scan |
+| 244 | 243 | KQ-CCM-0485 | KQ-CCM-0486, KQ-CCM-0487 | verified_from_scan |
+| 245 | 244 | KQ-CCM-0488 | KQ-CCM-0489 | verified_from_scan |
+| 246 | 245 | KQ-CCM-0490 | KQ-CCM-0491 | verified_from_scan |
+| 247 | 246 | KQ-CCM-0492 | KQ-CCM-0493 | verified_from_scan |
+| 248 | 247 | KQ-CCM-0494 | KQ-CCM-0495 | verified_from_scan |
+| 249 | 248 | KQ-CCM-0496 | KQ-CCM-0497 | verified_from_scan |
 
 ## Notes
 
 - PDF page numbering in the quotation section is one greater than the printed page number.
 - First-pass source capture reaches the physical end of the 249-page PDF.
-- High-resolution second-pass inspection has been completed through PDF **231** / printed **230** / `KQ-CCM-0457`.
-- `KQ-CCM-0391` is the sole unresolved quote inside the completed second-pass range. A physical source blemish obscures the terminal glyph immediately after `திருப்பி`, so it remains `needs_review`.
-- All other quote files through `KQ-CCM-0457` are `verified_from_scan`.
-- `KQ-CCM-0458` through `KQ-CCM-0497` remain `needs_review` pending the final PDF 232-249 second pass.
+- High-resolution second-pass inspection also reaches the physical end: PDF **249** / printed **248** / `KQ-CCM-0497`.
+- `KQ-CCM-0391` is the sole unresolved quote in the collection. A physical source blemish obscures the terminal glyph immediately after `திருப்பி`, so it remains `needs_review`.
+- Every other stored quote is `verified_from_scan`.

@@ -24,7 +24,8 @@ Available indexes:
 - [`theme-0351-0375.md`](theme-0351-0375.md) — fifteenth theme-classification batch for `KQ-CCM-0351`–`KQ-CCM-0375`.
 - [`theme-0376-0400.md`](theme-0376-0400.md) — sixteenth theme-classification batch for `KQ-CCM-0376`–`KQ-CCM-0400`.
 - [`theme-0401-0425.md`](theme-0401-0425.md) — seventeenth theme-classification batch for `KQ-CCM-0401`–`KQ-CCM-0425`.
-- [`theme-0426-0450.md`](theme-0426-0450.md) — eighteenth theme-classification batch for `KQ-CCM-0426`–`KQ-CCM-0450`; overall theme-classification coverage is now **450 / 497 quotes**.
+- [`theme-0426-0450.md`](theme-0426-0450.md) — eighteenth theme-classification batch for `KQ-CCM-0426`–`KQ-CCM-0450`.
+- [`theme-0451-0475.md`](theme-0451-0475.md) — nineteenth theme-classification batch for `KQ-CCM-0451`–`KQ-CCM-0475`; overall theme-classification coverage is now **475 / 497 quotes**.
 
 Construction/audit shards retained for opening-word traceability:
 
@@ -47,9 +48,9 @@ Construction/audit shards retained for opening-word traceability:
 
 The consolidated opening-word index was validated for **497 unique quote IDs with no gaps from `KQ-CCM-0001` through `KQ-CCM-0497`**. It represents the canonical verification states without changing them: **496 quotes are `verified_from_scan` and `KQ-CCM-0391` remains `needs_review`** because of the documented physical source blemish. Its unaffected opening word is indexed, but the unresolved source reading is not promoted or inferred.
 
-Theme classification is in progress under taxonomy version 1.0. The first eighteen batches cover **450 / 497 quotes** and preserve their canonical verification states: **449 `verified_from_scan` and 1 `needs_review` (`KQ-CCM-0391`)** within the classified range. Classification is based only on canonical quote text, assigns exactly one primary theme and at most two secondary themes, and does not edit source transcriptions.
+Theme classification is in progress under taxonomy version 1.0. The first nineteen batches cover **475 / 497 quotes** and preserve their canonical verification states: **474 `verified_from_scan` and 1 `needs_review` (`KQ-CCM-0391`)** within the classified range. Classification is based only on canonical quote text, assigns exactly one primary theme and at most two secondary themes, and does not edit source transcriptions.
 
-The next theme-classification batch is `KQ-CCM-0451`–`KQ-CCM-0475`.
+The next theme-classification batch is `KQ-CCM-0476`–`KQ-CCM-0497`.
 
 Planned later discovery work may include:
 

@@ -21,21 +21,22 @@ quote_section:
   first_pass_source_capture_complete: true
 quote_counts:
   total_stored: 497
-  verified_from_scan: 456
-  needs_review: 41
+  verified_from_scan: 496
+  needs_review: 1
 verification_progress:
-  second_pass_completed_through_pdf_page: 231
-  second_pass_completed_through_printed_page: 230
-  last_quote_id_second_passed: "KQ-CCM-0457"
-  last_quote_id_verified: "KQ-CCM-0457"
+  second_pass_complete: true
+  second_pass_completed_through_pdf_page: 249
+  second_pass_completed_through_printed_page: 248
+  last_quote_id_second_passed: "KQ-CCM-0497"
+  last_quote_id_verified: "KQ-CCM-0497"
   last_contiguous_quote_id_verified: "KQ-CCM-0390"
   unresolved_within_second_pass:
     - quote_id: "KQ-CCM-0391"
       pdf_page: 203
       printed_page: 202
       reason: "Physical source blemish obscures the terminal glyph immediately after திருப்பி; first-pass திருப்பித் remains unresolved and is not promoted."
-  next_review_pdf_range: "232-249"
-  next_review_quote_range: "KQ-CCM-0458-KQ-CCM-0497"
+  next_review_pdf_range: null
+  next_review_quote_range: null
 language: ta
 transcription_authority: source_scan
-status: source_capture_complete_review_pending
+status: source_capture_complete_second_pass_complete_with_source_damage_gap

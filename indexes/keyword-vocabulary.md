@@ -4,15 +4,15 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.5**
+- Working vocabulary version: **0.6**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0151`–`KQ-CCM-0175`
-- Keyword keys currently defined: **167**
-- Version 0.5 additions: **24 evidence-driven keys**
+- Extended through keyword batch: `KQ-CCM-0301`–`KQ-CCM-0325`
+- Keyword keys currently defined: **174**
+- Version 0.6 additions: **7 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0176`–`KQ-CCM-0200`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0326`–`KQ-CCM-0350`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -208,6 +208,18 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `trees` | மரங்கள் | Trees as the direct subject of a literal or comparative statement when no more specific existing natural-object key is available and no unstated social referent should be inferred. |
 | `writer` | எழுத்தாளர் | A writer or author when the person's role, conduct or responsibility as a writer is materially addressed. |
 
+## Controlled keywords — additions in version 0.6
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `astrology` | சோதிடம் / ஆரூடம் | Astrology, divination or predictive fortune-reading explicitly named as a practice whose claimed foreknowledge is materially discussed. Do not broaden this key to unrelated religious belief. |
+| `birds` | பறவைகள் | Birds when birds themselves are central to a direct or hypothetical comparison and no unstated human trait should be inferred. |
+| `humility` | அடக்கம் | Humility in response to praise, fame, victory or elevated standing. Distinguish from `self-restraint`, which concerns measured restraint in speech, action or power, and from `modesty`, which preserves the explicit `நாணம்` concept. |
+| `rebirth` | மறுபிறப்பு | Rebirth or another birth after death when the belief or proposition itself is explicitly discussed. |
+| `reservation` | இடஒதுக்கீடு | Social reservation or allocation explicitly described as `இடஒதுக்கீடு`, especially where its preservation or abolition is materially discussed. Do not add external legal categories not present in the source. |
+| `widowhood` | விதவை நிலை / விதவைத் துயர் | Widowhood or the suffering of widowed women when explicitly presented as the social or human condition under discussion. |
+| `women` | பெண்கள் / பெண்மை | Women or femininity when women as a social group, their condition or their self-perception is materially discussed. Use a more specific women's-rights key when the text explicitly supplies that issue. |
+
 ## Vocabulary review notes
 
 - Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
@@ -226,5 +238,10 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 - `mythology` is a discovery label for explicitly named puranic/epic sacred stories; it does not assert external historical conclusions beyond the canonical wording.
 - `KQ-CCM-0126`–`KQ-CCM-0150` required no new stable keyword keys; the batch deliberately reused version 0.5 rather than creating one-off keys for every named person, object or metaphor.
 - `KQ-CCM-0151`–`KQ-CCM-0175` also required no new stable keyword keys; existing version 0.5 concepts were sufficient without expanding the vocabulary from incidental or one-off wording.
+- `KQ-CCM-0176`–`KQ-CCM-0300` continued to reuse working vocabulary version 0.5 without new stable-key additions.
+- Version 0.6 adds seven concepts directly required by `KQ-CCM-0301`–`KQ-CCM-0325`: `astrology`, `birds`, `humility`, `rebirth`, `reservation`, `widowhood`, and `women`.
+- `birds` is intentionally limited to directly stated bird comparisons such as `KQ-CCM-0314`; it does not license inferring what human qualities eagles or pigeons represent.
+- `rebirth` is introduced because the concept itself is explicit and central in both `KQ-CCM-0315` and `KQ-CCM-0317`.
+- `humility` is kept distinct from `modesty` and `self-restraint` because `அடக்கம்` in praise/victory contexts is a reusable character concept rather than `நாணம்` or merely measured action.
 
-No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.5.
+No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.6.

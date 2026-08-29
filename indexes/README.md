@@ -9,7 +9,9 @@ Available indexes:
 - [`theme-taxonomy.md`](theme-taxonomy.md) — controlled theme vocabulary and assignment rules for the derived theme index. Taxonomy version **1.0** defines 16 stable theme keys.
 - [`theme.md`](theme.md) — complete consolidated theme discovery index for `KQ-CCM-0001`–`KQ-CCM-0497` (**497 / 497 quotes**), incorporating the completed consistency pass.
 - [`theme-consistency-review.md`](theme-consistency-review.md) — completed full consistency pass across all 497 quote-level theme assignments, including the 13 corrections required before consolidated publication.
-- [`keyword-index-design.md`](keyword-index-design.md) — keyword-index construction protocol, evidence rules, working-vocabulary lifecycle, 25-quote batching, validation and final consolidation plan. Design version **0.1**; keyword assignment has not yet started.
+- [`keyword-index-design.md`](keyword-index-design.md) — keyword-index construction protocol, evidence rules, working-vocabulary lifecycle, 25-quote batching, validation and final consolidation plan. Design version **0.1**; keyword assignment is in progress through `KQ-CCM-0025` (**25 / 497**).
+- [`keyword-vocabulary.md`](keyword-vocabulary.md) — working keyword vocabulary version **0.1**, initialized from the first 25 canonical quotes with **46 stable keys**; vocabulary remains open for evidence-driven extension during construction.
+- [`keyword-0001-0025.md`](keyword-0001-0025.md) — first keyword-index construction batch for `KQ-CCM-0001`–`KQ-CCM-0025`; overall keyword coverage is **25 / 497 quotes**.
 - [`theme-0001-0025.md`](theme-0001-0025.md) — first theme-classification batch for `KQ-CCM-0001`–`KQ-CCM-0025`.
 - [`theme-0026-0050.md`](theme-0026-0050.md) — second theme-classification batch for `KQ-CCM-0026`–`KQ-CCM-0050`.
 - [`theme-0051-0075.md`](theme-0051-0075.md) — third theme-classification batch for `KQ-CCM-0051`–`KQ-CCM-0075`.
@@ -58,6 +60,6 @@ The full consistency pass is complete. It confirmed **497 unique theme rows with
 
 The consolidated theme index is now published in [`theme.md`](theme.md). It contains all **497 / 497** assignments in quote-ID order, incorporates the completed consistency corrections, and continues to preserve `KQ-CCM-0391` as `needs_review`.
 
-Theme-index publication under taxonomy version 1.0 is complete. Keyword-index design version **0.1** is now defined in [`keyword-index-design.md`](keyword-index-design.md). The next planned derived-discovery activity is the **first keyword construction batch, `KQ-CCM-0001`–`KQ-CCM-0025`, together with initialization of `keyword-vocabulary.md`**.
+Keyword-index construction has started under design version **0.1**. The first batch, [`keyword-0001-0025.md`](keyword-0001-0025.md), covers **25 / 497 quotes** and initializes [`keyword-vocabulary.md`](keyword-vocabulary.md) with 46 working keys. All 25 source verification states remain `verified_from_scan`, and canonical quote files were not modified. The next planned derived-discovery activity is the **second keyword construction batch, `KQ-CCM-0026`–`KQ-CCM-0050`**, reusing or extending the working vocabulary only when directly supported by canonical text.
 
 Canonical source transcriptions remain in `collections/<collection-id>/quotes/`. Derived indexes must never replace or override canonical quote files.

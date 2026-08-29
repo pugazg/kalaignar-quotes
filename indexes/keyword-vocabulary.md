@@ -4,17 +4,19 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.1**
+- Working vocabulary version: **0.2**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Keyword keys currently defined: **46**
+- Extended through keyword batch: `KQ-CCM-0026`–`KQ-CCM-0050`
+- Keyword keys currently defined: **89**
+- Version 0.2 additions: **43 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0026`–`KQ-CCM-0050`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0051`–`KQ-CCM-0075`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
-## Controlled keywords
+## Controlled keywords — version 0.1 base
 
 | Stable key | Tamil display label | Scope / boundary guidance |
 |---|---|---|
@@ -41,11 +43,11 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `housing` | வீடு / குடியிருப்பு | Housing, shelter or the lack of a place to live when materially discussed. |
 | `humaneness` | மனிதாபிமானம் | Humaneness, compassion or humane regard explicitly presented as a moral quality. |
 | `jealousy` | பொறாமை | Jealousy or envy explicitly identified as an attitude to be avoided or overcome. |
-| `justice` | நீதி | Justice as a principle or institutional condition. Use even when the quote describes justice bending or being compromised; use `injustice` only when that negative condition itself is a distinct indexed concept in a later batch. |
+| `justice` | நீதி | Justice as a principle or institutional condition. Use even when the quote describes justice bending or being compromised; use `injustice` when the negative condition itself is materially stated and indexed. |
 | `love` | அன்பு | Love or affectionate concern when materially presented as a moral or relational value. |
 | `misuse-of-law` | சட்டத் தவறான பயன்பாடு | Law being used wrongly, improperly or as an instrument of abuse. More specific than the broad `justice` key. |
 | `moksha` | மோட்சம் | `மோட்சம்` / liberation as an explicitly named religious concept. |
-| `movement` | இயக்கம் | A political or social movement materially discussed as a collective entity, identity or field of work. |
+| `movement` | இயக்கம் | A political or social movement materially discussed as a collective entity, identity or field of work. Use a more specific named-movement key when the canonical text itself supplies that identity and it is material. |
 | `oppression` | ஒடுக்குமுறை | A group or community being kept down, suppressed or subordinated. |
 | `organization` | அமைப்பு முறை | Organizational structure, arrangement or method that channels collective activity. Distinguish from `movement`, which indexes the collective entity itself. |
 | `performance` | அரங்கேற்றம் | Stage debut, performance or public presentation when it is material to evaluating ability. |
@@ -65,11 +67,61 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `talent` | திறமை / மேதைமை | Ability, talent or potential for excellence when the quote materially evaluates whether it is present. |
 | `tirukkural` | திருக்குறள் | Tirukkural or a quoted Kural maxim when that textual reference is materially used in the proposition. |
 
+## Controlled keywords — additions in version 0.2
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `anna` | அண்ணா | Anna as a named person when use of his name is material to the proposition. Do not assign merely because he is cited incidentally or as attribution. |
+| `ariviyakkam` | அறிவியக்கம் | The explicit source term `அறிவியக்கம்` when it is materially invoked. Preserve the source term as the discovery concept; do not expand it into a named external organization or doctrine without textual support. |
+| `candle` | மெழுகுவத்தி | A candle when it is itself a central object or image in the canonical proposition. |
+| `consideration-for-others` | பிறர் நலம் கருதல் | Deliberate regard for others' safety or welfare, especially taking action so a harm or hazard is not passed on to others. |
+| `dravidian-movement` | திராவிட இயக்கம் | The explicitly named `திராவிட இயக்கம்` when that movement is material to the proposition. Distinguish from generic `movement`. |
+| `enmity` | பகை | Explicit hostility, enmity or an enemy relationship when materially discussed. |
+| `equality` | சமத்துவம் / சம உரிமை | Explicit equality, equal status or equal rights. Use for the equality concept itself; combine with a more specific rights key when the text supplies one. |
+| `fame` | புகழ் | Fame, reputation or enduring public renown when materially discussed. |
+| `fire` | நெருப்பு | Fire when it is a central physical image or subject of the proposition rather than incidental wording. |
+| `fireworks` | மத்தாப்பு | Fireworks when the firework itself is central to the explicit comparison. |
+| `forgiveness` | மன்னிப்பு | Forgiveness, pardon or asking to be forgiven when materially discussed. |
+| `friendship` | நட்பு | Explicit friendship or a friendly relationship when central to the proposition. |
+| `gain-loss` | இலாபம் / நட்டம் | An explicit contrast or reversal between gain/profit and loss. |
+| `giving` | கொடுத்தல் | The act of giving when its motive, quality or moral character is materially discussed. |
+| `history` | சரித்திரம் | History or historical memory when materially discussed as something written, remembered or enduring. |
+| `immortality` | சாகாவரம் | Explicit immortality, deathlessness or enduring beyond bodily death, including a history said to receive `சாகாவரம்`. |
+| `injustice` | அநீதி / நீதியின்மை | An explicitly unjust condition, unjust rule or denial of justice. Distinguish from `justice`, which indexes the positive principle or institution. |
+| `internal-disagreement` | உள்கருத்து வேறுபாடு | Disagreement arising within one's own camp or collective. Do not infer the identity of that collective unless the canonical wording names it. |
+| `labour` | உழைப்பு | Labour or the work of people when the proposition materially concerns what their effort produces or whether they benefit from it. |
+| `language-domination` | மொழி ஆதிக்கம் | One language subordinating, enslaving or dominating another language when that relation is explicitly stated. |
+| `language-preservation` | மொழிப் பாதுகாப்பு | Explicit protection or preservation of a language, mother tongue or linguistic feeling against loss or disappearance. |
+| `law` | சட்டம் | Law or legislation as such, including a resolution becoming law. Distinguish from `misuse-of-law`, which requires improper use of law. |
+| `medicine` | மருத்துவம் / மருந்து | Medicine, medical treatment or medicinal use when materially stated. |
+| `modesty` | நாணம் | Modesty or `நாணம்` when materially presented as a personal quality. |
+| `mother-tongue` | தாய்மொழி | The explicitly stated mother tongue as a linguistic identity or object of protection. |
+| `mortality` | உடல் அழிவு / மரணத்தன்மை | Bodily perishability, death or the finite span of living days when materially discussed. |
+| `periyar` | பெரியார் | Periyar as a named person when use of his name is material to the proposition. Do not assign merely because he is cited incidentally. |
+| `political-propaganda` | அரசியல் பிரச்சாரம் | Propaganda or campaign use of names, ideas or claims in a political/public context when the text explicitly frames it as `பிரச்சாரம்` or equivalent. |
+| `praise` | புகழாரம் / பாராட்டு | Explicit praise, glorification or adorning someone/something with praise when that conduct is material. |
+| `punishment` | தண்டனை | Explicit punishment or penal consequence, including punishment imposed for an act described in the quote. |
+| `religious-dominance` | மத ஆதிக்கம் | Domination by one religion over other religions when explicitly described. |
+| `religious-tolerance` | மத சகிப்புத்தன்மை | The directly expressed principle that religious attachment must not become domination or hostility toward other religions. |
+| `resolve` | உறுதி | Firm resolve or determination, especially when the quote directly contrasts having or losing `உறுதி`. Distinguish from `perseverance`, which emphasizes continuing through obstacles over time. |
+| `sacrifice` | தியாகம் | Explicit sacrifice, especially sacrifice for a public, collective or principled purpose. |
+| `self-respect` | மானம் / தன்மானம் | Personal honour, dignity or self-respect expressed through `மானம்` or an equally direct formulation. Do not use this key merely because the proper name `சுயமரியாதை மாநாடு` appears. |
+| `sexual-violence` | பாலியல் வன்முறை | Explicit rape, attempted rape or comparable sexual violence when materially present in the canonical wording. |
+| `tamil-language` | தமிழ் மொழி | Tamil as a language when it is a material subject of preservation, identity, policy or linguistic concern. |
+| `tulsi` | துளசி | Tulsi when the named plant itself is central to the proposition or comparison. |
+| `violence` | வன்முறை | Explicit violence or use of violent means when materially discussed. |
+| `wealth-hoarding` | செல்வக் குவிப்பு | Accumulated stores of wealth or resources being retained so that those whose labour created them do not benefit. |
+| `women-property-rights` | பெண்களின் சொத்துச் சம உரிமை | Women's equal rights in property when explicitly stated. |
+| `worship` | வழிபாடு / மண்டியிடுதல் | Worship or ritual reverence directly recoverable from the described practice, including kneeling before an object treated as sacred. |
+| `wrongdoing` | தவறு செய்தல் | Explicit wrongdoing or repeated commission of acts described as `தவறு`. |
+
 ## Vocabulary review notes
 
-- The initial vocabulary deliberately favors reusable concepts over indexing every noun or metaphor in the first 25 quotes.
-- Broad theme labels such as `human-values-dignity-character` or `political-ethics-power-public-life` are not duplicated here as keywords.
-- Named-person indexing was not initialized from `KQ-CCM-0001` or `KQ-CCM-0014` because the named person is not itself the proposition being indexed.
-- Nature imagery in the first batch was not automatically turned into one-off keywords where it primarily functions as illustration rather than a reusable subject.
+- Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
+- Version 0.2 extends the vocabulary only from concepts materially present in `KQ-CCM-0026`–`KQ-CCM-0050`; no outside biography or historical interpretation was used to create keys.
+- The specific person keys `periyar` and `anna` were introduced only at `KQ-CCM-0043`, where use of those names is itself material to the propaganda/deception proposition. Their earlier incidental or attribution-like appearances remain unkeyed pending the final consistency pass.
+- `ariviyakkam` intentionally preserves the canonical Tamil source term as a transliterated stable key rather than interpreting it as a named organization or doctrine.
+- Literal object keys `fireworks`, `candle` and `tulsi` are retained because those objects are themselves central to their respective propositions, not decorative mentions.
+- Nature imagery elsewhere in the batch was not automatically turned into one-off keywords when the text supplied a clearer reusable concept.
 
-No vocabulary migrations have occurred yet.
+No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.2.

@@ -6,23 +6,13 @@
 - The materialized controlling PDF has **249 physical PDF pages**.
 - The quotation section runs from PDF **10-249** / printed **9-248**.
 - **First-pass source capture is complete through the physical end of the PDF.**
-- High-resolution second-pass review now reaches PDF **206** / printed **205** / `KQ-CCM-0398`.
-- The contiguous fully verified canonical range reaches PDF **10-202** / printed **9-201** / `KQ-CCM-0001` through `KQ-CCM-0388`.
-- `KQ-CCM-0389`, `KQ-CCM-0390`, and `KQ-CCM-0392` through `KQ-CCM-0398` are individually `verified_from_scan` after the unresolved PDF-203 gap.
-- `KQ-CCM-0391` remains `needs_review` because a physical blemish obscures the terminal glyph immediately after visible `திருப்பி`.
-- Stored quote range reaches `KQ-CCM-0497`.
-
-## Counts
-
-- Verified quote files: **397**
-- `needs_review` quote files: **100**
+- High-resolution second-pass inspection is complete through PDF **231** / printed **230** / `KQ-CCM-0457`.
+- Verified quote files: **456**
+- `needs_review` quote files: **41**
 - Stored quote files: **497**
-- Source pages captured: PDF **10-249**
-- Second-pass pages reviewed: through PDF **206**
-- Contiguous fully verified source pages: PDF **10-202**
-- Physical source PDF pages: **249**
-
-The 100 `needs_review` files are `KQ-CCM-0391` plus the future second-pass queue `KQ-CCM-0399` through `KQ-CCM-0497`.
+- All quote IDs through `KQ-CCM-0457` are verified **except `KQ-CCM-0391`**.
+- `KQ-CCM-0391` remains unresolved because a physical source blemish obscures the terminal glyph immediately after `திருப்பி`.
+- The untouched second-pass range is PDF **232-249** / `KQ-CCM-0458`-`0497`.
 
 ## Completed first-pass source-capture windows
 
@@ -42,131 +32,92 @@ The final window is shorter because PDF 249 is the physical end of the source.
 
 - Quote IDs: `KQ-CCM-0142` through `KQ-CCM-0191`
 - Quote count: **50**
-- Status: **50/50 verified_from_scan**
-- PDF 94 / printed 93 confirmed as a one-quote page.
-- PDF 100 / printed 99 confirmed as a three-quote page.
-- The previously incomplete `KQ-CCM-0179` was fully recovered from the source scan.
-
-This second pass produced numerous substantive corrections, including `பஞ்சை, பராரி`, `விபச்சாரதளங்கள்`, `பிர்மஹத்தி`, `பச்சைக் கொடியல்ல; பச்சைப் பாம்பு`, `விரசம்`, and `நவநாகரீக காலம்`.
+- Status: **verified_from_scan**
+- PDF 94 confirmed as a one-quote page; PDF 100 as a three-quote page.
+- Representative corrections include `பஞ்சை, பராரி`, `விபச்சாரதளங்கள்`, `பிர்மஹத்தி`, `பச்சைக் கொடியல்ல; பச்சைப் பாம்பு`, `விரசம்`, and `நவநாகரீக காலம்`.
 
 ### PDF 107-131 / printed 106-130
 
 - Quote IDs: `KQ-CCM-0192` through `KQ-CCM-0245`
 - Quote count: **54**
-- Status: **54/54 verified_from_scan**
-- PDF 108 / printed 107 confirmed as a three-quote page.
-- PDF 113 / printed 112 confirmed as a three-quote page.
-- PDF 128 / printed 127 confirmed as a three-quote page.
-- PDF 131 / printed 130 confirmed as a three-quote page.
-
-Corrections and source-sensitive readings from this window include:
-
-- `KQ-CCM-0194`: source punctuation `ஈ, எறும்பு, புழு பூச்சிகளின்`.
-- `KQ-CCM-0200`: source form `பாப விமோசனத்துக்கான`.
-- `KQ-CCM-0214`: unusual source form `தவடையில்` retained without normalization.
-- `KQ-CCM-0219`: joined source form `அளிக்கப்படவேண்டிய`.
-- `KQ-CCM-0230`: unusual printed form `தாமம்` retained.
-- `KQ-CCM-0240`: corrected preliminary `தங்கத்துண்டுகள்` to source `தங்கத்துகள்கள்`.
-- `KQ-CCM-0241`: unusual source form `கனிவர்க்கமாகும்` retained.
-- `KQ-CCM-0243`: corrected preliminary `அம்பனைத்` to source `அற்பனைத்`.
+- Status: **verified_from_scan**
+- Three-quote pages confirmed: PDF 108, 113, 128, 131.
+- Source-sensitive results include `தவடையில்`, `தாமம்`, `கனிவர்க்கமாகும்`, `தங்கத்துகள்கள்`, and correction of `அம்பனைத்` to `அற்பனைத்`.
 
 ### PDF 132-156 / printed 131-155
 
 - Quote IDs: `KQ-CCM-0246` through `KQ-CCM-0296`
 - Quote count: **51**
-- Status: **51/51 verified_from_scan**
-- PDF 141 / printed 140 confirmed as a three-quote page.
-
-This window required many substantive corrections to the first-pass capture. Representative source-fidelity corrections include:
-
-- `KQ-CCM-0258`: corrected to source `நீலவண்ணம்`, `ஒருமுகமாக`, and `காதலர்களுக்கிடையிலேயும்`.
-- `KQ-CCM-0259`: corrected the first sentence to source `இயற்கை பாரபட்சமாக நடந்து கொள்வதில்லை`.
-- `KQ-CCM-0261`: substantially corrected the passage to source wording beginning `நாடு என்கிற இந்தப் பரந்து விரிந்த பூங்காவில்` and including `வகுப்புவாத நச்சரவங்கள்`.
-- `KQ-CCM-0262`: corrected to source `படுதீவிரவாதியாகத்`, `வழியில் பணம் தடுக்கினால்`, and `கோழைகள்`.
-- `KQ-CCM-0267`: corrected to `தன் நிழலைக்கண்டே` and `பின்தொடர்வதற்கு வெட்கப்படும்`.
-- `KQ-CCM-0268`: substantially corrected the second sentence, including `அந்தப் பழைய ஆயுதங்களை` and the source conclusion that the gods cannot face the modern weapons.
-- `KQ-CCM-0271`: substantially corrected to the source metaphor `ஆடுமாடுகள் எனப் புகுந்து மேய்வதற்காகப் பாய்ந்து வருகின்றனர்` / `வேலிகளை வலுப்படுத்த`.
-- `KQ-CCM-0274`: priority re-read completed; preliminary wording was substantially wrong, with source-visible forms including `வகுப்புவாத சக்தி`, `பகுத்தறிவுச் சிந்தனைக்குப் பகையாகவும்`, and `மூளைச்சலவை`.
-- `KQ-CCM-0279`: priority re-read completed; corrected to source `மாலைக்கென`, `பூச்செண்டில்`, and `‘அத்தர்’` wording.
-- `KQ-CCM-0281`: substantially corrected to `பிரார்த்தனை செய்யாமல் உலகில் பிறந்து` and `இருநிலைகளுக்குமிடையில் நிலைகுலையாமல் நேர்மையாக`.
-- `KQ-CCM-0282`: corrected to source `ஊசிகொண்டு குத்துபவர்கள்`.
-- `KQ-CCM-0283`: corrected festival wording to `கார்த்திகை`, `செய்திடத் தீபாவளி`, and `ஒரே விழா பொங்கல் விழாதானே`.
-- `KQ-CCM-0284`: corrected to `காட்டிக் கொள்கிறது` and `வேம்பினும்`.
-- `KQ-CCM-0289`: source final clause is `ஈடுபடத்தான் தோன்றும்`.
-- `KQ-CCM-0290`: corrected preliminary `புற்றுருவிகளாகும்` to source `புல்லுருவிகளாகும்`.
+- Status: **verified_from_scan**
+- PDF 141 confirmed as a three-quote page.
+- Representative corrections include `நீலவண்ணம்`, `இயற்கை பாரபட்சமாக`, `வகுப்புவாத நச்சரவங்கள்`, `படுதீவிரவாதியாகத்`, `மாலைக்கென ... பூச்செண்டில் ... ‘அத்தர்’`, `கார்த்திகை`, `வேம்பினும்`, and `புல்லுருவிகளாகும்`.
 
 ### PDF 157-181 / printed 156-180
 
 - Quote IDs: `KQ-CCM-0297` through `KQ-CCM-0346`
 - Quote count: **50**
-- Status: **50/50 verified_from_scan**
-- PDF 164 / printed 163 confirmed as a three-quote page.
-- PDF 179 / printed 178 confirmed as a one-quote page.
-
-This window also required substantive first-pass corrections and close source-sensitive retention. Representative results include:
-
-- `KQ-CCM-0309`: corrected preliminary `பாதிரியாருக்கு` to source `பாரதியாருக்கு`.
-- `KQ-CCM-0310`: corrected to source `பாவையரின்`.
-- `KQ-CCM-0323`: corrected preliminary `சமூக நீதியான` to source `சமூக ரீதியான`.
-- `KQ-CCM-0329`: source punctuation preserved in `“நாத்திகம் வாழ்க!”`.
-- `KQ-CCM-0330`: source joined form `ஏங்கித்தவிக்கும்` retained.
-- `KQ-CCM-0331`: source-visible spacing `கண்ணாடி யாகவும்` retained without normalization.
-- `KQ-CCM-0342`: priority historical-name and punctuation re-read completed directly from the scan; PDF 179 is a single-quote page.
-- `KQ-CCM-0344`: corrected preliminary `கடமைக்கும்` to source `கடமைகூட`.
-- `KQ-CCM-0346`: corrected preliminary parenthetical `(ர)` to the source-visible Tamil vowel marker `(ா)`, preserving the printed wordplay from `சதி` to `சாதி`.
+- Status: **verified_from_scan**
+- PDF 164 confirmed as a three-quote page; PDF 179 as a one-quote page.
+- Representative corrections include `பாரதியாருக்கு`, `பாவையரின்`, `சமூக ரீதியான`, source punctuation in `“நாத்திகம் வாழ்க!”`, `கடமைகூட`, and the source-visible `(ா)` wordplay marker in `KQ-CCM-0346`.
+- Source-visible spacing such as `கண்ணாடி யாகவும்` was retained.
 
 ### PDF 182-206 / printed 181-205
 
 - Quote IDs: `KQ-CCM-0347` through `KQ-CCM-0398`
 - Quote count: **52**
-- Status: **51 verified_from_scan; 1 needs_review (`KQ-CCM-0391`)**
-- PDF 203 / printed 202 confirmed as a three-quote page.
-- PDF 205 / printed 204 confirmed as a three-quote page.
-- The complete 25-page window was visually reviewed; the unresolved source damage in `KQ-CCM-0391` does not block verification of the other quotes.
+- Result: **51 verified; 1 unresolved (`KQ-CCM-0391`)**
+- PDF 203 and PDF 205 confirmed as three-quote pages.
+- `KQ-CCM-0391`: high-resolution comparison reached the damaged source itself, but a physical blemish obscures the terminal glyph immediately after `திருப்பி`. The first-pass `திருப்பித்` is therefore not promoted; the quote remains `needs_review`.
+- Representative corrections include:
+  - `KQ-CCM-0349`: `வேதாரிகள்` → source `வேடதாரிகள்`.
+  - `KQ-CCM-0352`: `கொற்றை` → source `கொற்கை`.
+  - `KQ-CCM-0354`: `புகழ்வாரித்` → source `புழுதிவாரித்`.
+  - `KQ-CCM-0364`: source punctuation retained as `பக்குவமாகவும்:`.
+  - `KQ-CCM-0367`: substantially corrected opening to `பழகிப் போய்விட்டது பதவிக்காகப் பல் இளிப்பது என்பவன்`.
+  - `KQ-CCM-0372`: source punctuation `இதில்; இரண்டாவது செயல்`.
+  - `KQ-CCM-0385`: source punctuation `பதில்;`.
+  - `KQ-CCM-0397`: unusual source-visible `சத்தற்றவை` retained without normalization.
 
-Representative source-fidelity results from this window include:
+### PDF 207-231 / printed 206-230
 
-- `KQ-CCM-0349`: corrected preliminary `வேதாரிகள்` to source `வேடதாரிகள்`.
-- `KQ-CCM-0352`: corrected preliminary `கொற்றை` to source `கொற்கை`.
-- `KQ-CCM-0354`: corrected preliminary `புகழ்வாரித்` to source `புழுதிவாரித்`.
-- `KQ-CCM-0364`: preserved the scan punctuation `பக்குவமாகவும்:` rather than the preliminary semicolon.
-- `KQ-CCM-0367`: corrected the substantially wrong opening `பதவிப் போய்விட்டது` to source `பழகிப் போய்விட்டது`.
-- `KQ-CCM-0371`: unusual source-visible spacing `போகாத திலிருந்து` was retained rather than normalized.
-- `KQ-CCM-0372`: source punctuation `இதில்; இரண்டாவது` was preserved.
-- `KQ-CCM-0383`: the source visibly prints five periods in `வாய்நாடி.....`; the preliminary punctuation was corrected.
-- `KQ-CCM-0385`: corrected preliminary colon to source semicolon in `இந்தக் கேள்விக்குப் பதில்;`.
-- `KQ-CCM-0397`: unusual source-visible `சத்தற்றவை` was confirmed and retained.
-- `KQ-CCM-0391`: a physical blemish covers the terminal glyph immediately after visible `திருப்பி`. The first-pass reading `திருப்பித்` remains explicitly noncanonical and `needs_review`; no contextual guess was promoted.
+- Quote IDs: `KQ-CCM-0399` through `KQ-CCM-0457`
+- Quote count: **59**
+- Status: **verified_from_scan**
+- Three-quote pages confirmed: PDF **207, 208, 209, 212, 220, 222, 226, 230, 231**.
+- Representative source-fidelity results include:
+  - `KQ-CCM-0416`: priority glyph audit corrected `பழரச்சுவையே` → `பழரசச்சுவையே` and `அழைத்துத் தோன்றுகிறது` → `அழைத்திடத் தோன்றுகிறது`.
+  - `KQ-CCM-0421`: corrected preliminary `தேவையில்லைபென்று` to source `தேவையில்லையென்று`.
+  - `KQ-CCM-0431`: corrected preliminary `ஏசறணைகளைப்` to source `ஏசற்கணைகளைப்`.
+  - `KQ-CCM-0437`: source word separation preserved as `கலைக்கப்பட்ட போதும்`.
+  - `KQ-CCM-0440`: long embedded poetic quotation received a glyph-by-glyph priority re-read; the source confirms the retained unusual forms including `எனவையும்`.
+  - `KQ-CCM-0444`: corrected preliminary `கலந்தது` to source `கலந்து`.
+  - `KQ-CCM-0456`: substantially corrected `இருப்பேன் ... கிடப்பேனும்` to source `இருப்போர் ... கிடப்போரும்`.
 
 No source spelling, spacing, punctuation, or unusual lexical form was silently modernized.
 
-## Structural observations remaining in the future review range
+## Structural observations remaining in the review range
 
-One-quote page still awaiting formal second-pass verification:
+- PDF 232 / printed 231 — three quotes
+- PDF 234 / printed 233 — three quotes
+- PDF 235 / printed 234 — three quotes
+- PDF 242 / printed 241 — three quotes
+- PDF 243 / printed 242 — one quote
+- PDF 244 / printed 243 — three quotes
 
-- PDF 243 / printed 242
-
-Three-quote pages still awaiting formal second-pass verification:
-
-- PDF 207, 208, 209, 212, 220, 222, 226, 230, 231
-- PDF 232, 234, 235, 242, 244
+These are first-pass observations only until visually reconfirmed in the final second-pass window.
 
 ## Priority second-pass review queue
 
-Unresolved from the completed window:
+Priority items still ahead:
 
-- `KQ-CCM-0391` — PDF 203 physical blemish obscures the terminal glyph after visible `திருப்பி`; first-pass `திருப்பித்` is not canonical.
+- `KQ-CCM-0466` — provisional `வாணனைகள்` reading requires glyph audit.
+- `KQ-CCM-0478` — embedded poetic quotation requires close source comparison.
+- `KQ-CCM-0491` — provisional `முக்குடைப்பட்டாலும்` requires glyph audit.
+- `KQ-CCM-0496` — final-page punctuation and lineation require formal visual audit.
 
-Priority items still ahead include:
+Separate unresolved source-damage item:
 
-- `KQ-CCM-0416` — long poetic `தமிழே!` passage; multiple uncommon forms require glyph-by-glyph comparison
-- `KQ-CCM-0421` — source-visible `தேவையில்லைபென்று` retained provisionally
-- `KQ-CCM-0431` — source-visible reading provisionally captured as `ஏசறணைகளைப்`
-- `KQ-CCM-0440` — long embedded poetic quotation; wording and punctuation require close review
-- `KQ-CCM-0466` — `வாணனைகள்` reading requires second-pass check
-- `KQ-CCM-0478` — embedded poetic quotation requires close source comparison
-- `KQ-CCM-0491` — `முக்குடைப்பட்டாலும்` retained provisionally pending glyph audit
-- `KQ-CCM-0496` — final-page punctuation and lineation require formal visual audit
+- `KQ-CCM-0391` — terminal glyph after `திருப்பி` physically obscured; do not guess.
 
 ## Why `needs_review` remains mandatory
 
@@ -191,10 +142,11 @@ The complete detailed audit history through `KQ-CCM-0141` remains preserved in `
 
 ## Next activity
 
-Proceed with the next **25-page high-resolution second-pass verification iteration**:
+Proceed with the final high-resolution second-pass verification iteration:
 
-- PDF pages **207-231**
-- printed pages **206-230**
-- quote IDs `KQ-CCM-0399` through `KQ-CCM-0457`
+- PDF pages **232-249**
+- printed pages **231-248**
+- quote IDs `KQ-CCM-0458` through `KQ-CCM-0497`
+- stored quote count: **40**
 
-Keep `KQ-CCM-0391` separately in the unresolved queue unless a better source image makes the obscured glyph directly readable. Do not infer it from grammar, memory, or outside editions.
+Do not close `KQ-CCM-0391` by inference; it remains separately unresolved unless the controlling scan itself becomes readable enough to establish the obscured glyph.

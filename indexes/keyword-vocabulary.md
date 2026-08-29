@@ -4,15 +4,15 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.4**
+- Working vocabulary version: **0.5**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0076`–`KQ-CCM-0100`
-- Keyword keys currently defined: **143**
-- Version 0.4 additions: **15 evidence-driven keys**
+- Extended through keyword batch: `KQ-CCM-0101`–`KQ-CCM-0125`
+- Keyword keys currently defined: **167**
+- Version 0.5 additions: **24 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0101`–`KQ-CCM-0125`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0126`–`KQ-CCM-0150`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -179,6 +179,35 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `usefulness` | பயனுடைமை | The usefulness or beneficial value of a life, act or person when the source explicitly asks how one was useful rather than merely how long one existed. |
 | `vaguppuvaadam` | வகுப்புவாதம் | The exact source term `வகுப்புவாதம்` when materially used. Preserve it as a source-derived discovery label rather than forcing an external modern political translation or category. |
 
+## Controlled keywords — additions in version 0.5
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `buddha` | புத்தர் | Buddha as the named person when his identity is material to the proposition, not merely incidental attribution. |
+| `censorship` | தணிக்கை | Censorship or censor-board approval when regulation of publication, film, television or other expression is materially discussed. |
+| `economic-development` | பொருளாதார வளர்ச்சி | Economic development or the measurement of economic growth when explicitly discussed. |
+| `education` | கல்வி | Education or access to education when materially discussed as a social need, right or public condition. |
+| `family` | குடும்பம் | Family as a materially discussed relationship or sphere of concern. Use more specific relationship keys when the source names one and specificity matters. |
+| `food` | உணவு | Food or access to food when materially discussed as a basic social or material need. |
+| `goal` | இலக்கு | An explicit destination, objective or goal to be reached. Distinguish from `ideals`, which requires an ideal or cause, and `principles`, which requires doctrine or policy. |
+| `grammar` | இலக்கணம் | Grammar as a linguistic or literary structure when explicitly named or materially discussed. |
+| `hindikkara-state` | இந்திக்கார ராஜ்யம் | The exact source formulation `இந்திக்கார ராஜ்யம்` / `இந்திக்கார ராஜ்யமே`. Keep distinct from `hindi-state`, which was initialized for the different printed formulation `இந்தி ராஜ்யம்`. |
+| `homeland` | தாயகம் | Homeland or native country when explicitly presented as the object of concern, loyalty or sacrifice. |
+| `idol` | விக்ரகம் | An idol or sacred image when the object itself is central to the religious proposition or satire. |
+| `imprisonment` | சிறை / சிறைவாழ்வு | Imprisonment, going to prison or living in prison when confinement itself is materially discussed. |
+| `majority-rule` | எண்ணிக்கை பலம் | Numerical majority or strength in numbers when its use as a basis for political decision or claim is materially discussed. |
+| `marriage` | இல்லறம் / மணவாழ்வு | Marriage or entry into shared domestic life when materially discussed. Also use for return to domestic/married life when that contrast is explicit. |
+| `money` | பணம் | Money when possession, attraction to it or its role in conduct is materially discussed. Distinguish from `profit-seeking`, which requires an explicit motive to make money. |
+| `mythology` | புராண / இதிகாசக் கதைகள் | Mythic, puranic or epic sacred stories when the stories themselves are materially discussed. Preserve the source framing without making an external historicity judgment. |
+| `office` | பதவி | Office, position or status when possession of or attraction to position is materially discussed. |
+| `public-awareness` | மக்கள் உணர்வு | People themselves recognizing, understanding or consciously avoiding a harmful/objectionable practice when that awareness is explicitly contrasted with external enforcement. |
+| `ramayana` | இராமாயணம் | The Ramayana when the text itself materially discusses the work/story, its historicity, basis or associated dispute. |
+| `religious-offering` | படையல் | Food or other offerings presented in a religious/temple setting when the offering itself is central to the proposition. |
+| `renunciation` | துறவறம் | Renunciation or ascetic life explicitly discussed as a religious or life-state choice. |
+| `solitude` | தனியாக இருப்பது | Being or standing alone when solitude itself is materially part of the explicit comparison or proposition. |
+| `trees` | மரங்கள் | Trees as the direct subject of a literal or comparative statement when no more specific existing natural-object key is available and no unstated social referent should be inferred. |
+| `writer` | எழுத்தாளர் | A writer or author when the person's role, conduct or responsibility as a writer is materially addressed. |
+
 ## Vocabulary review notes
 
 - Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
@@ -192,5 +221,8 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 - Version 0.4 adds fifteen concepts directly required by `KQ-CCM-0076`–`KQ-CCM-0100`, including general cultural forms (`language`, `literature`, `culture`), rationalist/scientific concepts and source-preserving `vaguppuvaadam`.
 - `vaguppuvaadam` intentionally preserves the canonical Tamil term rather than silently reconciling it to a modern English political category.
 - `profit-seeking` is kept distinct from `corruption`: the former requires an explicit money-seeking motive, while the latter remains reserved for source text that identifies corruption.
+- Version 0.5 adds twenty-four concepts directly required by `KQ-CCM-0101`–`KQ-CCM-0125`, including media regulation, religious-story terms, social needs, domestic life, imprisonment and source-preserving political formulations.
+- `hindikkara-state` is intentionally distinct from `hindi-state`: the source prints `இந்திக்கார ராஜ்யம்` in `KQ-CCM-0124`, while the earlier key preserves `இந்தி ராஜ்யம்`. No silent lexical normalization is applied.
+- `mythology` is a discovery label for explicitly named puranic/epic sacred stories; it does not assert external historical conclusions beyond the canonical wording.
 
-No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.4.
+No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.5.

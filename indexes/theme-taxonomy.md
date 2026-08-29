@@ -8,8 +8,9 @@ This file defines the controlled vocabulary for the repository's **derived theme
 - Scope: `chinna-chinna-malargal`
 - Canonical quote range available for classification: `KQ-CCM-0001`–`KQ-CCM-0497`
 - Theme assignment: **complete — classified through `KQ-CCM-0497` (497 / 497)**
-- Next classification batch: **none — quote-level classification complete**
-- Next theme-index activity: **full consistency pass before consolidated publication**
+- Full consistency pass: **complete** — see [`theme-consistency-review.md`](theme-consistency-review.md)
+- Consistency corrections applied: **13 assignment corrections across 10 batch files**
+- Next theme-index activity: **publish the consolidated theme index**
 - Source verification states remain unchanged by classification: **496 `verified_from_scan`**, **1 `needs_review` (`KQ-CCM-0391`)**
 
 ## Classification principles

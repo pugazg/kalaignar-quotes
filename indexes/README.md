@@ -7,6 +7,7 @@ Available indexes:
 - [`source-page.md`](source-page.md) — source-level and page-map discovery across collections
 - [`opening-word.md`](opening-word.md) — complete consolidated opening-word discovery for `KQ-CCM-0001`–`KQ-CCM-0497` (**497 / 497 quotes**). Final collation review preserves Tamil initial-letter group order and deterministic literal-Unicode ordering within each group.
 - [`theme-taxonomy.md`](theme-taxonomy.md) — controlled theme vocabulary and assignment rules for the derived theme index. Taxonomy version **1.0** defines 16 stable theme keys.
+- [`theme-consistency-review.md`](theme-consistency-review.md) — completed full consistency pass across all 497 quote-level theme assignments, including the 13 corrections required before consolidated publication.
 - [`theme-0001-0025.md`](theme-0001-0025.md) — first theme-classification batch for `KQ-CCM-0001`–`KQ-CCM-0025`.
 - [`theme-0026-0050.md`](theme-0026-0050.md) — second theme-classification batch for `KQ-CCM-0026`–`KQ-CCM-0050`.
 - [`theme-0051-0075.md`](theme-0051-0075.md) — third theme-classification batch for `KQ-CCM-0051`–`KQ-CCM-0075`.
@@ -26,7 +27,7 @@ Available indexes:
 - [`theme-0401-0425.md`](theme-0401-0425.md) — seventeenth theme-classification batch for `KQ-CCM-0401`–`KQ-CCM-0425`.
 - [`theme-0426-0450.md`](theme-0426-0450.md) — eighteenth theme-classification batch for `KQ-CCM-0426`–`KQ-CCM-0450`.
 - [`theme-0451-0475.md`](theme-0451-0475.md) — nineteenth theme-classification batch for `KQ-CCM-0451`–`KQ-CCM-0475`.
-- [`theme-0476-0497.md`](theme-0476-0497.md) — twentieth and final quote-level theme-classification batch for `KQ-CCM-0476`–`KQ-CCM-0497`; overall theme-classification coverage is now **497 / 497 quotes**.
+- [`theme-0476-0497.md`](theme-0476-0497.md) — twentieth and final quote-level theme-classification batch for `KQ-CCM-0476`–`KQ-CCM-0497`; overall theme-classification coverage is **497 / 497 quotes**.
 
 Construction/audit shards retained for opening-word traceability:
 
@@ -51,11 +52,13 @@ The consolidated opening-word index was validated for **497 unique quote IDs wit
 
 Quote-level theme classification is complete under taxonomy version 1.0. All twenty batches cover **497 / 497 quotes** and preserve their canonical verification states: **496 `verified_from_scan` and 1 `needs_review` (`KQ-CCM-0391`)**. Classification is based only on canonical quote text, assigns exactly one primary theme and at most two secondary themes, and does not edit source transcriptions.
 
-The next theme-index activity is the full consistency pass required by [`theme-taxonomy.md`](theme-taxonomy.md): check duplicate and missing quote IDs, invalid theme keys, use of `other-unclear`, and inconsistent primary/secondary choices before publishing a consolidated theme index.
+The full consistency pass is also complete. It confirmed **497 unique theme rows with no gaps or duplicates**, valid controlled keys, valid primary/secondary cardinality, and preservation of all verification states. The three `other-unclear` assignments (`KQ-CCM-0306`, `KQ-CCM-0343`, `KQ-CCM-0403`) were re-read and retained. The pass applied **13 assignment corrections across 10 batch files** to align general character, cause-oriented struggle and no-inference cases with taxonomy version 1.0; details are recorded in [`theme-consistency-review.md`](theme-consistency-review.md).
+
+The next theme-index activity is to publish the **consolidated theme index** for `KQ-CCM-0001`–`KQ-CCM-0497`.
 
 Planned later discovery work may include:
 
-- consolidated theme index after the full consistency pass
+- consolidated theme index
 - keyword index
 
 Canonical source transcriptions remain in `collections/<collection-id>/quotes/`. Derived indexes must never replace or override canonical quote files.

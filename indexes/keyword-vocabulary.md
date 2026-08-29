@@ -4,15 +4,15 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.3**
+- Working vocabulary version: **0.4**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0051`–`KQ-CCM-0075`
-- Keyword keys currently defined: **128**
-- Version 0.3 additions: **39 evidence-driven keys**
+- Extended through keyword batch: `KQ-CCM-0076`–`KQ-CCM-0100`
+- Keyword keys currently defined: **143**
+- Version 0.4 additions: **15 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0076`–`KQ-CCM-0100`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0101`–`KQ-CCM-0125`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -159,6 +159,26 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `volunteers` | தொண்டர்கள் | Volunteers or service workers explicitly described as `தொண்டர்கள்` when their role or conduct is material. |
 | `water-drop` | தண்ணீர்த் துளி | A water drop when it is itself central to the canonical physical observation. |
 
+## Controlled keywords — additions in version 0.4
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `culture` | பண்பாடு | Culture as the collective practices, identity or cultural inheritance of a society when explicitly discussed. Distinguish from individual `character`. |
+| `fanaticism` | வெறி | Fanatical or destructive attachment explicitly described as `வெறி`, including language or religious fanaticism. Do not infer fanaticism from ordinary attachment alone. |
+| `farmer` | உழவன் | A farmer or cultivator when the person's agricultural labour or condition is materially central. |
+| `ideas` | கருத்துகள் | Ideas or views when their acceptance, rejection or transmission is materially discussed. Use a more specific key when the text names a distinct doctrine or principle. |
+| `infatuation` | மயக்கம் | Infatuated or uncritical absorption explicitly described as `மயங்குதல்` or equivalent when that state itself is criticized. |
+| `knowledge` | அறிவு | Knowledge or intellectual understanding when explicitly contrasted with or related to experience, learning or reading. |
+| `language` | மொழி | Language in general when a society's language, linguistic inheritance or language as such is materially discussed. Use `tamil-language`, `hindi-language` or `mother-tongue` when the source names the more specific language identity. |
+| `literature` | இலக்கியம் | Literature as a cultural or knowledge form when explicitly named or materially discussed. |
+| `profit-seeking` | பணம் சம்பாதிக்கும் நோக்கம் | Seeking monetary gain when that motive materially shapes or damages conduct, a profession or institution. Distinguish from `corruption`, which requires explicit corrupt practice or condition. |
+| `rationalism` | பகுத்தறிவு | Rationalism or a rationalist outlook/society explicitly expressed through `பகுத்தறிவு` or an equally direct formulation. |
+| `scientific-achievement` | அறிவியல் சாதனை | A scientific or technological accomplishment materially presented as an achievement, including an explicitly described lunar landing. |
+| `selflessness` | தன்னலமின்மை | Absence of self-interest or explicitly selfless persons/conduct. Distinguish from `self-interest`, which indexes the opposite motive. |
+| `social-reform` | சமுதாய மறுமலர்ச்சி | Explicit social renewal, renaissance or reform treated as a purpose of law, struggle or collective action. |
+| `usefulness` | பயனுடைமை | The usefulness or beneficial value of a life, act or person when the source explicitly asks how one was useful rather than merely how long one existed. |
+| `vaguppuvaadam` | வகுப்புவாதம் | The exact source term `வகுப்புவாதம்` when materially used. Preserve it as a source-derived discovery label rather than forcing an external modern political translation or category. |
+
 ## Vocabulary review notes
 
 - Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
@@ -169,5 +189,8 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 - Version 0.3 adds reusable social, ethical, linguistic and civic concepts only where `KQ-CCM-0051`–`KQ-CCM-0075` directly requires them. Literal observation keys such as `sheep`, `light` and `water-drop` are limited to quotes whose canonical proposition is itself a direct observation rather than an inferred social metaphor.
 - `hindu-state` and `hindi-state` preserve the exact political formulations explicitly present in `KQ-CCM-0074`; their scope is intentionally not expanded using outside context.
 - `tamils` and `second-class-citizenship` are introduced at `KQ-CCM-0073` because both the community and the warned civic status are explicit in the canonical wording.
+- Version 0.4 adds fifteen concepts directly required by `KQ-CCM-0076`–`KQ-CCM-0100`, including general cultural forms (`language`, `literature`, `culture`), rationalist/scientific concepts and source-preserving `vaguppuvaadam`.
+- `vaguppuvaadam` intentionally preserves the canonical Tamil term rather than silently reconciling it to a modern English political category.
+- `profit-seeking` is kept distinct from `corruption`: the former requires an explicit money-seeking motive, while the latter remains reserved for source text that identifies corruption.
 
-No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.3.
+No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.4.

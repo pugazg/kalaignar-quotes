@@ -9,11 +9,12 @@ Available indexes:
 - [`theme-taxonomy.md`](theme-taxonomy.md) — controlled theme vocabulary and assignment rules for the derived theme index. Taxonomy version **1.0** defines 16 stable theme keys.
 - [`theme.md`](theme.md) — complete consolidated theme discovery index for `KQ-CCM-0001`–`KQ-CCM-0497` (**497 / 497 quotes**), incorporating the completed consistency pass.
 - [`theme-consistency-review.md`](theme-consistency-review.md) — completed full consistency pass across all 497 quote-level theme assignments, including the 13 corrections required before consolidated publication.
-- [`keyword-index-design.md`](keyword-index-design.md) — keyword-index construction protocol, evidence rules, working-vocabulary lifecycle, 25-quote batching, validation and final consolidation plan. Design version **0.1**; keyword assignment is in progress through `KQ-CCM-0075` (**75 / 497**).
-- [`keyword-vocabulary.md`](keyword-vocabulary.md) — working keyword vocabulary version **0.3**, extended through the first 75 canonical quotes with **128 stable keys**; vocabulary remains open for evidence-driven extension during construction.
+- [`keyword-index-design.md`](keyword-index-design.md) — keyword-index construction protocol, evidence rules, working-vocabulary lifecycle, 25-quote batching, validation and final consolidation plan. Design version **0.1**; keyword assignment is in progress through `KQ-CCM-0100` (**100 / 497**).
+- [`keyword-vocabulary.md`](keyword-vocabulary.md) — working keyword vocabulary version **0.4**, extended through the first 100 canonical quotes with **143 stable keys**; vocabulary remains open for evidence-driven extension during construction.
 - [`keyword-0001-0025.md`](keyword-0001-0025.md) — first keyword-index construction batch for `KQ-CCM-0001`–`KQ-CCM-0025`.
 - [`keyword-0026-0050.md`](keyword-0026-0050.md) — second keyword-index construction batch for `KQ-CCM-0026`–`KQ-CCM-0050`.
-- [`keyword-0051-0075.md`](keyword-0051-0075.md) — third keyword-index construction batch for `KQ-CCM-0051`–`KQ-CCM-0075`; overall keyword coverage is **75 / 497 quotes**.
+- [`keyword-0051-0075.md`](keyword-0051-0075.md) — third keyword-index construction batch for `KQ-CCM-0051`–`KQ-CCM-0075`.
+- [`keyword-0076-0100.md`](keyword-0076-0100.md) — fourth keyword-index construction batch for `KQ-CCM-0076`–`KQ-CCM-0100`; overall keyword coverage is **100 / 497 quotes**.
 - [`theme-0001-0025.md`](theme-0001-0025.md) — first theme-classification batch for `KQ-CCM-0001`–`KQ-CCM-0025`.
 - [`theme-0026-0050.md`](theme-0026-0050.md) — second theme-classification batch for `KQ-CCM-0026`–`KQ-CCM-0050`.
 - [`theme-0051-0075.md`](theme-0051-0075.md) — third theme-classification batch for `KQ-CCM-0051`–`KQ-CCM-0075`.
@@ -62,6 +63,6 @@ The full consistency pass is complete. It confirmed **497 unique theme rows with
 
 The consolidated theme index is now published in [`theme.md`](theme.md). It contains all **497 / 497** assignments in quote-ID order, incorporates the completed consistency corrections, and continues to preserve `KQ-CCM-0391` as `needs_review`.
 
-Keyword-index construction is in progress under design version **0.1**. The first three batches, [`keyword-0001-0025.md`](keyword-0001-0025.md), [`keyword-0026-0050.md`](keyword-0026-0050.md) and [`keyword-0051-0075.md`](keyword-0051-0075.md), cover **75 / 497 quotes**. [`keyword-vocabulary.md`](keyword-vocabulary.md) is now working version **0.3** with **128 keys**. All 75 indexed source verification states remain `verified_from_scan`, and canonical quote files were not modified. The next planned derived-discovery activity is the **fourth keyword construction batch, `KQ-CCM-0076`–`KQ-CCM-0100`**, reusing or extending the working vocabulary only when directly supported by canonical text.
+Keyword-index construction is in progress under design version **0.1**. The first four batches, [`keyword-0001-0025.md`](keyword-0001-0025.md), [`keyword-0026-0050.md`](keyword-0026-0050.md), [`keyword-0051-0075.md`](keyword-0051-0075.md) and [`keyword-0076-0100.md`](keyword-0076-0100.md), cover **100 / 497 quotes**. [`keyword-vocabulary.md`](keyword-vocabulary.md) is now working version **0.4** with **143 keys**. All 100 indexed source verification states remain `verified_from_scan`, and canonical quote files were not modified. The next planned derived-discovery activity is the **fifth keyword construction batch, `KQ-CCM-0101`–`KQ-CCM-0125`**, reusing or extending the working vocabulary only when directly supported by canonical text.
 
 Canonical source transcriptions remain in `collections/<collection-id>/quotes/`. Derived indexes must never replace or override canonical quote files.

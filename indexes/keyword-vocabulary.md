@@ -7,12 +7,12 @@ This file is the working controlled vocabulary for the repository's **derived ke
 - Working vocabulary version: **0.5**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0126`–`KQ-CCM-0150`
+- Extended through keyword batch: `KQ-CCM-0151`–`KQ-CCM-0175`
 - Keyword keys currently defined: **167**
 - Version 0.5 additions: **24 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0151`–`KQ-CCM-0175`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0176`–`KQ-CCM-0200`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -225,5 +225,6 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 - `hindikkara-state` is intentionally distinct from `hindi-state`: the source prints `இந்திக்கார ராஜ்யம்` in `KQ-CCM-0124`, while the earlier key preserves `இந்தி ராஜ்யம்`. No silent lexical normalization is applied.
 - `mythology` is a discovery label for explicitly named puranic/epic sacred stories; it does not assert external historical conclusions beyond the canonical wording.
 - `KQ-CCM-0126`–`KQ-CCM-0150` required no new stable keyword keys; the batch deliberately reused version 0.5 rather than creating one-off keys for every named person, object or metaphor.
+- `KQ-CCM-0151`–`KQ-CCM-0175` also required no new stable keyword keys; existing version 0.5 concepts were sufficient without expanding the vocabulary from incidental or one-off wording.
 
 No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.5.

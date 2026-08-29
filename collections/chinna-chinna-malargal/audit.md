@@ -6,13 +6,13 @@
 - The materialized controlling PDF has **249 physical PDF pages**.
 - The quotation section runs from PDF **10-249** / printed **9-248**.
 - **First-pass source capture is complete through the physical end of the PDF.**
-- High-resolution second-pass inspection is complete through PDF **231** / printed **230** / `KQ-CCM-0457`.
-- Verified quote files: **456**
-- `needs_review` quote files: **41**
+- **High-resolution second-pass visual inspection is complete through the physical end of the PDF: PDF 249 / printed 248 / `KQ-CCM-0497`.**
+- Verified quote files: **496**
+- `needs_review` quote files: **1**
 - Stored quote files: **497**
-- All quote IDs through `KQ-CCM-0457` are verified **except `KQ-CCM-0391`**.
+- Every stored quote is verified except `KQ-CCM-0391`.
 - `KQ-CCM-0391` remains unresolved because a physical source blemish obscures the terminal glyph immediately after `திருப்பி`.
-- The untouched second-pass range is PDF **232-249** / `KQ-CCM-0458`-`0497`.
+- There is no remaining untouched second-pass range.
 
 ## Completed first-pass source-capture windows
 
@@ -93,31 +93,46 @@ The final window is shorter because PDF 249 is the physical end of the source.
   - `KQ-CCM-0444`: corrected preliminary `கலந்தது` to source `கலந்து`.
   - `KQ-CCM-0456`: substantially corrected `இருப்பேன் ... கிடப்பேனும்` to source `இருப்போர் ... கிடப்போரும்`.
 
+### PDF 232-249 / printed 231-248
+
+- Quote IDs: `KQ-CCM-0458` through `KQ-CCM-0497`
+- Quote count: **40**
+- Status: **verified_from_scan**
+- Three-quote pages confirmed: PDF **232, 234, 235, 242, 244**.
+- PDF **243** confirmed as a one-quote page.
+- Priority and source-sensitive results include:
+  - `KQ-CCM-0466`: priority glyph audit confirms source-visible `வாணனைகள்`; no normalization was made.
+  - `KQ-CCM-0478`: embedded poetic wording was checked directly from the high-resolution scan; source-visible forms include `புனிதமோடதை` and `கொஞ்சலுக்கு`.
+  - `KQ-CCM-0484`: corrected preliminary `எல்லாப் பொறுப்பிலும்` to source `எல்லா பொறுப்பிலும்`.
+  - `KQ-CCM-0491`: priority glyph audit confirms source-visible `முக்குடைப்பட்டாலும்`.
+  - `KQ-CCM-0496`: final-page punctuation audit confirms that the scan inserts no punctuation between `புரட்சிக் கவிஞர்` and `அதனால்தான்`, and shows no terminal punctuation at the end of the quote. The source line wrapping is not treated as canonical lineation.
+
 No source spelling, spacing, punctuation, or unusual lexical form was silently modernized.
 
-## Structural observations remaining in the review range
+## Verified structural exceptions
 
-- PDF 232 / printed 231 — three quotes
-- PDF 234 / printed 233 — three quotes
-- PDF 235 / printed 234 — three quotes
-- PDF 242 / printed 241 — three quotes
-- PDF 243 / printed 242 — one quote
-- PDF 244 / printed 243 — three quotes
+One-quote pages:
 
-These are first-pass observations only until visually reconfirmed in the final second-pass window.
+- PDF 22 / printed 21
+- PDF 41 / printed 40
+- PDF 81 / printed 80
+- PDF 94 / printed 93
+- PDF 179 / printed 178
+- PDF 243 / printed 242
 
-## Priority second-pass review queue
+Three-quote pages:
 
-Priority items still ahead:
+- PDF 100, 108, 113, 128, 131, 141, 164
+- PDF 203, 205, 207, 208, 209, 212, 220, 222, 226, 230, 231
+- PDF 232, 234, 235, 242, 244
 
-- `KQ-CCM-0466` — provisional `வாணனைகள்` reading requires glyph audit.
-- `KQ-CCM-0478` — embedded poetic quotation requires close source comparison.
-- `KQ-CCM-0491` — provisional `முக்குடைப்பட்டாலும்` requires glyph audit.
-- `KQ-CCM-0496` — final-page punctuation and lineation require formal visual audit.
+## Remaining source-damage review queue
 
-Separate unresolved source-damage item:
+Only one quote remains `needs_review`:
 
-- `KQ-CCM-0391` — terminal glyph after `திருப்பி` physically obscured; do not guess.
+- `KQ-CCM-0391` — PDF 203 / printed 202. A physical blemish obscures the terminal glyph immediately after `திருப்பி`. The first-pass reading `திருப்பித்` is preserved as unresolved rather than guessed into verified status.
+
+No additional high-resolution second-pass window remains.
 
 ## Why `needs_review` remains mandatory
 
@@ -142,11 +157,6 @@ The complete detailed audit history through `KQ-CCM-0141` remains preserved in `
 
 ## Next activity
 
-Proceed with the final high-resolution second-pass verification iteration:
+The collection-wide first-pass capture and mandatory high-resolution second-pass audit are complete through the physical end of the source.
 
-- PDF pages **232-249**
-- printed pages **231-248**
-- quote IDs `KQ-CCM-0458` through `KQ-CCM-0497`
-- stored quote count: **40**
-
-Do not close `KQ-CCM-0391` by inference; it remains separately unresolved unless the controlling scan itself becomes readable enough to establish the obscured glyph.
+Do not close `KQ-CCM-0391` by inference. It remains the sole source-damage exception unless a better rendering or another trustworthy scan of the same source establishes the obscured glyph. Any subsequent indexing, thematic classification, translation, or publication work must treat the canonical Tamil quote files and this unresolved exception as authoritative.

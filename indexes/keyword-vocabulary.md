@@ -4,15 +4,15 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.7**
+- Working vocabulary version: **0.8**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0326`–`KQ-CCM-0350`
-- Keyword keys currently defined: **177**
-- Version 0.7 additions: **3 evidence-driven keys**
+- Extended through keyword batch: `KQ-CCM-0351`–`KQ-CCM-0375`
+- Keyword keys currently defined: **182**
+- Version 0.8 additions: **5 evidence-driven keys**
 - Vocabulary state: **working / not frozen**
 - Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0351`–`KQ-CCM-0375`
+- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0376`–`KQ-CCM-0400`
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -228,6 +228,16 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `emotion` | உணர்ச்சி | Emotion or emotional responsiveness when the presence, absence or loss of balance through emotion is explicitly central. Distinguish from `infatuation`, which is limited to uncritical or infatuated absorption. |
 | `punctuation` | கேள்விக் குறி / ஆச்சரியக் குறி | Punctuation marks when the marks themselves, their shapes or their written function are the direct subject of the proposition. |
 
+## Controlled keywords — additions in version 0.8
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `black-money` | கறுப்புப் பணம் | The exact concept `கறுப்புப் பணம்` when materially discussed. Preserve the source formulation without importing external tax, legal or financial assumptions not stated in the quote. |
+| `clouds` | மேகங்கள் | Clouds when they are themselves the direct natural subject or central physical image and no unstated human or political referent should be inferred. |
+| `evolution` | டார்வின் சித்தாந்தம் / பரிணாமம் | Evolutionary theory or human origins when Darwin's theory or an equivalent evolutionary proposition is explicitly central. Do not add scientific detail not present in the source. |
+| `publicity` | விளம்பரம் / ஆரவார விளம்பரம் | Publicity, promotional display or advertising when the publicity itself is materially discussed. Distinguish from `political-propaganda`, which requires explicitly political/public campaign framing. |
+| `superstition` | மூடநம்பிக்கை | Superstition explicitly described as `மூடநம்பிக்கை` or a direct equivalent. Distinguish from `credulity`, which concerns the act of believing a specific implausible claim, and from `rationalism`, which requires an explicit rationalist formulation. |
+
 ## Vocabulary review notes
 
 - Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
@@ -254,5 +264,11 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 - Version 0.7 adds three reusable concepts directly required by `KQ-CCM-0326`–`KQ-CCM-0350`: `capitalism`, `emotion`, and `punctuation`.
 - `capitalism` is introduced only where the canonical text itself explicitly names `முதலாளித்துவம்`; its scope does not import outside economic theory.
 - `punctuation` is limited to cases where punctuation marks themselves are materially discussed, rather than using the broader `grammar` key for a distinct written-form concept.
+- Version 0.8 adds five evidence-driven concepts directly required by `KQ-CCM-0351`–`KQ-CCM-0375`: `black-money`, `clouds`, `evolution`, `publicity`, and `superstition`.
+- `clouds` follows the existing literal-natural-object policy: `KQ-CCM-0351` is about clouds, sun and wind on the face of the canonical text, so no unstated social or political metaphor is supplied.
+- `publicity` is kept distinct from `political-propaganda` because `KQ-CCM-0355` explicitly says `விளம்பர` but does not itself identify a political campaign or actor.
+- `superstition` is kept distinct from both `credulity` and `rationalism`; `KQ-CCM-0360` directly names `மூடநம்பிக்கை` without requiring either a specific belief claim or an explicit `பகுத்தறிவு` formulation.
+- `evolution` is limited to the explicit Darwin-theory proposition in `KQ-CCM-0371`; no external account of evolutionary science is imported.
+- `black-money` preserves the exact economic expression in `KQ-CCM-0373` without silently expanding it into unstated legal or tax claims.
 
-No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.7.
+No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.8.

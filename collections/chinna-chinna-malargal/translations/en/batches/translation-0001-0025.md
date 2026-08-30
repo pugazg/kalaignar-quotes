@@ -1,13 +1,14 @@
 # English translation — KQ-CCM-0001–0025
 
-This is the pilot first-pass English translation batch for `chinna-chinna-malargal`.
+This is the reviewed pilot English translation batch for `chinna-chinna-malargal`.
 
 - Translation plan: [`../TRANSLATION_PLAN.md`](../TRANSLATION_PLAN.md)
-- Working glossary: [`../GLOSSARY.md`](../GLOSSARY.md), version **0.1 / not yet locked**
+- Locked glossary: [`../GLOSSARY.md`](../GLOSSARY.md), version **1.0**
+- Pilot review: [`../PILOT_REVIEW.md`](../PILOT_REVIEW.md)
 - Quote range: `KQ-CCM-0001`–`KQ-CCM-0025`
 - Quotes translated: **25**
 - Canonical verification states represented: **25 `verified_from_scan`**
-- Translation status: **pilot first pass complete; fidelity/style review pending**
+- Translation status: **pilot fidelity/style review complete; conventions locked**
 - Canonical Tamil quote files, wording, punctuation, provenance and verification states were not changed.
 
 The English below is translated directly from the audited canonical Tamil files. Short notes appear only where source wordplay or a retained culturally specific term materially affects comprehension.
@@ -38,9 +39,9 @@ The English below is translated directly from the audited canonical Tamil files.
 - Canonical Tamil: [`0004.md`](../../../quotes/0004.md)
 - Source status: `verified_from_scan`
 
-> Speak with measure; but do not take that as a call to measure! Think before you speak; but do not speak everything you think!
+> Speak with measure; but don't be calculating about it! Think before you speak; but do not speak everything you think!
 
-**Translation note:** The Tamil deliberately repeats the roots `அளந்து / அளக்க` (“measure”) and `நினைத்து / நினைத்ததை` (“think”). The English keeps the parallel admonition even though the first wordplay is less idiomatic.
+**Translation note:** The Tamil deliberately repeats the roots `அளந்து / அளக்க` (“measure”) and `நினைத்து / நினைத்ததை` (“think”). English cannot reproduce the first root-play exactly; **speak with measure / don't be calculating** keeps both the restraint and the verbal contrast visible.
 
 ## KQ-CCM-0005
 
@@ -136,9 +137,9 @@ The English below is translated directly from the audited canonical Tamil files.
 - Canonical Tamil: [`0016.md`](../../../quotes/0016.md)
 - Source status: `verified_from_scan`
 
-> When the dominance of a class that makes up only a small percentage is threatened, we see the blood boil in every publication belonging to that class. After seeing that, should our own people, who remain subdued, not at least feel some fire and self-respect?
+> When the dominance of a class that makes up only a small percentage is threatened, we see the blood boil in every publication belonging to that class. After seeing that, should our own people, who remain subdued, not at least feel some sense of shame and self-respect?
 
-**Translation note:** The pilot renders the idiomatic `சூடு சொரணை` as **fire and self-respect** to retain both the heated rhetoric and the sense of wounded dignity. This is flagged for the pilot style review before the convention is locked.
+**Translation note:** `சூடு சொரணை` functions here as an idiomatic expression of shame, sensitivity and self-respect. The reviewed translation carries that force directly rather than forcing literal heat imagery into English.
 
 ## KQ-CCM-0017
 
@@ -166,7 +167,7 @@ The English below is translated directly from the audited canonical Tamil files.
 - Canonical Tamil: [`0020.md`](../../../quotes/0020.md)
 - Source status: `verified_from_scan`
 
-> A government that does not keep in mind the Kural's words, “Raise swiftly; let it fall gently,” is like a cart without a linchpin!
+> A government that does not keep in mind the Kural's words, “Raise swiftly; strike gently,” is like a cart without a linchpin!
 
 **Translation note:** Only the words quoted in the canonical source are translated; no unstated object is supplied from outside Kural context.
 
@@ -205,18 +206,20 @@ The English below is translated directly from the audited canonical Tamil files.
 - Canonical Tamil: [`0025.md`](../../../quotes/0025.md)
 - Source status: `verified_from_scan`
 
-> Writing answered by writing, speech by speech, reply by reply—these are unavoidable in politics! But the flavour must not be spoiled! Vulgarity must not rear its head! Vulgarity sows the seeds of hostile feeling! That seed grows until the “tree of enmity” flourishes!
+> Writing answered by writing, speech by speech, reply by reply—these are unavoidable in politics! But the flavour must not be spoiled! Acrimony must not rear its head! Acrimony sows the seeds of hostile feeling! That seed grows until the “tree of enmity” flourishes!
 
-**Translation note:** The Tamil juxtaposes `ரசம்` and `விரசம்`, a sound-and-meaning relationship English cannot reproduce cleanly. The pilot uses **flavour** and **vulgarity** while keeping the source pair documented in the glossary.
+**Translation note:** The Tamil juxtaposes `ரசம்` and `விரசம்`, a sound-and-meaning relationship English cannot reproduce cleanly. The reviewed translation uses **flavour** and **acrimony**, while keeping the source pair documented in the glossary.
 
 ## Pilot batch validation
 
 - `KQ-CCM-0001`–`KQ-CCM-0025` are represented exactly once.
 - All 25 canonical source states are `verified_from_scan`.
 - Every English entry links to its canonical Tamil quote file.
-- The batch was translated from the canonical audited Tamil, including the high-resolution corrections already recorded for `KQ-CCM-0010` and `KQ-CCM-0018`.
+- All 25 English entries were rechecked against the canonical audited Tamil in the mandatory pilot review.
+- Four English renderings were refined during review: `KQ-CCM-0004`, `KQ-CCM-0016`, `KQ-CCM-0020` and `KQ-CCM-0025`; details are recorded in [`../PILOT_REVIEW.md`](../PILOT_REVIEW.md).
+- The batch incorporates the high-resolution source corrections already recorded for `KQ-CCM-0010` and `KQ-CCM-0018`.
 - No source wording, punctuation, quote ID, page provenance or verification state was changed.
 - Wordplay/culturally specific terms that cannot be carried transparently into English are explicitly noted rather than silently normalized.
-- Pilot glossary/style choices remain **provisional until the next fidelity/style-review activity**.
+- Pilot glossary/style choices are **locked in `GLOSSARY.md` version 1.0** unless later canonical evidence requires an explicit revision.
 
-Next activity: review this pilot against all 25 canonical Tamil files, resolve or confirm the flagged wording choices, lock the pilot conventions in `GLOSSARY.md`, and then proceed to `KQ-CCM-0026`–`KQ-CCM-0050`.
+Next activity: translate `KQ-CCM-0026`–`KQ-CCM-0050` using the locked pilot conventions.

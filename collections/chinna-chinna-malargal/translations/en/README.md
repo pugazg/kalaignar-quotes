@@ -10,16 +10,19 @@ The audited Tamil quote files remain authoritative. English files must never sil
 - English first-pass coverage: **25 / 497**
 - Completed pilot batch: [`batches/translation-0001-0025.md`](batches/translation-0001-0025.md)
 - Pilot source states: **25 `verified_from_scan`**
-- Working glossary: [`GLOSSARY.md`](GLOSSARY.md), pilot version **0.1 / not yet locked**
+- Pilot fidelity/style review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md) — **complete**
+- Locked glossary: [`GLOSSARY.md`](GLOSSARY.md), version **1.0**
 - Translation protocol: [`TRANSLATION_PLAN.md`](TRANSLATION_PLAN.md)
 - Progress ledger: [`PROGRESS.md`](PROGRESS.md)
-- Next activity: **pilot fidelity/style review and convention lock**, then `KQ-CCM-0026`–`KQ-CCM-0050`
+- Next activity: **translate `KQ-CCM-0026`–`KQ-CCM-0050` using the locked pilot conventions**
 
 ## Translation principles
 
 The English aims to be readable while remaining source-bound. It preserves substantive meaning, rhetorical force, metaphor, satire and explicit political/social language without modernizing the Tamil or adding historical interpretation not present in the canonical text.
 
 Tamil wordplay that cannot survive directly in English is kept visible through a retained source term or a short translation note. Culturally specific terms are transliterated when a supposedly smoother English substitute would introduce unsupported interpretation.
+
+The mandatory pilot review rechecked all 25 first-batch translations against their canonical Tamil and refined four English renderings (`KQ-CCM-0004`, `0016`, `0020`, `0025`). The resulting terminology and style decisions are locked in glossary version 1.0 and should be reused in subsequent batches unless later canonical evidence requires an explicit revision.
 
 ## Construction model
 

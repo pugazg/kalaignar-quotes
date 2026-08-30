@@ -4,15 +4,16 @@ This is the terminology and style record for the English translation of `chinna-
 
 ## Status
 
-- Glossary version: **1.1**
+- Glossary version: **1.2**
 - Pilot basis: reviewed `KQ-CCM-0001`–`KQ-CCM-0025`
 - Pilot state: **conventions locked**
 - Batch-2 extension: `KQ-CCM-0026`–`KQ-CCM-0050`
+- Batch-3 extension: `KQ-CCM-0051`–`KQ-CCM-0075`
 - Pilot review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
-- Current first-pass coverage: **50 / 497**
-- Next activity: translate `KQ-CCM-0051`–`KQ-CCM-0075` using these conventions.
+- Current first-pass coverage: **75 / 497**
+- Next activity: translate `KQ-CCM-0076`–`KQ-CCM-0100` using these conventions.
 
-The glossary is a translation aid only. It does not normalize or alter canonical Tamil. Version 1.1 adds source-facing terminology required by Batch 2; it does **not** revise any locked pilot convention. A locked convention should change only when later canonical evidence requires an explicit revision recorded in the translation history.
+The glossary is a translation aid only. It does not normalize or alter canonical Tamil. Version 1.2 adds source-facing terminology required by Batch 3; it does **not** revise any locked pilot or Batch-2 convention. A locked convention should change only when later canonical evidence requires an explicit revision recorded in the translation history.
 
 ## Locked pilot terminology
 
@@ -29,7 +30,7 @@ The glossary is a translation aid only. It does not normalize or alter canonical
 | `புனுகு`, `ஜவ்வாது` | **punugu**, **javvadu** | Retain the culturally specific source fragrance terms in transliteration rather than substituting an unverified composition or modern perfume label. |
 | `அதிகாரம்` | **power / authority** | Choose by sentence. In `KQ-CCM-0011`, keep the Tamil word visible because its initial `அ` creates the `நீதி` → `அநீதி` wordplay. |
 | `நீதி` / `அநீதி` | **justice / injustice** | In the `KQ-CCM-0011` pun, retain `நீதி` and `அநீதி` alongside English so the letter-based wordplay remains inspectable. |
-| `தலை எழுத்து` / `தலையெழுத்து` | **destiny** | `KQ-CCM-0014` deliberately plays with spaced/joined forms and `தலைதூக்கி`; translate the proposition as **destiny** and retain a short note explaining the wordplay. |
+| `தலை எழுத்து` / `தலையெழுத்து` | **destiny** | `KQ-CCM-0014` deliberately plays with spaced/joined forms and `தலைதூக்கி`; translate the proposition as **destiny** and retain a short note explaining the Tamil wordplay. |
 | `இயக்கம்` | **movement** | Default for a political/social movement when the source itself gives only the generic term. Do not infer a party identity. |
 | `பொதுவாழ்வு` | **public life** | Use for participation in civic/political public life. |
 | `பொதுத் தொண்டு` / `பொதுவேலை` | **public service / public work** | Choose according to syntax; preserve the service/work distinction where it matters. |
@@ -57,6 +58,19 @@ The glossary is a translation aid only. It does not normalize or alter canonical
 | `நாணம்` | **modesty** | Use for the explicit personal quality in `KQ-CCM-0045`; do not generalize to shame where the source is praising modesty. |
 | `சாகாவரம்` | **immortality** | Use when the source explicitly describes something as deathless/enduring beyond destruction. |
 | `அறிவியக்கம்` | **Ariviyakkam** | Retain the source term in transliteration rather than assigning an external organizational or doctrinal identity. Translate the surrounding proposition fully. |
+
+## Batch-3 terminology — version 1.2 additions
+
+| Tamil/source form | English handling | Guidance |
+|---|---|---|
+| `சாதி மல்லிகை` | **saathi malligai** | Retain the printed flower name in `KQ-CCM-0051`. Its first word `சாதி` also means **caste**, which drives the satire; explain that wordplay in a short note rather than assigning an external botanical name. |
+| `மாவீரன்` | **great warrior** | Use where the source presents heroic courage directly. Do not automatically expand it to a named military or political category. |
+| `பக்த சிகாமணி` | **paragon of devotion** | Preserve the source's elevated/sarcastic register where devotees are contrasted with neglected human suffering. Do not add doctrinal commentary. |
+| `பாபவிமோசனம்` | **absolution from sin** | Use for the source's explicit release-from-sin formulation; do not expand the religious mechanism beyond the quote. |
+| `தியாகி` | **martyr** | Use when the source explicitly presents a person who endures or sacrifices himself for principles as `தியாகி`. |
+| `அன்னம்` in `KQ-CCM-0068` | **annam** | Retain the source term at the point where cooked rice is said to acquire a new name. Explain only the source's rice → `annam` transition; do not add broader cultural interpretation. |
+| `கெண்டை மீன்` | **kendai fish** | Retain the Tamil source-facing fish name rather than supplying an external species identification not present in the quote. |
+| `இந்து ராஜ்யம்` / `இந்தி ராஜ்யம்` | **Hindu state / Hindi state** | Preserve the source's close rhetorical pairing and the Hindu/Hindi contrast. Do not import an external political programme beyond the printed formulation. |
 
 ## Locked pilot wordplay decisions
 
@@ -108,6 +122,32 @@ The Tamil sequence uses dense sound-patterning across `தேன் / தேன�
 
 Retain `அறிவியக்கம்` as **Ariviyakkam**. Do not silently identify it with an external institution, movement name or doctrinal label beyond what the canonical quote itself says.
 
+## Batch-3 wordplay / source-term decisions
+
+### `KQ-CCM-0051`
+
+Retain `சாதி மல்லிகை` as **saathi malligai**. The satire depends on `சாதி` also meaning **caste**; document that lexical overlap instead of replacing the flower name with an unverified English species/cultivar label.
+
+### `KQ-CCM-0053`
+
+The canonical Tamil visibly has an unmatched opening quotation mark before `தமிழ்க்காக்கும்`. English may use paired quotation marks around the translated phrase for readability, but the translation note must record the source punctuation irregularity; the Tamil file itself remains untouched.
+
+### `KQ-CCM-0061`
+
+Preserve the sarcastically elevated `பக்த சிகாமணி` register as **paragon of devotion**. The contrast is between a barefoot poor person and religious alarm over a jewel from the Lord's sandal; no outside religious history is needed.
+
+### `KQ-CCM-0068`
+
+Retain `annam` at the source's explicit rice-name transition. The cooking/sacrifice comparison is translated in full, and `தியாகி` is rendered **martyr** where the source itself makes that designation.
+
+### `KQ-CCM-0073`
+
+Use **kendai fish** for `கெண்டை மீன்`. The translation must not guess a zoological species from general knowledge.
+
+### `KQ-CCM-0074`
+
+Use **Hindu state / Hindi state** for `இந்து ராஜ்யம் / இந்தி ராஜ்யம்` so the close source pairing remains visible. Do not add a named external ideology, policy or organization.
+
 ## General translation style lock
 
 1. Translate every substantive proposition; do not summarise.
@@ -121,4 +161,4 @@ Retain `அறிவியக்கம்` as **Ariviyakkam**. Do not silently i
 
 ## Revision policy
 
-Version **1.0** locked the pilot conventions after review of all 25 pilot quotes. Version **1.1** adds terminology and source-term handling required by `KQ-CCM-0026`–`KQ-CCM-0050` without changing any pilot convention. Later batches may add new terminology. If later canonical evidence shows that a locked convention needs revision, record the reason explicitly in `PROGRESS.md` or the later full `TRANSLATION_REVIEW.md`; never silently change an established translation convention.
+Version **1.0** locked the pilot conventions after review of all 25 pilot quotes. Version **1.1** added terminology and source-term handling required by `KQ-CCM-0026`–`KQ-CCM-0050` without changing any pilot convention. Version **1.2** adds terminology and source-term handling required by `KQ-CCM-0051`–`KQ-CCM-0075` without revising the earlier lock. Later batches may add new terminology. If later canonical evidence shows that a locked convention needs revision, record the reason explicitly in `PROGRESS.md` or the later full `TRANSLATION_REVIEW.md`; never silently change an established translation convention.

@@ -18,19 +18,21 @@ The English layer is **derived metadata**. Canonical transcription authority rem
 - Pilot fidelity/style review: **complete** — see [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
 - Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–20 required no glossary revision
 - Batches 2–20: **all first-pass complete**
-- Current first-pass coverage: **497 / 497 — COMPLETE**
-- `KQ-CCM-0391`: **translated source-limited; canonical `needs_review` status remains unresolved**
-- Next activity: **full quote-by-quote English fidelity/consistency review before consolidated publication**
+- First-pass coverage: **497 / 497 — COMPLETE**
+- Full fidelity/consistency review: [`TRANSLATION_REVIEW.md`](TRANSLATION_REVIEW.md) — **497 / 497 COMPLETE**
+- Consolidated reviewed publication: [`quotes.md`](quotes.md) — **497 / 497 PUBLISHED**
+- `KQ-CCM-0391`: **translated and published source-limited; canonical `needs_review` status remains unresolved**
+- Translation/publication plan: **COMPLETE**
 
 ## Source-authority hierarchy
 
-Translation and review must follow this order:
+Translation, review and any future revision must follow this order:
 
 1. canonical audited Tamil quote files in `../../quotes/`;
 2. collection audit and page-map records when a source-critical note affects interpretation;
 3. repository metadata and derived indexes only as navigation/context aids.
 
-Do not translate or review from OCR, memory, internet quotations, modernized spellings or outside retellings.
+Do not translate, review or revise from OCR, memory, internet quotations, modernized spellings or outside retellings.
 
 If a canonical quote remains `needs_review`, translate and review only what the canonical file establishes. Do not reconstruct an obscured or uncertain glyph from context.
 
@@ -43,6 +45,8 @@ translations/en/
   PROGRESS.md
   GLOSSARY.md
   PILOT_REVIEW.md
+  TRANSLATION_REVIEW.md
+  quotes.md
   batches/
     translation-0001-0025.md
     translation-0026-0050.md
@@ -64,11 +68,9 @@ translations/en/
     translation-0426-0450.md
     translation-0451-0475.md
     translation-0476-0497.md
-  TRANSLATION_REVIEW.md       # create during the full consistency/fidelity review
-  quotes.md                   # publish only after review is complete
 ```
 
-Batch files are construction and audit shards. The final consolidated `quotes.md` will provide quote-ID-addressable English discovery only after the complete translation consistency pass.
+Batch files are retained as construction and audit shards. [`quotes.md`](quotes.md) is the reviewed quote-ID-addressable English publication. [`TRANSLATION_REVIEW.md`](TRANSLATION_REVIEW.md) records the eleven English-only corrections applied at publication.
 
 ## Core translation rules
 
@@ -77,29 +79,11 @@ Batch files are construction and audit shards. The final consolidated `quotes.md
 3. **Preserve force.** Do not soften accusation, satire, ridicule, irony, anger or political intensity.
 4. **Do not intensify.** Do not make a claim broader, harsher, more historically specific or more doctrinal than the canonical Tamil.
 5. **Preserve metaphor.** Keep source images even when they sound unusual in English unless literal rendering would become unintelligible.
-6. **Preserve wordplay visibly.** Where English cannot reproduce a Tamil pun, retain the key Tamil term or explain the wordplay in a short translation note rather than silently replacing it.
+6. **Preserve wordplay visibly.** Where English cannot reproduce a Tamil pun, retain the key Tamil term or explain the wordplay in a short construction/review note rather than silently replacing it.
 7. **Preserve named-source vocabulary.** Do not silently modernize caste, religious, linguistic, political or literary terminology.
-8. **Minimal notes.** Translation notes are allowed only when wordplay, a source-specific term or a source uncertainty materially affects comprehension.
+8. **Minimal notes.** Notes are allowed only when wordplay, a source-specific term or a source uncertainty materially affects comprehension.
 9. **No canonical edits.** Translation work and review must never change Tamil wording, punctuation, provenance, quote IDs or verification states.
-10. **Traceability.** Every English entry must link directly to its canonical Tamil quote file.
-
-## Translation-batch format
-
-Each batch file begins with:
-
-- quote range;
-- number translated;
-- source verification states represented;
-- translation status;
-- statement that canonical quote files were not changed.
-
-Each quote entry includes:
-
-- quote ID;
-- link to canonical Tamil;
-- canonical verification status;
-- English translation;
-- translation note only when necessary.
+10. **Traceability.** Every published English entry links directly to its canonical Tamil quote file.
 
 ## Pilot style lock
 
@@ -114,54 +98,54 @@ The review covered:
 - idiomatic force such as `சூடு சொரணை`;
 - consistency of `Anna` / `Arignar Anna` and other named references.
 
-The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** added Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. Batches 5–20 required no glossary-version change; their one-off source-specific expressions, scan-confirmed irregular forms and wordplay are documented in the batch files. None of these later batches revises the locked pilot conventions.
+The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** added Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. Batches 5–20 required no glossary-version change; their one-off source-specific expressions, scan-confirmed irregular forms and wordplay remain documented in the batch files.
 
-An established convention should change during full review only where canonical evidence requires an explicit revision recorded in the review history.
+The full 497-quote review did not require a glossary-version change. Eleven English-only publication corrections are recorded in `TRANSLATION_REVIEW.md`.
 
 ## `KQ-CCM-0391` rule
 
 `KQ-CCM-0391` remains `needs_review` because the controlling scan has a physical blemish obscuring its terminal glyph after the readable text recorded by the repository.
 
-Its first-pass English translation is explicitly source-limited. During the full review:
+Its English translation and consolidated publication are explicitly source-limited:
 
-- review only the readable canonical content;
-- retain the English entry as source-limited / `needs_review`;
-- do not infer or complete the obscured terminal glyph;
-- do not treat translation or review as resolution of the source uncertainty.
+- only the readable canonical content is represented;
+- the English entry remains identified as source-limited / `needs_review`;
+- the obscured terminal glyph is not inferred or completed;
+- translation, review and publication do not resolve the source uncertainty.
 
 ## Source-critical final-window rules
 
-The final construction batches include scan-confirmed forms that must not be normalized during review without direct source evidence:
+The final construction batches include scan-confirmed forms that remain unnormalized in review and publication:
 
 - `KQ-CCM-0466`: source-visible `வாணனைகள்`, retained as **vaananaigal**;
-- `KQ-CCM-0478`: source-visible `புனிதமோடதை`, retained as **punithamodathai** in the first pass;
+- `KQ-CCM-0478`: source-visible `புனிதமோடதை`, retained as **punithamodathai**;
 - `KQ-CCM-0491`: source-visible `முக்குடைப்பட்டாலும்`, retained as **mukkudaipattaalum**;
-- `KQ-CCM-0496`: no punctuation between `புரட்சிக் கவிஞர்` and `அதனால்தான்`, and no terminal punctuation; the first-pass English deliberately preserves that source punctuation state.
+- `KQ-CCM-0496`: no punctuation between `புரட்சிக் கவிஞர்` and `அதனால்தான்`, and no terminal punctuation; the published English deliberately preserves that source punctuation state.
 
-These are review checkpoints, not invitations to reconstruct the source from outside editions.
+These are source checkpoints, not invitations to reconstruct the text from outside editions.
 
-## Full fidelity/consistency review — required next stage
+## Full fidelity/consistency review — completed
 
-First-pass translation is now complete. Before consolidated publication, perform a full `KQ-CCM-0001`–`KQ-CCM-0497` review and record the work in `TRANSLATION_REVIEW.md`.
+The required full `KQ-CCM-0001`–`KQ-CCM-0497` review is complete and recorded in [`TRANSLATION_REVIEW.md`](TRANSLATION_REVIEW.md).
 
-For every quote:
+The review:
 
-1. compare English directly against the canonical Tamil file;
-2. verify every substantive proposition, contrast, list, metaphor and rhetorical question;
-3. reconcile recurring terms against `GLOSSARY.md` and earlier reviewed conventions;
-4. check named people, movements, party references, transliterations and culturally specific terms for consistency;
-5. check source-bound wordplay and scan-confirmed irregular forms against their local notes;
-6. make English-only corrections where required, recording changed quote IDs and rationales;
-7. make **no** canonical Tamil edits as part of translation review;
-8. keep `KQ-CCM-0391` source-limited unless the controlling source itself is genuinely resolved.
+1. compared the English against canonical Tamil;
+2. checked substantive propositions, contrasts, lists, metaphors and rhetorical questions;
+3. reconciled recurring terms against `GLOSSARY.md` and earlier conventions;
+4. checked names, movements, party references, transliterations and culturally specific terms;
+5. checked source-bound wordplay and scan-confirmed irregular forms;
+6. recorded eleven English-only corrections and their rationales;
+7. made **no** canonical Tamil edits;
+8. retained `KQ-CCM-0391` as source-limited.
 
-## Publication gate
+## Publication gate — passed
 
-After the full review:
+- Review coverage **497 / 497** — **PASS**
+- Recurring terminology and wordplay reconciled — **PASS**
+- `KQ-CCM-0391` source limitation preserved — **PASS**
+- [`TRANSLATION_REVIEW.md`](TRANSLATION_REVIEW.md) finalized — **PASS**
+- Consolidated [`quotes.md`](quotes.md) published from reviewed content — **PASS**
+- All twenty sequential batch files and review records retained as audit history — **PASS**
 
-1. confirm review coverage **497 / 497**;
-2. confirm recurring terminology and wordplay decisions are reconciled;
-3. confirm `KQ-CCM-0391` is still source-limited unless source evidence changed;
-4. finalize `TRANSLATION_REVIEW.md`;
-5. publish consolidated `translations/en/quotes.md` from the reviewed batch content;
-6. retain all twenty sequential batch files and review records as audit history.
+The planned English translation, full review and consolidated publication are complete. Any future changes require new canonical source evidence or explicit editorial authorization.

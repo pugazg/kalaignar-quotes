@@ -93,13 +93,14 @@ See `page-map.md` and `audit.md` for the detailed verification state. Detailed c
 
 ## English translation
 
-The derived English translation layer has started under [`translations/en/`](translations/en/).
+The derived English translation layer is active under [`translations/en/`](translations/en/).
 
 - Translation protocol: [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
 - First-pass English coverage: **25 / 497 quotes**
-- Pilot batch complete: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Pilot state: **translated / pending fidelity-style review and convention lock**
-- Working glossary: [`translations/en/GLOSSARY.md`](translations/en/GLOSSARY.md), version **0.1 / not yet locked**
-- Next translation activity: review the pilot against the canonical Tamil, lock conventions, then translate `KQ-CCM-0026`–`KQ-CCM-0050`.
+- Pilot batch: `KQ-CCM-0001`–`KQ-CCM-0025`
+- Pilot state: **translated and fidelity/style reviewed**
+- Pilot review record: [`translations/en/PILOT_REVIEW.md`](translations/en/PILOT_REVIEW.md)
+- Locked glossary: [`translations/en/GLOSSARY.md`](translations/en/GLOSSARY.md), version **1.0**
+- Next translation activity: translate `KQ-CCM-0026`–`KQ-CCM-0050` using the locked pilot conventions.
 
 Translation is derived work only. The canonical Tamil files and their verification states remain unchanged and authoritative; `KQ-CCM-0391` must remain source-limited when its English translation is reached unless the controlling source itself is resolved.

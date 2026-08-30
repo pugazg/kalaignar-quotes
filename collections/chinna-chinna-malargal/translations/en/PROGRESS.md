@@ -4,13 +4,13 @@
 
 - Collection: `chinna-chinna-malargal`
 - Canonical total: **497 quotes**
-- First-pass English translation complete through: **`KQ-CCM-0250`**
-- First-pass coverage: **250 / 497**
+- First-pass English translation complete through: **`KQ-CCM-0300`**
+- First-pass coverage: **300 / 497**
 - Pilot batch status: **translated and fidelity/style reviewed**
 - Pilot review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md) — **complete**
-- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–10 required no glossary revision
+- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–12 required no glossary revision
 - Canonical source files changed by translation work: **none**
-- Next activity: **translate `KQ-CCM-0251`–`KQ-CCM-0275`**
+- Next activity: **translate `KQ-CCM-0301`–`KQ-CCM-0325`**
 
 ## Batch ledger
 
@@ -26,12 +26,14 @@
 | Batch 8 | `KQ-CCM-0176`–`KQ-CCM-0200` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0176-0200.md`](batches/translation-0176-0200.md) |
 | Batch 9 | `KQ-CCM-0201`–`KQ-CCM-0225` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0201-0225.md`](batches/translation-0201-0225.md) |
 | Batch 10 | `KQ-CCM-0226`–`KQ-CCM-0250` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0226-0250.md`](batches/translation-0226-0250.md) |
+| Batch 11 | `KQ-CCM-0251`–`KQ-CCM-0275` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0251-0275.md`](batches/translation-0251-0275.md) |
+| Batch 12 | `KQ-CCM-0276`–`KQ-CCM-0300` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0276-0300.md`](batches/translation-0276-0300.md) |
 
 ## Pilot review result
 
 All 25 pilot translations were compared against their canonical audited Tamil files. Four English renderings were refined for fidelity/readability: `KQ-CCM-0004`, `KQ-CCM-0016`, `KQ-CCM-0020` and `KQ-CCM-0025`. The remaining 21 were retained. Details and rationale are recorded in [`PILOT_REVIEW.md`](PILOT_REVIEW.md).
 
-The pilot convention lock remains authoritative. Batches 2–10 did not revise any locked pilot convention.
+The pilot convention lock remains authoritative. Batches 2–12 did not revise any locked pilot convention.
 
 ## Batch 2 notes
 
@@ -87,12 +89,24 @@ No new recurring terminology required a glossary-version change, so version **1.
 
 No new recurring terminology required a glossary-version change, so version **1.3** remains authoritative. Local notes preserve the scan-verified but semantically unresolved source form `தாமம்` as **thaamam** in `KQ-CCM-0230`; `காவடி / உண்டியல்` as **kavadi / hundial** in `KQ-CCM-0231`; the `பேறு / ஊறு / கூறு` rhyme in `KQ-CCM-0234`; source-facing `கரசேவை` as **karaseva** in `KQ-CCM-0242`; `அவை அறிதல்` as **avai arithal** in `KQ-CCM-0243`; and `வீடணன் / ஆழ்வார் / இனமானம்` as source-bound **Veedanan / Azhvar / the honour of one’s people** in `KQ-CCM-0247`.
 
+## Batch 11 notes
+
+`KQ-CCM-0251`–`KQ-CCM-0275` were translated directly from the 25 canonical audited Tamil files. All 25 source states are `verified_from_scan`.
+
+No new recurring terminology required a glossary-version change, so version **1.3** remains authoritative. Existing glossary handling for **Dravidian Movement**, **DMK**, `புனுகு` → **punugu**, and `வகுப்புவாதம்` → **vaguppuvaadam** was retained. The one-off source term `ஈசல்` is retained as **eesal** without an outside species identification.
+
+## Batch 12 notes
+
+`KQ-CCM-0276`–`KQ-CCM-0300` were translated directly from the 25 canonical audited Tamil files. All 25 source states are `verified_from_scan`.
+
+No new recurring terminology required a glossary-version change, so version **1.3** remains authoritative. Local notes preserve source-facing `அத்தர்` as **attar**; the `மெய் எழுத்து / உயிர் எழுத்து / ஆய்த எழுத்து` wordplay in `KQ-CCM-0293`; and the explicitly named `தமிழிசை இயக்கம்` as **Tamil Isai Movement** in `KQ-CCM-0300` without adding outside history.
+
 No OCR text, online quotation or outside historical reconstruction was used as translation authority. Canonical Tamil text, punctuation, page provenance and verification states remain untouched.
 
 ## Future batches
 
 Continue in 25-quote sequence:
 
-`0251–0275`, `0276–0300`, `0301–0325`, …, `0451–0475`, followed by final `0476–0497`.
+`0301–0325`, `0326–0350`, `0351–0375`, `0376–0400`, …, `0451–0475`, followed by final `0476–0497`.
 
 After first-pass coverage reaches **497 / 497**, perform the full English fidelity/consistency review before consolidated publication.

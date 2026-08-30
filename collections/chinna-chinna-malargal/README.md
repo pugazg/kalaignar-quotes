@@ -108,3 +108,9 @@ The derived English translation layer under [`translations/en/`](translations/en
 - Translation/publication stage: **COMPLETE**
 
 Translation is derived work only. The canonical Tamil files and their verification states remain unchanged and authoritative. Publication does not resolve `KQ-CCM-0391` and does not normalize source-critical forms such as `வாணனைகள்`, `புனிதமோடதை`, `முக்குடைப்பட்டாலும்`, or the punctuation state of `KQ-CCM-0496`.
+
+## Collection completion
+
+The full collection closure record is [`COMPLETION.md`](COMPLETION.md).
+
+There is no remaining routine capture, verification, indexing, translation or English-publication work for this source. The next substantive repository activity is to onboard a new controlling source publication as a separate collection; this collection should be changed only when new source evidence, an explicit source-backed correction, an intentional derived-vocabulary migration, or repository-integrity maintenance requires it.

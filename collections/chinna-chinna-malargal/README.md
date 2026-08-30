@@ -90,3 +90,16 @@ The collection-wide source-critical transcription pass is complete. The sole unr
 This item must remain `needs_review` unless the controlling source itself, or a genuinely better scan of the same source, establishes the obscured glyph.
 
 See `page-map.md` and `audit.md` for the detailed verification state. Detailed completed audit history through `KQ-CCM-0141` remains preserved in `AUDIT_HISTORY_THROUGH_0141.md`; `HIGH_RES_REAUDIT_0001_0024.md` records the retrospective audit triggered by the earlier page-10 correction.
+
+## English translation
+
+The derived English translation layer has started under [`translations/en/`](translations/en/).
+
+- Translation protocol: [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
+- First-pass English coverage: **25 / 497 quotes**
+- Pilot batch complete: `KQ-CCM-0001`–`KQ-CCM-0025`
+- Pilot state: **translated / pending fidelity-style review and convention lock**
+- Working glossary: [`translations/en/GLOSSARY.md`](translations/en/GLOSSARY.md), version **0.1 / not yet locked**
+- Next translation activity: review the pilot against the canonical Tamil, lock conventions, then translate `KQ-CCM-0026`–`KQ-CCM-0050`.
+
+Translation is derived work only. The canonical Tamil files and their verification states remain unchanged and authoritative; `KQ-CCM-0391` must remain source-limited when its English translation is reached unless the controlling source itself is resolved.

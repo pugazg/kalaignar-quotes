@@ -4,15 +4,15 @@
 
 - Collection: `chinna-chinna-malargal`
 - Canonical total: **497 quotes**
-- First-pass English translation complete through: **`KQ-CCM-0400`**
-- First-pass coverage: **400 / 497**
-- Source states represented in translated range: **399 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
+- First-pass English translation complete through: **`KQ-CCM-0497`**
+- First-pass coverage: **497 / 497 — COMPLETE**
+- Source states represented in translated range: **496 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
 - Pilot batch status: **translated and fidelity/style reviewed**
 - Pilot review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md) — **complete**
-- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–16 required no glossary revision
+- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–20 required no glossary revision
 - Canonical source files changed by translation work: **none**
 - `KQ-CCM-0391`: **translated source-limited; canonical status remains `needs_review` and the obscured terminal glyph remains unresolved**
-- Next activity: **translate `KQ-CCM-0401`–`KQ-CCM-0425`**
+- Next activity: **perform the full English quote-by-quote fidelity/consistency review across `KQ-CCM-0001`–`KQ-CCM-0497` before consolidated publication**
 
 ## Batch ledger
 
@@ -34,12 +34,16 @@
 | Batch 14 | `KQ-CCM-0326`–`KQ-CCM-0350` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0326-0350.md`](batches/translation-0326-0350.md) |
 | Batch 15 | `KQ-CCM-0351`–`KQ-CCM-0375` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0351-0375.md`](batches/translation-0351-0375.md) |
 | Batch 16 | `KQ-CCM-0376`–`KQ-CCM-0400` | 25 | 24 `verified_from_scan`, 1 `needs_review` | first pass complete; `KQ-CCM-0391` source-limited | [`batches/translation-0376-0400.md`](batches/translation-0376-0400.md) |
+| Batch 17 | `KQ-CCM-0401`–`KQ-CCM-0425` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0401-0425.md`](batches/translation-0401-0425.md) |
+| Batch 18 | `KQ-CCM-0426`–`KQ-CCM-0450` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0426-0450.md`](batches/translation-0426-0450.md) |
+| Batch 19 | `KQ-CCM-0451`–`KQ-CCM-0475` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0451-0475.md`](batches/translation-0451-0475.md) |
+| Batch 20 | `KQ-CCM-0476`–`KQ-CCM-0497` | 22 | 22 `verified_from_scan` | first pass complete; final construction batch | [`batches/translation-0476-0497.md`](batches/translation-0476-0497.md) |
 
 ## Pilot review result
 
 All 25 pilot translations were compared against their canonical audited Tamil files. Four English renderings were refined for fidelity/readability: `KQ-CCM-0004`, `KQ-CCM-0016`, `KQ-CCM-0020` and `KQ-CCM-0025`. The remaining 21 were retained. Details and rationale are recorded in [`PILOT_REVIEW.md`](PILOT_REVIEW.md).
 
-The pilot convention lock remains authoritative. Batches 2–16 did not revise any locked pilot convention.
+The pilot convention lock remains authoritative. Batches 2–20 did not revise any locked pilot convention.
 
 ## Batch 2 notes
 
@@ -131,12 +135,34 @@ No new recurring terminology required a glossary-version change. The scan-verifi
 
 No new recurring terminology required a glossary-version change. Local notes preserve `தவம்` as **tavam**, `மதம்` as **matham** where the religion/elephant-condition wordplay matters, the conservative “taking and giving” rendering of `கொள்வினை கொடுப்பினை`, and the quoted `உணர்வு` as **consciousness**. `KQ-CCM-0391` is explicitly source-limited: the physical source blemish obscuring the terminal glyph immediately after `திருப்பி` remains unresolved, and the English translation does not infer or reconstruct it.
 
+## Batch 17 notes
+
+`KQ-CCM-0401`–`KQ-CCM-0425` were translated directly from the 25 canonical audited Tamil files. All 25 source states are `verified_from_scan`.
+
+No new recurring terminology required a glossary-version change. Local notes retain source-facing **mohana-astra**, the Tamil grammatical categories **vallinam / mellinam / idaiyinam**, `ஓணான்` as **onaan**, and the close rendering **station and thought** for `நிலையும் நினைப்பும்`; the embedded Sangam line in `KQ-CCM-0424` is kept visible without outside reconstruction.
+
+## Batch 18 notes
+
+`KQ-CCM-0426`–`KQ-CCM-0450` were translated directly from the 25 canonical audited Tamil files. All 25 source states are `verified_from_scan`.
+
+No new recurring terminology required a glossary-version change. Existing **vaguppuvaadam** handling is retained; local notes preserve the unusual `எட்டாத பழத்துக்குக் கொட்டாவி` image, the source-bound embedded poem in `KQ-CCM-0440`, and the `கடலை / கடலையே` groundnut/sea wordplay in `KQ-CCM-0441`.
+
+## Batch 19 notes
+
+`KQ-CCM-0451`–`KQ-CCM-0475` were translated directly from the 25 canonical audited Tamil files. All 25 source states are `verified_from_scan`.
+
+No new recurring terminology required a glossary-version change. Local notes preserve the `தூண்டு` repetition in `KQ-CCM-0451`, the `எழுவாய் / விழுவாய் / தொழுவாய் / உழுவாய்` sound sequence, the `நாடும் ஏடும் / நாடும் ஏடுகள்` wordplay, the scan-confirmed unusual `வாணனைகள்` as **vaananaigal**, and `நாணயம்` as **naanayam** where its monetary/moral double sense drives the quote.
+
+## Batch 20 notes
+
+`KQ-CCM-0476`–`KQ-CCM-0497` were translated directly from the final 22 canonical audited Tamil files. All 22 source states are `verified_from_scan`.
+
+No new recurring terminology required a glossary-version change. Source-critical final-window handling preserves scan-confirmed `புனிதமோடதை` as **punithamodathai**, `முக்குடைப்பட்டாலும்` as **mukkudaipattaalum**, and `அமிழ்தம்` as **amirtham** where the quote itself defines the term. `KQ-CCM-0496` deliberately preserves the canonical source’s missing punctuation between `புரட்சிக் கவிஞர்` and `அதனால்தான்` and its absent terminal punctuation rather than silently repairing either.
+
 No OCR text, online quotation or outside historical reconstruction was used as translation authority. Canonical Tamil text, punctuation, page provenance and verification states remain untouched.
 
-## Future batches
+## First-pass completion
 
-Continue in 25-quote sequence:
+All **497 / 497** canonical quotes now have a first-pass English translation. The construction stage is complete.
 
-`0401–0425`, `0426–0450`, `0451–0475`, followed by final `0476–0497`.
-
-After first-pass coverage reaches **497 / 497**, perform the full English fidelity/consistency review before consolidated publication.
+The next required activity is the full quote-by-quote English fidelity/consistency review across all twenty batch files. That review must reconcile recurring terminology and wordplay decisions, retain `KQ-CCM-0391` as source-limited unless the controlling source itself is resolved, and only then publish consolidated `translations/en/quotes.md`.

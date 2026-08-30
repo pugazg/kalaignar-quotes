@@ -96,13 +96,14 @@ See `page-map.md` and `audit.md` for the detailed verification state. Detailed c
 The derived English translation layer is active under [`translations/en/`](translations/en/).
 
 - Translation protocol: [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
-- First-pass English coverage: **400 / 497 quotes**
-- Translated source states: **399 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
-- Completed batches: `KQ-CCM-0001`–`KQ-CCM-0025`, `KQ-CCM-0026`–`KQ-CCM-0050`, `KQ-CCM-0051`–`KQ-CCM-0075`, `KQ-CCM-0076`–`KQ-CCM-0100`, `KQ-CCM-0101`–`KQ-CCM-0125`, `KQ-CCM-0126`–`KQ-CCM-0150`, `KQ-CCM-0151`–`KQ-CCM-0175`, `KQ-CCM-0176`–`KQ-CCM-0200`, `KQ-CCM-0201`–`KQ-CCM-0225`, `KQ-CCM-0226`–`KQ-CCM-0250`, `KQ-CCM-0251`–`KQ-CCM-0275`, `KQ-CCM-0276`–`KQ-CCM-0300`, `KQ-CCM-0301`–`KQ-CCM-0325`, `KQ-CCM-0326`–`KQ-CCM-0350`, `KQ-CCM-0351`–`KQ-CCM-0375`, and `KQ-CCM-0376`–`KQ-CCM-0400`
+- First-pass English coverage: **497 / 497 quotes — COMPLETE**
+- Completed construction range: **`KQ-CCM-0001`–`KQ-CCM-0497`** across twenty sequential batch files
+- Source states represented: **496 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
 - Pilot state: **translated and fidelity/style reviewed**
 - Pilot review record: [`translations/en/PILOT_REVIEW.md`](translations/en/PILOT_REVIEW.md)
-- Glossary: [`translations/en/GLOSSARY.md`](translations/en/GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–16 required no glossary revision
-- `KQ-CCM-0391`: English first pass is present but explicitly source-limited; the physical source uncertainty remains unresolved and the canonical state remains `needs_review`
-- Next translation activity: translate `KQ-CCM-0401`–`KQ-CCM-0425`.
+- Glossary: [`translations/en/GLOSSARY.md`](translations/en/GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–20 required no glossary revision
+- `KQ-CCM-0391`: English first pass is source-limited; the canonical unresolved glyph remains unresolved
+- Next translation activity: **full quote-by-quote English fidelity/consistency review across all 497 quotes**
+- Consolidated `translations/en/quotes.md`: **not yet published; blocked on the required full review**
 
-Translation is derived work only. The canonical Tamil files and their verification states remain unchanged and authoritative; `KQ-CCM-0391` remains source-limited unless the controlling source itself is resolved.
+Translation is derived work only. The canonical Tamil files and their verification states remain unchanged and authoritative. The completed first pass does not resolve `KQ-CCM-0391`, and the full translation review must not silently normalize source-critical forms such as `வாணனைகள்`, `புனிதமோடதை`, `முக்குடைப்பட்டாலும்`, or the punctuation state of `KQ-CCM-0496`.

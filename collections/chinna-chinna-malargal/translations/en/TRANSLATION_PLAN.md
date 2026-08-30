@@ -12,41 +12,27 @@ The English layer is **derived metadata**. Canonical transcription authority rem
 - Canonical quote range: `KQ-CCM-0001`–`KQ-CCM-0497`
 - Total canonical quotes: **497**
 - Source verification states: **496 `verified_from_scan`**, **1 `needs_review` (`KQ-CCM-0391`)**
-- Translation cadence: **25 sequential quote IDs per batch**, with the shorter final batch `0476`–`0497`
+- Translation cadence used: **25 sequential quote IDs per batch**, with final batch `0476`–`0497`
 - Pilot batch: `KQ-CCM-0001`–`KQ-CCM-0025`
 - Pilot first-pass translation: **complete**
 - Pilot fidelity/style review: **complete** — see [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
-- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–16 required no glossary revision
-- Batch 2: `KQ-CCM-0026`–`KQ-CCM-0050` — **first pass complete**
-- Batch 3: `KQ-CCM-0051`–`KQ-CCM-0075` — **first pass complete**
-- Batch 4: `KQ-CCM-0076`–`KQ-CCM-0100` — **first pass complete**
-- Batch 5: `KQ-CCM-0101`–`KQ-CCM-0125` — **first pass complete**
-- Batch 6: `KQ-CCM-0126`–`KQ-CCM-0150` — **first pass complete**
-- Batch 7: `KQ-CCM-0151`–`KQ-CCM-0175` — **first pass complete**
-- Batch 8: `KQ-CCM-0176`–`KQ-CCM-0200` — **first pass complete**
-- Batch 9: `KQ-CCM-0201`–`KQ-CCM-0225` — **first pass complete**
-- Batch 10: `KQ-CCM-0226`–`KQ-CCM-0250` — **first pass complete**
-- Batch 11: `KQ-CCM-0251`–`KQ-CCM-0275` — **first pass complete**
-- Batch 12: `KQ-CCM-0276`–`KQ-CCM-0300` — **first pass complete**
-- Batch 13: `KQ-CCM-0301`–`KQ-CCM-0325` — **first pass complete**
-- Batch 14: `KQ-CCM-0326`–`KQ-CCM-0350` — **first pass complete**
-- Batch 15: `KQ-CCM-0351`–`KQ-CCM-0375` — **first pass complete**
-- Batch 16: `KQ-CCM-0376`–`KQ-CCM-0400` — **first pass complete; `KQ-CCM-0391` source-limited**
-- Current first-pass coverage: **400 / 497**
-- Translated source states: **399 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
-- Next activity: **translate `KQ-CCM-0401`–`KQ-CCM-0425`**
+- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–20 required no glossary revision
+- Batches 2–20: **all first-pass complete**
+- Current first-pass coverage: **497 / 497 — COMPLETE**
+- `KQ-CCM-0391`: **translated source-limited; canonical `needs_review` status remains unresolved**
+- Next activity: **full quote-by-quote English fidelity/consistency review before consolidated publication**
 
 ## Source-authority hierarchy
 
-Translation must follow this order:
+Translation and review must follow this order:
 
 1. canonical audited Tamil quote files in `../../quotes/`;
 2. collection audit and page-map records when a source-critical note affects interpretation;
 3. repository metadata and derived indexes only as navigation/context aids.
 
-Do not translate from OCR, memory, internet quotations, modernized spellings or outside retellings.
+Do not translate or review from OCR, memory, internet quotations, modernized spellings or outside retellings.
 
-If a canonical quote remains `needs_review`, translate only what the canonical file establishes. Do not reconstruct an obscured or uncertain glyph from context.
+If a canonical quote remains `needs_review`, translate and review only what the canonical file establishes. Do not reconstruct an obscured or uncertain glyph from context.
 
 ## File structure
 
@@ -74,13 +60,15 @@ translations/en/
     translation-0326-0350.md
     translation-0351-0375.md
     translation-0376-0400.md
-    ...
+    translation-0401-0425.md
+    translation-0426-0450.md
+    translation-0451-0475.md
     translation-0476-0497.md
-  TRANSLATION_REVIEW.md       # create for full consistency/fidelity review
-  quotes.md                   # publish only after all batches and review are complete
+  TRANSLATION_REVIEW.md       # create during the full consistency/fidelity review
+  quotes.md                   # publish only after review is complete
 ```
 
-Batch files are construction and audit shards. The final consolidated `quotes.md` will provide quote-ID-addressable English discovery after the complete translation consistency pass.
+Batch files are construction and audit shards. The final consolidated `quotes.md` will provide quote-ID-addressable English discovery only after the complete translation consistency pass.
 
 ## Core translation rules
 
@@ -92,12 +80,12 @@ Batch files are construction and audit shards. The final consolidated `quotes.md
 6. **Preserve wordplay visibly.** Where English cannot reproduce a Tamil pun, retain the key Tamil term or explain the wordplay in a short translation note rather than silently replacing it.
 7. **Preserve named-source vocabulary.** Do not silently modernize caste, religious, linguistic, political or literary terminology.
 8. **Minimal notes.** Translation notes are allowed only when wordplay, a source-specific term or a source uncertainty materially affects comprehension.
-9. **No canonical edits.** Translation work must never change Tamil wording, punctuation, provenance, quote IDs or verification states.
+9. **No canonical edits.** Translation work and review must never change Tamil wording, punctuation, provenance, quote IDs or verification states.
 10. **Traceability.** Every English entry must link directly to its canonical Tamil quote file.
 
 ## Translation-batch format
 
-Each batch file must begin with:
+Each batch file begins with:
 
 - quote range;
 - number translated;
@@ -105,7 +93,7 @@ Each batch file must begin with:
 - translation status;
 - statement that canonical quote files were not changed.
 
-Each quote entry must include:
+Each quote entry includes:
 
 - quote ID;
 - link to canonical Tamil;
@@ -126,42 +114,54 @@ The review covered:
 - idiomatic force such as `சூடு சொரணை`;
 - consistency of `Anna` / `Arignar Anna` and other named references.
 
-The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** added Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. Batches 5–16 required no glossary-version change; their one-off source-specific expressions and wordplay are documented in the batch files. None of these later batches revises the locked pilot conventions.
+The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** added Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. Batches 5–20 required no glossary-version change; their one-off source-specific expressions, scan-confirmed irregular forms and wordplay are documented in the batch files. None of these later batches revises the locked pilot conventions.
 
-Later batches may add new terminology, but an established convention should change only where later canonical evidence requires an explicit revision recorded in the translation history.
+An established convention should change during full review only where canonical evidence requires an explicit revision recorded in the review history.
 
-## `KQ-CCM-0391` rule and current state
+## `KQ-CCM-0391` rule
 
-`KQ-CCM-0391` remains `needs_review` because the controlling scan has a physical blemish obscuring the terminal glyph immediately after readable `திருப்பி`; the first-pass reading `திருப்பித்` is not promoted to verified canonical status.
+`KQ-CCM-0391` remains `needs_review` because the controlling scan has a physical blemish obscuring its terminal glyph after the readable text recorded by the repository.
 
-The translation has now reached this quote. Its Batch-16 English entry:
+Its first-pass English translation is explicitly source-limited. During the full review:
 
-- is explicitly marked source-limited / `needs_review`;
-- represents only the readable proposition established by the canonical record;
-- does not infer or complete the obscured terminal glyph;
-- does not treat translation as resolution of the source uncertainty.
+- review only the readable canonical content;
+- retain the English entry as source-limited / `needs_review`;
+- do not infer or complete the obscured terminal glyph;
+- do not treat translation or review as resolution of the source uncertainty.
 
-This source-limited state must be preserved through the final consistency review and consolidated publication unless the controlling source itself is genuinely resolved.
+## Source-critical final-window rules
 
-## Batch validation
+The final construction batches include scan-confirmed forms that must not be normalized during review without direct source evidence:
 
-Before each translation-batch commit, confirm:
+- `KQ-CCM-0466`: source-visible `வாணனைகள்`, retained as **vaananaigal**;
+- `KQ-CCM-0478`: source-visible `புனிதமோடதை`, retained as **punithamodathai** in the first pass;
+- `KQ-CCM-0491`: source-visible `முக்குடைப்பட்டாலும்`, retained as **mukkudaipattaalum**;
+- `KQ-CCM-0496`: no punctuation between `புரட்சிக் கவிஞர்` and `அதனால்தான்`, and no terminal punctuation; the first-pass English deliberately preserves that source punctuation state.
 
-- every quote ID in the batch appears exactly once;
-- every English entry links to the correct canonical quote file;
-- source verification status matches the canonical file;
-- every substantive Tamil proposition is represented;
-- no unsupported historical/contextual detail has been inserted;
-- named terms and glossary decisions are used consistently;
-- wordplay limitations are noted where necessary;
-- canonical quote files remain unchanged.
+These are review checkpoints, not invitations to reconstruct the source from outside editions.
 
-## Final review and publication
+## Full fidelity/consistency review — required next stage
 
-After all 497 quotes have first-pass English translations:
+First-pass translation is now complete. Before consolidated publication, perform a full `KQ-CCM-0001`–`KQ-CCM-0497` review and record the work in `TRANSLATION_REVIEW.md`.
 
-1. perform a full quote-by-quote fidelity and consistency review;
-2. reconcile recurring terminology and wordplay decisions across all batches;
-3. preserve `KQ-CCM-0391` as source-limited unless the controlling source is genuinely resolved;
-4. publish the consolidated `translations/en/quotes.md`;
-5. retain all sequential batch files and review records as audit history.
+For every quote:
+
+1. compare English directly against the canonical Tamil file;
+2. verify every substantive proposition, contrast, list, metaphor and rhetorical question;
+3. reconcile recurring terms against `GLOSSARY.md` and earlier reviewed conventions;
+4. check named people, movements, party references, transliterations and culturally specific terms for consistency;
+5. check source-bound wordplay and scan-confirmed irregular forms against their local notes;
+6. make English-only corrections where required, recording changed quote IDs and rationales;
+7. make **no** canonical Tamil edits as part of translation review;
+8. keep `KQ-CCM-0391` source-limited unless the controlling source itself is genuinely resolved.
+
+## Publication gate
+
+After the full review:
+
+1. confirm review coverage **497 / 497**;
+2. confirm recurring terminology and wordplay decisions are reconciled;
+3. confirm `KQ-CCM-0391` is still source-limited unless source evidence changed;
+4. finalize `TRANSLATION_REVIEW.md`;
+5. publish consolidated `translations/en/quotes.md` from the reviewed batch content;
+6. retain all twenty sequential batch files and review records as audit history.

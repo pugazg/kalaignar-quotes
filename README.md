@@ -23,6 +23,7 @@ collections/
     metadata.yaml
     page-map.md
     audit.md
+    COMPLETION.md
     quotes/
       0001.md
       0002.md
@@ -60,5 +61,12 @@ Current durable state:
 - English first-pass translation: **497 / 497 complete**
 - Full English fidelity/consistency review: **497 / 497 complete**
 - Consolidated reviewed English publication: [`collections/chinna-chinna-malargal/translations/en/quotes.md`](collections/chinna-chinna-malargal/translations/en/quotes.md) — **497 / 497 published**
+- Collection closure record: [`collections/chinna-chinna-malargal/COMPLETION.md`](collections/chinna-chinna-malargal/COMPLETION.md)
 
 `KQ-CCM-0391` remains unresolved only because a physical blemish in the controlling scan obscures its terminal glyph. No index or translation layer is permitted to infer or repair that source uncertainty.
+
+## Next repository activity
+
+The `chinna-chinna-malargal` collection has no remaining routine archival, indexing or English-publication work.
+
+The next substantive activity is to onboard a **new controlling source publication** as a separate collection under `collections/<collection-id>/`. A new collection must begin from an identified source scan and follow [`docs/QUOTE_PROCESSING_GUIDE.md`](docs/QUOTE_PROCESSING_GUIDE.md); do not begin one from OCR, web quotations, memory or inferred text.

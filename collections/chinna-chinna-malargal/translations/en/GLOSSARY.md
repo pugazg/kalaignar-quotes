@@ -4,16 +4,17 @@ This is the terminology and style record for the English translation of `chinna-
 
 ## Status
 
-- Glossary version: **1.2**
+- Glossary version: **1.3**
 - Pilot basis: reviewed `KQ-CCM-0001`–`KQ-CCM-0025`
 - Pilot state: **conventions locked**
 - Batch-2 extension: `KQ-CCM-0026`–`KQ-CCM-0050`
 - Batch-3 extension: `KQ-CCM-0051`–`KQ-CCM-0075`
+- Batch-4 extension: `KQ-CCM-0076`–`KQ-CCM-0100`
 - Pilot review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
-- Current first-pass coverage: **75 / 497**
-- Next activity: translate `KQ-CCM-0076`–`KQ-CCM-0100` using these conventions.
+- Current first-pass coverage: **100 / 497**
+- Next activity: translate `KQ-CCM-0101`–`KQ-CCM-0125` using these conventions.
 
-The glossary is a translation aid only. It does not normalize or alter canonical Tamil. Version 1.2 adds source-facing terminology required by Batch 3; it does **not** revise any locked pilot or Batch-2 convention. A locked convention should change only when later canonical evidence requires an explicit revision recorded in the translation history.
+The glossary is a translation aid only. It does not normalize or alter canonical Tamil. Version 1.3 adds source-facing terminology required by Batch 4; it does **not** revise any earlier locked convention. A locked convention should change only when later canonical evidence requires an explicit revision recorded in the translation history.
 
 ## Locked pilot terminology
 
@@ -71,6 +72,25 @@ The glossary is a translation aid only. It does not normalize or alter canonical
 | `அன்னம்` in `KQ-CCM-0068` | **annam** | Retain the source term at the point where cooked rice is said to acquire a new name. Explain only the source's rice → `annam` transition; do not add broader cultural interpretation. |
 | `கெண்டை மீன்` | **kendai fish** | Retain the Tamil source-facing fish name rather than supplying an external species identification not present in the quote. |
 | `இந்து ராஜ்யம்` / `இந்தி ராஜ்யம்` | **Hindu state / Hindi state** | Preserve the source's close rhetorical pairing and the Hindu/Hindi contrast. Do not import an external political programme beyond the printed formulation. |
+
+## Batch-4 terminology — version 1.3 additions
+
+| Tamil/source form | English handling | Guidance |
+|---|---|---|
+| `வாமனாவதாரம்` | **Vamana avatar** | Retain the named story form in `KQ-CCM-0077`; do not add mythological detail not supplied by the quote. |
+| `மாவலி மன்னன்` | **King Mahabali** | Stable readable form for the named king in `KQ-CCM-0077`; keep the translation limited to the printed comparison. |
+| `சாமரம் வீசுதல்` | **wave a ceremonial fan** | Carry the source image of serving/flattering authority without inventing a named court ritual beyond the words printed. |
+| `ரசம் பூசுதல்` in mirror context | **apply / give a reflective coating** | Context-specific handling in `KQ-CCM-0081`. Do not conflate this with the unrelated `ரசம் / விரசம்` wordplay in `KQ-CCM-0025`, and do not add an outside chemical composition. |
+| `கடையேழு வள்ளல்கள்` | **the Last Seven Great Patrons** | Descriptive source-facing rendering. Do not add the wider literary/history narrative unless the quote itself supplies it. |
+| `முல்லைக் கொடி` | **mullai creeper** | Retain the source plant name in `KQ-CCM-0085`; do not assign an outside botanical species. |
+| `பத்தாம் பசலி` | **outmoded** in `பத்தாம் பசலி சமுதாயம்` | Render the idiomatic force as an outdated/outmoded social order; do not create an invented literal agricultural explanation. |
+| `பன்னீர்ப்பூ` | **panneer flower** | Retain the source-facing flower term where the image matters; avoid outside botanical identification. |
+| `வெறி` in domination contexts | **fanaticism** | Use where attachment is explicitly intensified into `வெறி`; keep distinct from ordinary `பற்று` / attachment. |
+| `மொழி ஆதிக்கம்` | **language domination** | Direct source-facing political/linguistic relation; do not add external policy history. |
+| `மத ஆதிக்கம்` | **religious domination** | Direct source-facing relation; distinguish from the milder locked `மதப்பற்று` → religious attachment. |
+| `வகுப்புவாதம்` | **vaguppuvaadam** | Retain the historically source-specific Tamil term where forcing it into a later English political category would add interpretation. Translate the surrounding accusation fully. |
+| `கள்ளிச் செடி` | **kalli plant** | Retain the source-facing plant name rather than assigning an outside botanical identity. |
+| `பாதரசம்` | **mercury** | Direct material term in the source's comparison; translate the proposition as printed without turning it into a scientific verification claim. |
 
 ## Locked pilot wordplay decisions
 
@@ -148,6 +168,36 @@ Use **kendai fish** for `கெண்டை மீன்`. The translation must 
 
 Use **Hindu state / Hindi state** for `இந்து ராஜ்யம் / இந்தி ராஜ்யம்` so the close source pairing remains visible. Do not add a named external ideology, policy or organization.
 
+## Batch-4 wordplay / source-term decisions
+
+### `KQ-CCM-0077`
+
+Use **Vamana avatar / King Mahabali** only for the named story elements printed in the quote. Do not expand the episode from outside mythology.
+
+### `KQ-CCM-0081`
+
+Render `ரசம் பூசப்படவில்லை` contextually as the mirror lacking its **reflective coating**. This is a separate lexical use from `ரசம் / விரசம்` in `KQ-CCM-0025`; the translation note should make that distinction visible without supplying a chemical explanation.
+
+### `KQ-CCM-0085`
+
+Retain **Pari** and **mullai**, and render `கடையேழு வள்ளல்கள்` descriptively as **the Last Seven Great Patrons**. Do not import the full Pari legend into the translation note.
+
+### `KQ-CCM-0086`
+
+Render `பத்தாம் பசலி சமுதாயம்` as **outmoded society** for the idiomatic force, while retaining **panneer flowers** as a source-facing image rather than identifying a species from outside the quote.
+
+### `KQ-CCM-0090`
+
+The source links `பற்று` with `பற்றி எரியும்`, creating a root/sound relation between attachment and catching fire. English should translate the proposition naturally and record the lost wordplay. Use **fanaticism**, **language domination** and **religious domination** only where explicitly supported by the canonical wording.
+
+### `KQ-CCM-0094`
+
+Retain `வகுப்புவாதம்` as **vaguppuvaadam**. The source itself makes the accusation and explicitly names the Dravidian Movement; the English must not silently choose a later political-science category for the Tamil term.
+
+### `KQ-CCM-0095`
+
+Retain `கள்ளிச் செடி` as **kalli plant** rather than supplying an outside botanical identification.
+
 ## General translation style lock
 
 1. Translate every substantive proposition; do not summarise.
@@ -161,4 +211,4 @@ Use **Hindu state / Hindi state** for `இந்து ராஜ்யம் / �
 
 ## Revision policy
 
-Version **1.0** locked the pilot conventions after review of all 25 pilot quotes. Version **1.1** added terminology and source-term handling required by `KQ-CCM-0026`–`KQ-CCM-0050` without changing any pilot convention. Version **1.2** adds terminology and source-term handling required by `KQ-CCM-0051`–`KQ-CCM-0075` without revising the earlier lock. Later batches may add new terminology. If later canonical evidence shows that a locked convention needs revision, record the reason explicitly in `PROGRESS.md` or the later full `TRANSLATION_REVIEW.md`; never silently change an established translation convention.
+Version **1.0** locked the pilot conventions after review of all 25 pilot quotes. Version **1.1** added terminology and source-term handling required by `KQ-CCM-0026`–`KQ-CCM-0050` without changing any pilot convention. Version **1.2** added terminology and source-term handling required by `KQ-CCM-0051`–`KQ-CCM-0075` without revising the earlier lock. Version **1.3** adds terminology and source-term handling required by `KQ-CCM-0076`–`KQ-CCM-0100` without revising earlier conventions. Later batches may add new terminology. If later canonical evidence shows that a locked convention needs revision, record the reason explicitly in `PROGRESS.md` or the later full `TRANSLATION_REVIEW.md`; never silently change an established translation convention.

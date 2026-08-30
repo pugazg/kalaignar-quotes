@@ -96,11 +96,11 @@ See `page-map.md` and `audit.md` for the detailed verification state. Detailed c
 The derived English translation layer is active under [`translations/en/`](translations/en/).
 
 - Translation protocol: [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
-- First-pass English coverage: **75 / 497 quotes**
-- Completed batches: `KQ-CCM-0001`–`KQ-CCM-0025`, `KQ-CCM-0026`–`KQ-CCM-0050`, and `KQ-CCM-0051`–`KQ-CCM-0075`
+- First-pass English coverage: **100 / 497 quotes**
+- Completed batches: `KQ-CCM-0001`–`KQ-CCM-0025`, `KQ-CCM-0026`–`KQ-CCM-0050`, `KQ-CCM-0051`–`KQ-CCM-0075`, and `KQ-CCM-0076`–`KQ-CCM-0100`
 - Pilot state: **translated and fidelity/style reviewed**
 - Pilot review record: [`translations/en/PILOT_REVIEW.md`](translations/en/PILOT_REVIEW.md)
-- Glossary: [`translations/en/GLOSSARY.md`](translations/en/GLOSSARY.md), version **1.2** — pilot conventions locked; Batch-2 and Batch-3 terminology added
-- Next translation activity: translate `KQ-CCM-0076`–`KQ-CCM-0100`.
+- Glossary: [`translations/en/GLOSSARY.md`](translations/en/GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added
+- Next translation activity: translate `KQ-CCM-0101`–`KQ-CCM-0125`.
 
 Translation is derived work only. The canonical Tamil files and their verification states remain unchanged and authoritative; `KQ-CCM-0391` must remain source-limited when its English translation is reached unless the controlling source itself is resolved.

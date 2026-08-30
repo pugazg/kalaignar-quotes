@@ -7,17 +7,18 @@ The audited Tamil quote files remain authoritative. English files must never sil
 ## Current status
 
 - Canonical quote range: `KQ-CCM-0001`–`KQ-CCM-0497`
-- English first-pass coverage: **75 / 497**
+- English first-pass coverage: **100 / 497**
 - Completed batches:
   - [`batches/translation-0001-0025.md`](batches/translation-0001-0025.md) — pilot, 25 quotes
   - [`batches/translation-0026-0050.md`](batches/translation-0026-0050.md) — Batch 2, 25 quotes
   - [`batches/translation-0051-0075.md`](batches/translation-0051-0075.md) — Batch 3, 25 quotes
-- Source states represented so far: **75 `verified_from_scan`**
+  - [`batches/translation-0076-0100.md`](batches/translation-0076-0100.md) — Batch 4, 25 quotes
+- Source states represented so far: **100 `verified_from_scan`**
 - Pilot fidelity/style review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md) — **complete**
-- Glossary: [`GLOSSARY.md`](GLOSSARY.md), version **1.2** — pilot conventions locked; Batch-2 and Batch-3 terminology added
+- Glossary: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added
 - Translation protocol: [`TRANSLATION_PLAN.md`](TRANSLATION_PLAN.md)
 - Progress ledger: [`PROGRESS.md`](PROGRESS.md)
-- Next activity: **translate `KQ-CCM-0076`–`KQ-CCM-0100`**
+- Next activity: **translate `KQ-CCM-0101`–`KQ-CCM-0125`**
 
 ## Translation principles
 
@@ -25,7 +26,7 @@ The English aims to be readable while remaining source-bound. It preserves subst
 
 Tamil wordplay that cannot survive directly in English is kept visible through a retained source term or a short translation note. Culturally specific terms are transliterated when a supposedly smoother English substitute would introduce unsupported interpretation.
 
-The mandatory pilot review rechecked all 25 first-batch translations against their canonical Tamil and refined four English renderings (`KQ-CCM-0004`, `0016`, `0020`, `0025`). Those conventions remain locked. Batch 2 added source-facing terminology such as **Tamil consciousness**, **Dravidian Movement**, **Self-Respect Conference**, **Kazhagam government**, **Periyar**, **Perarignar Anna**, and **Ariviyakkam**. Batch 3 adds source-bound handling for **saathi malligai**, **paragon of devotion**, **annam**, **kendai fish**, and the **Hindu state / Hindi state** pairing without changing earlier conventions.
+The mandatory pilot review rechecked all 25 first-batch translations against their canonical Tamil and refined four English renderings (`KQ-CCM-0004`, `0016`, `0020`, `0025`). Those conventions remain locked. Batches 2 and 3 added source-facing political, social, literary and culturally specific terminology. Batch 4 adds source-bound handling for **Vamana avatar / King Mahabali**, mirror-context **reflective coating**, **the Last Seven Great Patrons**, **panneer flowers**, **vaguppuvaadam**, **kalli plant**, and related domination/fanaticism vocabulary without changing earlier conventions.
 
 ## Construction model
 

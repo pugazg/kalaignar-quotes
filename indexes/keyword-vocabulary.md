@@ -4,15 +4,15 @@ This file is the working controlled vocabulary for the repository's **derived ke
 
 ## Status
 
-- Working vocabulary version: **0.8**
+- Working vocabulary version: **0.9**
 - Scope: `chinna-chinna-malargal`
 - Initialized from keyword batch: `KQ-CCM-0001`–`KQ-CCM-0025`
-- Extended through keyword batch: `KQ-CCM-0351`–`KQ-CCM-0375`
+- Sequential construction complete through: `KQ-CCM-0497`
 - Keyword keys currently defined: **182**
-- Version 0.8 additions: **5 evidence-driven keys**
-- Vocabulary state: **working / not frozen**
-- Migrations: **none**
-- Next vocabulary activity: extend or reuse this vocabulary while indexing `KQ-CCM-0376`–`KQ-CCM-0400`
+- Version 0.9 consistency revisions: **1 added key, 1 migration; no net key-count change**
+- Vocabulary state: **consistency-reviewed / not frozen**
+- Migrations: **1 — `hindikkara-state` → `hindi-state`**
+- Next vocabulary activity: freeze this consistency-reviewed vocabulary as version **1.0** during consolidated keyword-index publication, provided no further correction is required.
 
 The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Keys are concise lowercase ASCII kebab-case. Tamil labels and scope notes are derived discovery aids and must never be treated as source-text normalization.
 
@@ -138,7 +138,7 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `gratitude` | நன்றி | Gratitude or thankfulness explicitly presented as a moral quality. |
 | `grievance` | மனத்தாங்கல் | Hurt, grievance or resentment explicitly described as an outcome of conduct or a transaction. |
 | `hindi-language` | இந்தி | Hindi when the language itself is materially involved in domination, policy, identity or civic status. |
-| `hindi-state` | இந்தி ராஜ்யம் | The explicit political formulation `இந்தி ராஜ்யம்` when materially discussed. Do not broaden it beyond the source wording. |
+| `hindi-state` | இந்தி / இந்திக்கார ராஜ்யம் | The explicit political formulations `இந்தி ராஜ்யம்` or `இந்திக்கார ராஜ்யம்` when materially discussed. Preserve the canonical surface wording in quote files; this shared key is discovery normalization only. |
 | `hindu-state` | இந்து ராஜ்யம் | The explicit political formulation `இந்து ராஜ்யம்` when materially discussed. Do not broaden it beyond the source wording. |
 | `ideals` | இலட்சியம் | Explicit ideals or an ideal-directed path, goal or cause. Distinguish from `principles`, which indexes `கொள்கை` or doctrinal principles. |
 | `impropriety` | முறைகேடு | Improper, irregular or unethical conduct explicitly described as `முறைகேடு`, when no more specific existing misuse key fits. |
@@ -191,7 +191,6 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `food` | உணவு | Food or access to food when materially discussed as a basic social or material need. |
 | `goal` | இலக்கு | An explicit destination, objective or goal to be reached. Distinguish from `ideals`, which requires an ideal or cause, and `principles`, which requires doctrine or policy. |
 | `grammar` | இலக்கணம் | Grammar as a linguistic or literary structure when explicitly named or materially discussed. |
-| `hindikkara-state` | இந்திக்கார ராஜ்யம் | The exact source formulation `இந்திக்கார ராஜ்யம்` / `இந்திக்கார ராஜ்யமே`. Keep distinct from `hindi-state`, which was initialized for the different printed formulation `இந்தி ராஜ்யம்`. |
 | `homeland` | தாயகம் | Homeland or native country when explicitly presented as the object of concern, loyalty or sacrifice. |
 | `idol` | விக்ரகம் | An idol or sacred image when the object itself is central to the religious proposition or satire. |
 | `imprisonment` | சிறை / சிறைவாழ்வு | Imprisonment, going to prison or living in prison when confinement itself is materially discussed. |
@@ -238,37 +237,42 @@ The vocabulary follows [`keyword-index-design.md`](keyword-index-design.md). Key
 | `publicity` | விளம்பரம் / ஆரவார விளம்பரம் | Publicity, promotional display or advertising when the publicity itself is materially discussed. Distinguish from `political-propaganda`, which requires explicitly political/public campaign framing. |
 | `superstition` | மூடநம்பிக்கை | Superstition explicitly described as `மூடநம்பிக்கை` or a direct equivalent. Distinguish from `credulity`, which concerns the act of believing a specific implausible claim, and from `rationalism`, which requires an explicit rationalist formulation. |
 
+## Controlled keywords — consistency addition in version 0.9
+
+| Stable key | Tamil display label | Scope / boundary guidance |
+|---|---|---|
+| `patience` | பொறுமை | Patience or forbearance explicitly expressed as `பொறுமை`, especially bearing provocation, pressure or delay without immediate reaction. Distinguish from `self-restraint`, which concerns measured restraint in speech, action or exercise of power, and from `perseverance`, which concerns continuing effort through obstacles. |
+
 ## Vocabulary review notes
 
 - Version 0.1 deliberately favored reusable concepts over indexing every noun or metaphor in the first 25 quotes.
 - Version 0.2 extends the vocabulary only from concepts materially present in `KQ-CCM-0026`–`KQ-CCM-0050`; no outside biography or historical interpretation was used to create keys.
-- The specific person keys `periyar` and `anna` were introduced only at `KQ-CCM-0043`, where use of those names is itself material to the propaganda/deception proposition. Their earlier incidental or attribution-like appearances remain unkeyed pending the final consistency pass.
+- The specific person keys `periyar` and `anna` were introduced only at `KQ-CCM-0043`, where use of those names is itself material to the propaganda/deception proposition. Their earlier incidental or attribution-like appearances remain unkeyed after the consistency pass unless the name itself is materially part of the proposition.
 - `ariviyakkam` intentionally preserves the canonical Tamil source term as a transliterated stable key rather than interpreting it as a named organization or doctrine.
 - Literal object keys `fireworks`, `candle` and `tulsi` are retained because those objects are themselves central to their respective propositions, not decorative mentions.
 - Version 0.3 adds reusable social, ethical, linguistic and civic concepts only where `KQ-CCM-0051`–`KQ-CCM-0075` directly requires them. Literal observation keys such as `sheep`, `light` and `water-drop` are limited to quotes whose canonical proposition is itself a direct observation rather than an inferred social metaphor.
-- `hindu-state` and `hindi-state` preserve the exact political formulations explicitly present in `KQ-CCM-0074`; their scope is intentionally not expanded using outside context.
+- `hindu-state` and `hindi-state` preserve the political formulations explicitly present in the canonical text. Version 0.9 folds the one-off `hindikkara-state` label into `hindi-state` for discovery consistency while preserving `இந்திக்கார ராஜ்யமே` verbatim in `KQ-CCM-0124`.
 - `tamils` and `second-class-citizenship` are introduced at `KQ-CCM-0073` because both the community and the warned civic status are explicit in the canonical wording.
 - Version 0.4 adds fifteen concepts directly required by `KQ-CCM-0076`–`KQ-CCM-0100`, including general cultural forms (`language`, `literature`, `culture`), rationalist/scientific concepts and source-preserving `vaguppuvaadam`.
 - `vaguppuvaadam` intentionally preserves the canonical Tamil term rather than silently reconciling it to a modern English political category.
 - `profit-seeking` is kept distinct from `corruption`: the former requires an explicit money-seeking motive, while the latter remains reserved for source text that identifies corruption.
-- Version 0.5 adds twenty-four concepts directly required by `KQ-CCM-0101`–`KQ-CCM-0125`, including media regulation, religious-story terms, social needs, domestic life, imprisonment and source-preserving political formulations.
-- `hindikkara-state` is intentionally distinct from `hindi-state`: the source prints `இந்திக்கார ராஜ்யம்` in `KQ-CCM-0124`, while the earlier key preserves `இந்தி ராஜ்யம்`. No silent lexical normalization is applied.
+- Version 0.5 adds concepts directly required by `KQ-CCM-0101`–`KQ-CCM-0125`, including media regulation, religious-story terms, social needs, domestic life and imprisonment. The former one-off `hindikkara-state` key was retired by the version 0.9 consistency migration.
 - `mythology` is a discovery label for explicitly named puranic/epic sacred stories; it does not assert external historical conclusions beyond the canonical wording.
-- `KQ-CCM-0126`–`KQ-CCM-0150` required no new stable keyword keys; the batch deliberately reused version 0.5 rather than creating one-off keys for every named person, object or metaphor.
-- `KQ-CCM-0151`–`KQ-CCM-0175` also required no new stable keyword keys; existing version 0.5 concepts were sufficient without expanding the vocabulary from incidental or one-off wording.
-- `KQ-CCM-0176`–`KQ-CCM-0300` continued to reuse working vocabulary version 0.5 without new stable-key additions.
+- `KQ-CCM-0126`–`KQ-CCM-0300` initially required no new stable keys during sequential construction; the full consistency pass later backfilled later-established keys where earlier canonical text directly supported them.
 - Version 0.6 adds seven concepts directly required by `KQ-CCM-0301`–`KQ-CCM-0325`: `astrology`, `birds`, `humility`, `rebirth`, `reservation`, `widowhood`, and `women`.
-- `birds` is intentionally limited to directly stated bird comparisons such as `KQ-CCM-0314`; it does not license inferring what human qualities eagles or pigeons represent.
-- `rebirth` is introduced because the concept itself is explicit and central in both `KQ-CCM-0315` and `KQ-CCM-0317`.
+- `birds` is intentionally limited to directly stated bird comparisons; it does not license inferring what human qualities a bird represents when the source does not state them.
+- `rebirth` is introduced because the concept itself is explicit and central in multiple canonical quotations.
 - `humility` is kept distinct from `modesty` and `self-restraint` because `அடக்கம்` in praise/victory contexts is a reusable character concept rather than `நாணம்` or merely measured action.
 - Version 0.7 adds three reusable concepts directly required by `KQ-CCM-0326`–`KQ-CCM-0350`: `capitalism`, `emotion`, and `punctuation`.
-- `capitalism` is introduced only where the canonical text itself explicitly names `முதலாளித்துவம்`; its scope does not import outside economic theory.
+- `capitalism` is used only where the canonical text itself explicitly names `முதலாளித்துவம்`; references merely to a capitalist class remain under the more directly supported class/labour concepts unless capitalism itself is named.
 - `punctuation` is limited to cases where punctuation marks themselves are materially discussed, rather than using the broader `grammar` key for a distinct written-form concept.
 - Version 0.8 adds five evidence-driven concepts directly required by `KQ-CCM-0351`–`KQ-CCM-0375`: `black-money`, `clouds`, `evolution`, `publicity`, and `superstition`.
-- `clouds` follows the existing literal-natural-object policy: `KQ-CCM-0351` is about clouds, sun and wind on the face of the canonical text, so no unstated social or political metaphor is supplied.
-- `publicity` is kept distinct from `political-propaganda` because `KQ-CCM-0355` explicitly says `விளம்பர` but does not itself identify a political campaign or actor.
-- `superstition` is kept distinct from both `credulity` and `rationalism`; `KQ-CCM-0360` directly names `மூடநம்பிக்கை` without requiring either a specific belief claim or an explicit `பகுத்தறிவு` formulation.
-- `evolution` is limited to the explicit Darwin-theory proposition in `KQ-CCM-0371`; no external account of evolutionary science is imported.
-- `black-money` preserves the exact economic expression in `KQ-CCM-0373` without silently expanding it into unstated legal or tax claims.
+- `clouds` follows the literal-natural-object policy and is backfilled only where clouds are a central explicit image rather than incidental weather wording.
+- `publicity` is kept distinct from `political-propaganda`; the consistency pass also applies it to earlier explicit self-publicizing language without inferring a political campaign.
+- `superstition` is kept distinct from both `credulity` and `rationalism`; it is used where the source directly names `மூடநம்பிக்கை` or a direct equivalent.
+- `evolution` is limited to explicit Darwin/evolution propositions; no external account of evolutionary science is imported.
+- `black-money` preserves the exact economic expression without silently expanding it into unstated legal or tax claims.
+- Version 0.9 adds `patience` because explicit `பொறுமை` had been inconsistently represented by broad `character` or `self-restraint` fallbacks across several batches. The dedicated key makes those repeated assignments consistent without changing canonical wording.
+- Version 0.9 also backfills later-established stable keys into earlier rows only where canonical text directly supports them, and removes or replaces broader fallback assignments where a later key is materially more precise.
 
-No vocabulary key has been renamed, split or merged; therefore no migration has occurred through version 0.8.
+One vocabulary migration occurred in version 0.9: `hindikkara-state` was retired and its sole assignment at `KQ-CCM-0124` was migrated to `hindi-state`. No canonical source text was normalized or changed.

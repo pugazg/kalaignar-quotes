@@ -9,8 +9,10 @@ This document defines the construction protocol for the repository's **derived k
 - Canonical quote range available: `KQ-CCM-0001`–`KQ-CCM-0497`
 - Keyword assignment: **complete — indexed through `KQ-CCM-0497` (497 / 497)**
 - Construction cadence: **25 quotes per sequential batch**, with a shorter final batch when needed
-- Vocabulary state: **working — [`keyword-vocabulary.md`](keyword-vocabulary.md), version 0.8 with 182 keys**
-- Next keyword-index activity: **perform the full repository-wide keyword consistency pass across all 497 assignments before freezing the vocabulary and publishing the consolidated index**
+- Vocabulary state: **consistency-reviewed / not frozen — [`keyword-vocabulary.md`](keyword-vocabulary.md), version 0.9 with 182 keys**
+- Full consistency pass: **complete — 497 / 497 rows reviewed; 21 quote-row corrections across 12 batch files; 1 added key and 1 vocabulary migration with no net key-count change**
+- Consistency record: [`keyword-consistency-review.md`](keyword-consistency-review.md)
+- Next keyword-index activity: **freeze the vocabulary as version 1.0 and publish the consolidated `indexes/keyword.md` index**
 - Source verification states remain authoritative and unchanged: **496 `verified_from_scan`**, **1 `needs_review` (`KQ-CCM-0391`)**
 
 ## Purpose
@@ -73,8 +75,8 @@ Stable keys should be concise lowercase ASCII kebab-case. Tamil display labels m
 - During sequential construction, the vocabulary remains a **0.x working vocabulary**.
 - New keys may be added when a later quote introduces a genuinely new concept.
 - Existing keys may be clarified when necessary, but changes must not silently change the meaning of previously assigned rows.
-- If a key must be renamed, split or merged during construction, record the migration in the vocabulary file and update all affected batch rows in the same commit.
-- After all 497 quotes are assigned and a full consistency pass is complete, freeze the controlled vocabulary as **version 1.0** before publishing the consolidated keyword index.
+- If a key must be renamed, split or merged during construction or consistency review, record the migration in the vocabulary file and update all affected batch rows in the same commit.
+- After all 497 quotes are assigned and the full consistency pass is complete, freeze the controlled vocabulary as **version 1.0** before publishing the consolidated keyword index.
 
 ## Batch construction format
 
@@ -101,7 +103,7 @@ Rules:
 - list one to five stable keyword keys, separated by semicolons;
 - preserve PDF, printed-page and verification values from the canonical quote file;
 - normally leave `Assignment note` blank;
-- use the note only for a difficult boundary decision, a vocabulary migration, or a `needs_review` limitation that affects indexing.
+- use the note only for a difficult boundary decision, a vocabulary migration, a consistency correction, or a `needs_review` limitation that affects indexing.
 
 ## Construction cadence
 
@@ -115,6 +117,8 @@ Proceed in the same sequential 25-quote cadence used successfully for prior deri
 6. commit the derived files without modifying canonical quote files.
 
 The final batch may contain fewer than 25 quotes.
+
+Sequential construction is now complete for all 497 quotes.
 
 ## Batch validation
 
@@ -133,18 +137,20 @@ Before each batch commit, confirm:
 
 `KQ-CCM-0391` remains `needs_review` because of the documented physical source blemish.
 
-When its keyword batch is reached:
+Its keyword row must:
 
-- assign keywords only from the readable canonical content;
-- do not infer a keyword from the obscured terminal glyph;
+- use keywords only from the readable canonical content;
+- not infer a keyword from the obscured terminal glyph;
 - keep the verification status `needs_review`;
-- add a short assignment note only if the unresolved glyph prevents an otherwise plausible keyword from being assigned.
+- record any limitation if the unresolved glyph prevents an otherwise plausible keyword from being assigned.
 
-Keyword indexing must not be treated as resolution of the source uncertainty.
+Keyword indexing must not be treated as resolution of the source uncertainty. The completed consistency pass confirmed that the row remains limited to readable evidence and does not resolve the blemish.
 
 ## Full consistency pass
 
-After all 497 quote rows are constructed, perform a repository-wide consistency pass before consolidation. Check:
+The required full consistency pass is complete and is documented in [`keyword-consistency-review.md`](keyword-consistency-review.md).
+
+The pass checked:
 
 - exactly 497 unique quote IDs, with no gaps or duplicates;
 - all keys valid under the working vocabulary;
@@ -157,15 +163,15 @@ After all 497 quote rows are constructed, perform a repository-wide consistency 
 - preserved source verification states, including `KQ-CCM-0391`;
 - unchanged canonical quote files.
 
-Record any corrections in a dedicated keyword consistency-review file.
+It applied **21 quote-row corrections across 12 batch files**, added the reusable `patience` key, and migrated the one-off `hindikkara-state` key into `hindi-state`. Working vocabulary version **0.9** remains at **182 stable keys** because the added key and retired key offset one another.
 
 ## Consolidated publication
 
-Only after the full consistency pass:
+The consistency gate is now satisfied. The next activity is to:
 
 1. freeze `keyword-vocabulary.md` as version **1.0**;
 2. publish `indexes/keyword.md` as the consolidated keyword discovery index;
-3. retain sequential batch files as construction/audit shards;
-4. document final coverage and consistency status in `indexes/README.md`.
+3. retain sequential batch files and [`keyword-consistency-review.md`](keyword-consistency-review.md) as construction/audit history;
+4. document final publication status in `indexes/README.md`.
 
 The consolidated index should remain quote-ID addressable and link every entry back to its canonical quote file.

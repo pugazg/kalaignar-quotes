@@ -16,7 +16,7 @@ The English layer is **derived metadata**. Canonical transcription authority rem
 - Pilot batch: `KQ-CCM-0001`–`KQ-CCM-0025`
 - Pilot first-pass translation: **complete**
 - Pilot fidelity/style review: **complete** — see [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
-- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–12 required no glossary revision
+- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–16 required no glossary revision
 - Batch 2: `KQ-CCM-0026`–`KQ-CCM-0050` — **first pass complete**
 - Batch 3: `KQ-CCM-0051`–`KQ-CCM-0075` — **first pass complete**
 - Batch 4: `KQ-CCM-0076`–`KQ-CCM-0100` — **first pass complete**
@@ -28,8 +28,13 @@ The English layer is **derived metadata**. Canonical transcription authority rem
 - Batch 10: `KQ-CCM-0226`–`KQ-CCM-0250` — **first pass complete**
 - Batch 11: `KQ-CCM-0251`–`KQ-CCM-0275` — **first pass complete**
 - Batch 12: `KQ-CCM-0276`–`KQ-CCM-0300` — **first pass complete**
-- Current first-pass coverage: **300 / 497**
-- Next activity: **translate `KQ-CCM-0301`–`KQ-CCM-0325`**
+- Batch 13: `KQ-CCM-0301`–`KQ-CCM-0325` — **first pass complete**
+- Batch 14: `KQ-CCM-0326`–`KQ-CCM-0350` — **first pass complete**
+- Batch 15: `KQ-CCM-0351`–`KQ-CCM-0375` — **first pass complete**
+- Batch 16: `KQ-CCM-0376`–`KQ-CCM-0400` — **first pass complete; `KQ-CCM-0391` source-limited**
+- Current first-pass coverage: **400 / 497**
+- Translated source states: **399 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
+- Next activity: **translate `KQ-CCM-0401`–`KQ-CCM-0425`**
 
 ## Source-authority hierarchy
 
@@ -65,6 +70,10 @@ translations/en/
     translation-0226-0250.md
     translation-0251-0275.md
     translation-0276-0300.md
+    translation-0301-0325.md
+    translation-0326-0350.md
+    translation-0351-0375.md
+    translation-0376-0400.md
     ...
     translation-0476-0497.md
   TRANSLATION_REVIEW.md       # create for full consistency/fidelity review
@@ -117,20 +126,22 @@ The review covered:
 - idiomatic force such as `சூடு சொரணை`;
 - consistency of `Anna` / `Arignar Anna` and other named references.
 
-The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** added Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. Batches 5–12 required no glossary-version change; their one-off source-specific expressions and wordplay are documented in the batch files. None of these later batches revises the locked pilot conventions.
+The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** added Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. Batches 5–16 required no glossary-version change; their one-off source-specific expressions and wordplay are documented in the batch files. None of these later batches revises the locked pilot conventions.
 
 Later batches may add new terminology, but an established convention should change only where later canonical evidence requires an explicit revision recorded in the translation history.
 
-## `KQ-CCM-0391` rule
+## `KQ-CCM-0391` rule and current state
 
-`KQ-CCM-0391` remains `needs_review` because the controlling scan has a physical blemish obscuring its terminal glyph after the readable text recorded by the repository.
+`KQ-CCM-0391` remains `needs_review` because the controlling scan has a physical blemish obscuring the terminal glyph immediately after readable `திருப்பி`; the first-pass reading `திருப்பித்` is not promoted to verified canonical status.
 
-When the translation reaches that quote:
+The translation has now reached this quote. Its Batch-16 English entry:
 
-- translate only the readable canonical content;
-- mark the English entry as source-limited / `needs_review`;
-- do not infer or complete the obscured terminal glyph;
-- do not treat translation as resolution of the source uncertainty.
+- is explicitly marked source-limited / `needs_review`;
+- represents only the readable proposition established by the canonical record;
+- does not infer or complete the obscured terminal glyph;
+- does not treat translation as resolution of the source uncertainty.
+
+This source-limited state must be preserved through the final consistency review and consolidated publication unless the controlling source itself is genuinely resolved.
 
 ## Batch validation
 

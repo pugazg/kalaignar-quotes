@@ -7,7 +7,7 @@ The audited Tamil quote files remain authoritative. English files must never sil
 ## Current status
 
 - Canonical quote range: `KQ-CCM-0001`–`KQ-CCM-0497`
-- English first-pass coverage: **300 / 497**
+- English first-pass coverage: **400 / 497**
 - Completed batches:
   - [`batches/translation-0001-0025.md`](batches/translation-0001-0025.md) — pilot, 25 quotes
   - [`batches/translation-0026-0050.md`](batches/translation-0026-0050.md) — Batch 2, 25 quotes
@@ -21,12 +21,17 @@ The audited Tamil quote files remain authoritative. English files must never sil
   - [`batches/translation-0226-0250.md`](batches/translation-0226-0250.md) — Batch 10, 25 quotes
   - [`batches/translation-0251-0275.md`](batches/translation-0251-0275.md) — Batch 11, 25 quotes
   - [`batches/translation-0276-0300.md`](batches/translation-0276-0300.md) — Batch 12, 25 quotes
-- Source states represented so far: **300 `verified_from_scan`**
+  - [`batches/translation-0301-0325.md`](batches/translation-0301-0325.md) — Batch 13, 25 quotes
+  - [`batches/translation-0326-0350.md`](batches/translation-0326-0350.md) — Batch 14, 25 quotes
+  - [`batches/translation-0351-0375.md`](batches/translation-0351-0375.md) — Batch 15, 25 quotes
+  - [`batches/translation-0376-0400.md`](batches/translation-0376-0400.md) — Batch 16, 25 quotes; `KQ-CCM-0391` source-limited
+- Source states represented so far: **399 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
 - Pilot fidelity/style review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md) — **complete**
-- Glossary: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–12 required no glossary revision
+- Glossary: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–16 required no glossary revision
 - Translation protocol: [`TRANSLATION_PLAN.md`](TRANSLATION_PLAN.md)
 - Progress ledger: [`PROGRESS.md`](PROGRESS.md)
-- Next activity: **translate `KQ-CCM-0301`–`KQ-CCM-0325`**
+- `KQ-CCM-0391`: English first pass is present but explicitly source-limited; the Tamil source remains `needs_review`
+- Next activity: **translate `KQ-CCM-0401`–`KQ-CCM-0425`**
 
 ## Translation principles
 
@@ -34,10 +39,10 @@ The English aims to be readable while remaining source-bound. It preserves subst
 
 Tamil wordplay that cannot survive directly in English is kept visible through a retained source term or a short translation note. Culturally specific terms are transliterated when a supposedly smoother English substitute would introduce unsupported interpretation.
 
-The mandatory pilot review rechecked all 25 first-batch translations against their canonical Tamil and refined four English renderings (`KQ-CCM-0004`, `0016`, `0020`, `0025`). Those conventions remain locked. Batches 2 and 3 added source-facing political, social, literary and culturally specific terminology. Batch 4 added source-bound handling for **Vamana avatar / King Mahabali**, mirror-context **reflective coating**, **the Last Seven Great Patrons**, **panneer flowers**, **vaguppuvaadam**, **kalli plant**, and related domination/fanaticism vocabulary. Batches 5–12 retained glossary version 1.3 and documented one-off source-specific language and wordplay locally without changing earlier conventions.
+The mandatory pilot review rechecked all 25 first-batch translations against their canonical Tamil and refined four English renderings (`KQ-CCM-0004`, `0016`, `0020`, `0025`). Those conventions remain locked. Batches 2 and 3 added source-facing political, social, literary and culturally specific terminology. Batch 4 added source-bound handling for **Vamana avatar / King Mahabali**, mirror-context **reflective coating**, **the Last Seven Great Patrons**, **panneer flowers**, **vaguppuvaadam**, **kalli plant**, and related domination/fanaticism vocabulary. Batches 5–16 retained glossary version 1.3 and documented one-off source-specific language and wordplay locally without changing earlier conventions.
 
 ## Construction model
 
 Translation proceeds in sequential 25-quote batches, with a shorter final batch. Batch files are retained as the construction/audit history. After all 497 first-pass translations are complete, a full consistency/fidelity review will precede publication of a consolidated `quotes.md`.
 
-`KQ-CCM-0391` must remain source-limited when reached: its obscured terminal glyph is not to be guessed or reconstructed in English.
+`KQ-CCM-0391` has now been reached. Its English entry remains source-limited: the physical blemish obscuring the terminal glyph after `திருப்பி` was not guessed or reconstructed, and translation does not alter its canonical `needs_review` state.

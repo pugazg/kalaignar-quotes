@@ -9,19 +9,20 @@ This document defines the construction protocol for the repository's **derived k
 - Canonical quote range available: `KQ-CCM-0001`–`KQ-CCM-0497`
 - Keyword assignment: **complete — indexed through `KQ-CCM-0497` (497 / 497)**
 - Construction cadence: **25 quotes per sequential batch**, with a shorter final batch when needed
-- Vocabulary state: **consistency-reviewed / not frozen — [`keyword-vocabulary.md`](keyword-vocabulary.md), version 0.9 with 182 keys**
+- Vocabulary state: **frozen / published — [`keyword-vocabulary.md`](keyword-vocabulary.md), version 1.0 with 182 keys**
 - Full consistency pass: **complete — 497 / 497 rows reviewed; 21 quote-row corrections across 12 batch files; 1 added key and 1 vocabulary migration with no net key-count change**
 - Consistency record: [`keyword-consistency-review.md`](keyword-consistency-review.md)
-- Next keyword-index activity: **freeze the vocabulary as version 1.0 and publish the consolidated `indexes/keyword.md` index**
+- Consolidated publication: **complete — [`keyword.md`](keyword.md), 497 / 497 quote assignments**
+- Keyword-index lifecycle: **complete under controlled vocabulary version 1.0**
 - Source verification states remain authoritative and unchanged: **496 `verified_from_scan`**, **1 `needs_review` (`KQ-CCM-0391`)**
 
 ## Purpose
 
-The keyword index should provide **finer-grained discovery than the theme index** without becoming a second transcription, a modernized paraphrase, or an interpretation layer.
+The keyword index provides **finer-grained discovery than the theme index** without becoming a second transcription, a modernized paraphrase, or an interpretation layer.
 
-A theme answers a broad question such as "what general subject does this quote concern?" A keyword should identify a narrower, reusable concept that is materially present in the quote itself, for example a named social issue, institution, practice, relationship, value, political concept, language issue, literary form, natural image, or other directly supported subject.
+A theme answers a broad question such as "what general subject does this quote concern?" A keyword identifies a narrower, reusable concept that is materially present in the quote itself, for example a named social issue, institution, practice, relationship, value, political concept, language issue, literary form, natural image, or other directly supported subject.
 
-The keyword index must complement, not duplicate or override:
+The keyword index complements, and never overrides:
 
 - the canonical quote files;
 - the opening-word index;
@@ -59,32 +60,37 @@ If a candidate keyword would require explanation beginning with "this probably r
 
 ## Controlled vocabulary
 
-Keyword construction maintains a separate `keyword-vocabulary.md`.
+The controlled vocabulary is maintained in [`keyword-vocabulary.md`](keyword-vocabulary.md).
 
-Each vocabulary entry must contain:
+Each vocabulary entry contains:
 
 - a stable machine-readable key;
 - a Tamil display label;
 - a short scope definition;
 - optional boundary guidance when confusion with another keyword is likely.
 
-Stable keys should be concise lowercase ASCII kebab-case. Tamil display labels may preserve the natural concept label used for discovery; they are derived metadata and do not rewrite the canonical source text.
+Stable keys are concise lowercase ASCII kebab-case. Tamil display labels are derived metadata and do not rewrite canonical source text.
 
 ### Vocabulary lifecycle
 
-- During sequential construction, the vocabulary remains a **0.x working vocabulary**.
-- New keys may be added when a later quote introduces a genuinely new concept.
-- Existing keys may be clarified when necessary, but changes must not silently change the meaning of previously assigned rows.
-- If a key must be renamed, split or merged during construction or consistency review, record the migration in the vocabulary file and update all affected batch rows in the same commit.
-- After all 497 quotes are assigned and the full consistency pass is complete, freeze the controlled vocabulary as **version 1.0** before publishing the consolidated keyword index.
+During sequential construction the vocabulary remained a **0.x working vocabulary**. New keys could be added when later quotes introduced genuinely new concepts, and migrations had to be recorded whenever a key was renamed, split or merged.
+
+Sequential construction and the full consistency pass are complete. The consistency-reviewed working vocabulary 0.9 was frozen as **version 1.0** during consolidated publication, with **182 stable keys**. The freeze itself introduced no additional key change.
+
+Any future controlled-vocabulary change must:
+
+1. increment the vocabulary version beyond 1.0;
+2. document the change and its evidence boundary;
+3. record and apply any migration to affected assignments;
+4. republish affected derived index data without modifying canonical quote text.
 
 ## Batch construction format
 
-Use sequential batch files:
+Construction used sequential batch files:
 
 `indexes/keyword-NNNN-NNNN.md`
 
-Each batch begins with:
+Each batch records:
 
 - design/vocabulary version used;
 - quote range;
@@ -92,7 +98,7 @@ Each batch begins with:
 - verification states represented;
 - statement that canonical quote files were not changed.
 
-Use one row per quote with this exact column structure:
+Each batch uses one row per quote with this column structure:
 
 ```text
 Quote ID | Keyword key(s) | PDF | Printed | Verification status | Assignment note
@@ -107,53 +113,51 @@ Rules:
 
 ## Construction cadence
 
-Proceed in the same sequential 25-quote cadence used successfully for prior derived-index work:
+Sequential construction used the same 25-quote cadence as prior derived-index work:
 
-1. read all 25 canonical quote files completely;
+1. read all canonical quote files in the batch completely;
 2. assign one to five text-supported keyword keys to each quote;
-3. add any genuinely new concepts to `keyword-vocabulary.md`;
+3. add genuinely new concepts to the working vocabulary when needed;
 4. validate the batch;
-5. update `indexes/README.md` with coverage and the next batch;
-6. commit the derived files without modifying canonical quote files.
+5. update `indexes/README.md` with coverage;
+6. commit only derived files without modifying canonical quote files.
 
-The final batch may contain fewer than 25 quotes.
-
-Sequential construction is now complete for all 497 quotes.
+The final batch contained 22 quotes. Sequential construction is complete for all **497 / 497** quotes.
 
 ## Batch validation
 
-Before each batch commit, confirm:
+Each batch was validated for:
 
-- every quote ID in the batch appears exactly once;
-- every row has one to five keyword keys;
-- every key exists in the current vocabulary;
-- no duplicate keyword appears within one quote row;
-- PDF and printed-page values match the canonical quote file;
-- verification status matches the canonical quote file;
-- no keyword depends on outside context or OCR inference;
-- no canonical quote file was changed.
+- every quote ID appearing exactly once;
+- one to five keyword keys per row;
+- every key existing in the current vocabulary;
+- no duplicate keyword within one row;
+- PDF and printed-page values matching the canonical quote file;
+- verification status matching the canonical quote file;
+- no keyword depending on outside context or OCR inference;
+- no canonical quote file changes.
 
 ## `KQ-CCM-0391`
 
 `KQ-CCM-0391` remains `needs_review` because of the documented physical source blemish.
 
-Its keyword row must:
+Its keyword assignment:
 
-- use keywords only from the readable canonical content;
-- not infer a keyword from the obscured terminal glyph;
-- keep the verification status `needs_review`;
-- record any limitation if the unresolved glyph prevents an otherwise plausible keyword from being assigned.
+- uses only readable canonical content;
+- does not infer a keyword from the obscured terminal glyph;
+- keeps the verification status `needs_review`;
+- remains `arrogance`; `speech` under the frozen vocabulary.
 
-Keyword indexing must not be treated as resolution of the source uncertainty. The completed consistency pass confirmed that the row remains limited to readable evidence and does not resolve the blemish.
+Keyword indexing and consolidated publication do not resolve the source uncertainty.
 
 ## Full consistency pass
 
-The required full consistency pass is complete and is documented in [`keyword-consistency-review.md`](keyword-consistency-review.md).
+The required full consistency pass is complete and documented in [`keyword-consistency-review.md`](keyword-consistency-review.md).
 
 The pass checked:
 
-- exactly 497 unique quote IDs, with no gaps or duplicates;
-- all keys valid under the working vocabulary;
+- exactly **497 unique quote IDs**, with no gaps or duplicates;
+- all keys valid under the controlled vocabulary;
 - one to five keywords per quote;
 - consistent reuse of equivalent concepts;
 - accidental near-duplicate vocabulary keys;
@@ -163,15 +167,16 @@ The pass checked:
 - preserved source verification states, including `KQ-CCM-0391`;
 - unchanged canonical quote files.
 
-It applied **21 quote-row corrections across 12 batch files**, added the reusable `patience` key, and migrated the one-off `hindikkara-state` key into `hindi-state`. Working vocabulary version **0.9** remains at **182 stable keys** because the added key and retired key offset one another.
+It applied **21 quote-row corrections across 12 batch files**, added the reusable `patience` key, and migrated the one-off `hindikkara-state` key into `hindi-state`. The reviewed vocabulary remained at **182 stable keys** because the added and retired keys offset one another.
 
 ## Consolidated publication
 
-The consistency gate is now satisfied. The next activity is to:
+Publication is complete.
 
-1. freeze `keyword-vocabulary.md` as version **1.0**;
-2. publish `indexes/keyword.md` as the consolidated keyword discovery index;
-3. retain sequential batch files and [`keyword-consistency-review.md`](keyword-consistency-review.md) as construction/audit history;
-4. document final publication status in `indexes/README.md`.
+- [`keyword-vocabulary.md`](keyword-vocabulary.md) is frozen as controlled vocabulary version **1.0** with **182 stable keys**.
+- [`keyword.md`](keyword.md) publishes all **497 / 497** consistency-reviewed quote assignments.
+- All twenty sequential batch files and [`keyword-consistency-review.md`](keyword-consistency-review.md) remain as construction and audit history.
+- `KQ-CCM-0391` remains `needs_review` and its obscured terminal glyph remains unresolved.
+- Canonical quote files were not modified by construction, consistency review, vocabulary freeze, or consolidated publication.
 
-The consolidated index should remain quote-ID addressable and link every entry back to its canonical quote file.
+Future controlled-vocabulary changes require a version increment and an explicit migration record where existing assignments are affected.

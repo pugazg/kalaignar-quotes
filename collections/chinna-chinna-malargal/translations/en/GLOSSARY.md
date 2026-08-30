@@ -4,13 +4,15 @@ This is the terminology and style record for the English translation of `chinna-
 
 ## Status
 
-- Glossary version: **1.0**
-- Basis: reviewed pilot `KQ-CCM-0001`–`KQ-CCM-0025`
-- State: **pilot conventions locked**
+- Glossary version: **1.1**
+- Pilot basis: reviewed `KQ-CCM-0001`–`KQ-CCM-0025`
+- Pilot state: **conventions locked**
+- Batch-2 extension: `KQ-CCM-0026`–`KQ-CCM-0050`
 - Pilot review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
-- Next activity: translate `KQ-CCM-0026`–`KQ-CCM-0050` using these conventions.
+- Current first-pass coverage: **50 / 497**
+- Next activity: translate `KQ-CCM-0051`–`KQ-CCM-0075` using these conventions.
 
-The glossary is a translation aid only. It does not normalize or alter canonical Tamil. New recurring terms may be added as later batches require them, but a locked pilot convention should change only when later canonical evidence requires an explicit revision recorded in the translation history.
+The glossary is a translation aid only. It does not normalize or alter canonical Tamil. Version 1.1 adds source-facing terminology required by Batch 2; it does **not** revise any locked pilot convention. A locked convention should change only when later canonical evidence requires an explicit revision recorded in the translation history.
 
 ## Locked pilot terminology
 
@@ -27,7 +29,7 @@ The glossary is a translation aid only. It does not normalize or alter canonical
 | `புனுகு`, `ஜவ்வாது` | **punugu**, **javvadu** | Retain the culturally specific source fragrance terms in transliteration rather than substituting an unverified composition or modern perfume label. |
 | `அதிகாரம்` | **power / authority** | Choose by sentence. In `KQ-CCM-0011`, keep the Tamil word visible because its initial `அ` creates the `நீதி` → `அநீதி` wordplay. |
 | `நீதி` / `அநீதி` | **justice / injustice** | In the `KQ-CCM-0011` pun, retain `நீதி` and `அநீதி` alongside English so the letter-based wordplay remains inspectable. |
-| `தலை எழுத்து` / `தலையெழுத்து` | **destiny** | `KQ-CCM-0014` deliberately plays with spaced/joined forms and `தலைதூக்கி`; translate the proposition as **destiny** and retain a short note explaining the Tamil wordplay. |
+| `தலை எழுத்து` / `தலையெழுத்து` | **destiny** | `KQ-CCM-0014` deliberately plays with spaced/joined forms and `தலைதூக்கி`; translate the proposition as **destiny** and retain a short note explaining the wordplay. |
 | `இயக்கம்` | **movement** | Default for a political/social movement when the source itself gives only the generic term. Do not infer a party identity. |
 | `பொதுவாழ்வு` | **public life** | Use for participation in civic/political public life. |
 | `பொதுத் தொண்டு` / `பொதுவேலை` | **public service / public work** | Choose according to syntax; preserve the service/work distinction where it matters. |
@@ -36,6 +38,25 @@ The glossary is a translation aid only. It does not normalize or alter canonical
 | `எருக்கம் பூ` | **erukkam blossom** | Retain the source plant name in `KQ-CCM-0023`; do not add a botanical identification unless separately sourced for editorial notes. |
 | `ரசம்` / `விரசம்` | **flavour / acrimony** in `KQ-CCM-0025` | The source uses sound/semantic wordplay that English cannot reproduce. **Acrimony** carries the political-discourse force and the explicit progression toward hostile feeling without importing an obscenity sense. Preserve the Tamil pair in a short note. |
 | `பகைமரம்` | **“tree of enmity”** | Preserve the source's coined/metaphorical compound visibly. |
+
+## Batch-2 terminology — version 1.1 additions
+
+| Tamil/source form | English handling | Guidance |
+|---|---|---|
+| `தமிழ் உணர்வு` | **Tamil consciousness** | Use for the explicitly stated attachment/awareness toward Tamil. Do not expand it into an unstated political program. |
+| `தாய்மொழி` | **mother tongue** | Preserve the source's kinship metaphor rather than flattening it to generic “native language.” |
+| `மானம்` | **honour / self-respect** | Choose by sentence. Use **honour** where personal dignity is the direct moral quality; preserve stronger self-respect wording when the context explicitly requires it. |
+| `மனித நேயப் பண்பாடு` | **culture of humaneness** | Preserve the explicit humaneness/culture formulation without importing a named philosophical school. |
+| `துளசி` | **tulsi** | Retain the source-facing plant name; do not add botanical or ritual detail not stated in the quote. |
+| `மதப்பற்று` | **religious attachment** | Use for attachment to religion as such. Do not automatically intensify it to fanaticism or devotion unless the canonical wording does so. |
+| `திராவிட இயக்கம்` | **Dravidian Movement** | Translate the explicitly named movement directly. Do not use this label for a generic `இயக்கம்` where the source does not name it. |
+| `சுயமரியாதை மாநாடு` | **Self-Respect Conference** | Source-facing translation for the explicitly named conference in `KQ-CCM-0042`. |
+| `கழக ஆட்சி` | **Kazhagam government** | Retain `Kazhagam` rather than silently expanding the phrase into a specific party name not printed in the canonical quote. |
+| `பெரியார்` | **Periyar** | Stable source-facing English form for the named person. |
+| `பேரறிஞர் அண்ணா` | **Perarignar Anna** | Preserve the stronger printed honorific; do not reduce it to the pilot `Arignar Anna` form when the canonical source says `பேரறிஞர்`. |
+| `நாணம்` | **modesty** | Use for the explicit personal quality in `KQ-CCM-0045`; do not generalize to shame where the source is praising modesty. |
+| `சாகாவரம்` | **immortality** | Use when the source explicitly describes something as deathless/enduring beyond destruction. |
+| `அறிவியக்கம்` | **Ariviyakkam** | Retain the source term in transliteration rather than assigning an external organizational or doctrinal identity. Translate the surrounding proposition fully. |
 
 ## Locked pilot wordplay decisions
 
@@ -69,6 +90,24 @@ The quoted words `கடிதோச்சி மெல்ல எறிக` are 
 
 The source juxtaposes `ரசம்` and `விரசம்`. The reviewed rendering uses **flavour** and **acrimony** for readable political-discourse English and records the Tamil pair in a note rather than pretending the pun survives unchanged.
 
+## Batch-2 wordplay / source-term decisions
+
+### `KQ-CCM-0037`
+
+The source places `மேய்ப்போன்` and `எய்ப்போன்` in a close sound relationship. Use **shepherd / deceiver** for the semantic contrast and record that the Tamil sound-play is not reproducible rather than manufacturing an English pun.
+
+### `KQ-CCM-0042`
+
+Translate `திராவிட இயக்கம்` and `சுயமரியாதை மாநாடு` directly, but retain `கழக` as **Kazhagam**. The canonical quote provides its own dates and legislative claim; translation must not add party identification or external history.
+
+### `KQ-CCM-0045`
+
+The Tamil sequence uses dense sound-patterning across `தேன் / தேனிசை`, `மான் / மீன்`, `நாணம் / மானம் / மாண்பு`. Preserve the ordered images and semantic contrasts; use a short note to acknowledge the sound pattern rather than distorting the English to chase rhyme.
+
+### `KQ-CCM-0050`
+
+Retain `அறிவியக்கம்` as **Ariviyakkam**. Do not silently identify it with an external institution, movement name or doctrinal label beyond what the canonical quote itself says.
+
 ## General translation style lock
 
 1. Translate every substantive proposition; do not summarise.
@@ -82,4 +121,4 @@ The source juxtaposes `ரசம்` and `விரசம்`. The reviewed rend
 
 ## Revision policy
 
-Version **1.0** locks the pilot conventions after review of all 25 pilot quotes. Later batches may add new terminology. If later canonical evidence shows that a locked convention needs revision, record the reason explicitly in `PROGRESS.md` or the later full `TRANSLATION_REVIEW.md`; never silently change an established translation convention.
+Version **1.0** locked the pilot conventions after review of all 25 pilot quotes. Version **1.1** adds terminology and source-term handling required by `KQ-CCM-0026`–`KQ-CCM-0050` without changing any pilot convention. Later batches may add new terminology. If later canonical evidence shows that a locked convention needs revision, record the reason explicitly in `PROGRESS.md` or the later full `TRANSLATION_REVIEW.md`; never silently change an established translation convention.

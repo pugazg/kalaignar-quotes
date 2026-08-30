@@ -16,9 +16,10 @@ The English layer is **derived metadata**. Canonical transcription authority rem
 - Pilot batch: `KQ-CCM-0001`–`KQ-CCM-0025`
 - Pilot first-pass translation: **complete**
 - Pilot fidelity/style review: **complete** — see [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
-- Pilot convention lock: [`GLOSSARY.md`](GLOSSARY.md), version **1.0**
-- Current first-pass coverage: **25 / 497**
-- Next activity: **translate `KQ-CCM-0026`–`KQ-CCM-0050`**
+- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.1** — pilot conventions locked; Batch-2 terminology added
+- Batch 2: `KQ-CCM-0026`–`KQ-CCM-0050` — **first pass complete**
+- Current first-pass coverage: **50 / 497**
+- Next activity: **translate `KQ-CCM-0051`–`KQ-CCM-0075`**
 
 ## Source-authority hierarchy
 
@@ -44,6 +45,7 @@ translations/en/
   batches/
     translation-0001-0025.md
     translation-0026-0050.md
+    translation-0051-0075.md
     ...
     translation-0476-0497.md
   TRANSLATION_REVIEW.md       # create for full consistency/fidelity review
@@ -96,7 +98,9 @@ The review covered:
 - idiomatic force such as `சூடு சொரணை`;
 - consistency of `Anna` / `Arignar Anna` and other named references.
 
-The reviewed decisions are locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Later batches may add new terminology, but an established pilot convention should change only where later canonical evidence requires an explicit revision recorded in the translation history.
+The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** adds only terminology required by Batch 2, including source-facing handling of `திராவிட இயக்கம்`, `சுயமரியாதை மாநாடு`, `கழக ஆட்சி`, `பேரறிஞர் அண்ணா` and `அறிவியக்கம்`; no pilot convention was revised.
+
+Later batches may add new terminology, but an established convention should change only where later canonical evidence requires an explicit revision recorded in the translation history.
 
 ## `KQ-CCM-0391` rule
 

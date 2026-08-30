@@ -4,13 +4,13 @@
 
 - Collection: `chinna-chinna-malargal`
 - Canonical total: **497 quotes**
-- First-pass English translation complete through: **`KQ-CCM-0175`**
-- First-pass coverage: **175 / 497**
+- First-pass English translation complete through: **`KQ-CCM-0200`**
+- First-pass coverage: **200 / 497**
 - Pilot batch status: **translated and fidelity/style reviewed**
 - Pilot review: [`PILOT_REVIEW.md`](PILOT_REVIEW.md) — **complete**
-- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–7 required no glossary revision
+- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batches 5–8 required no glossary revision
 - Canonical source files changed by translation work: **none**
-- Next activity: **translate `KQ-CCM-0176`–`KQ-CCM-0200`**
+- Next activity: **translate `KQ-CCM-0201`–`KQ-CCM-0225`**
 
 ## Batch ledger
 
@@ -23,12 +23,13 @@
 | Batch 5 | `KQ-CCM-0101`–`KQ-CCM-0125` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0101-0125.md`](batches/translation-0101-0125.md) |
 | Batch 6 | `KQ-CCM-0126`–`KQ-CCM-0150` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0126-0150.md`](batches/translation-0126-0150.md) |
 | Batch 7 | `KQ-CCM-0151`–`KQ-CCM-0175` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0151-0175.md`](batches/translation-0151-0175.md) |
+| Batch 8 | `KQ-CCM-0176`–`KQ-CCM-0200` | 25 | 25 `verified_from_scan` | first pass complete | [`batches/translation-0176-0200.md`](batches/translation-0176-0200.md) |
 
 ## Pilot review result
 
 All 25 pilot translations were compared against their canonical audited Tamil files. Four English renderings were refined for fidelity/readability: `KQ-CCM-0004`, `KQ-CCM-0016`, `KQ-CCM-0020` and `KQ-CCM-0025`. The remaining 21 were retained. Details and rationale are recorded in [`PILOT_REVIEW.md`](PILOT_REVIEW.md).
 
-The pilot convention lock remains authoritative. Batches 2–7 did not revise any locked pilot convention.
+The pilot convention lock remains authoritative. Batches 2–8 did not revise any locked pilot convention.
 
 ## Batch 2 notes
 
@@ -66,12 +67,18 @@ No new recurring terminology required a glossary-version change, so version **1.
 
 No new recurring terminology required a glossary-version change, so version **1.3** remains authoritative. Local translation notes preserve source-specific handling for `வடமொழி` as **vadamozhi** in `KQ-CCM-0151`; `பொய்க்கால் குதிரை` as **poikkaal kuthirai** in `KQ-CCM-0152`; source-visible `பிர்மஹத்தி` as **pirmahathi** in `KQ-CCM-0158`; `தாழம்பூ` as **thazhampoo** in `KQ-CCM-0161`; the `வெள்ளி / சனி / ஞாயிறு` celestial/weekday wordplay in `KQ-CCM-0162`; `விலாங்கு மீன்` as **vilangu fish** in `KQ-CCM-0163`; `குடுகுடுப்பைக்காரன்` as **kudukuduppai fortune-teller** in `KQ-CCM-0164`; and the `பெரும்பான்மை / சிறுபான்மை / விஷப்பான்மை` morphology in `KQ-CCM-0168`.
 
+## Batch 8 notes
+
+`KQ-CCM-0176`–`KQ-CCM-0200` were translated directly from the 25 canonical audited Tamil files. All 25 source states are `verified_from_scan`.
+
+No new recurring terminology required a glossary-version change, so version **1.3** remains authoritative. Existing glossary handling for `பொதுவாழ்வு`, mirror-context `ரசம் பூசுதல்`, `விரசம்` and `பாபவிமோசனம்` was retained. Local notes preserve the `பொறுமை / பொறாமை`, `குடை / கொடை` and `வாய்மை / பொய்மை / வாள் / வால்` wordplay, and keep the `பாஞ்சாலி / கண்ணகி` comparison source-bound without importing an external literary narrative.
+
 No OCR text, online quotation or outside historical reconstruction was used as translation authority. Canonical Tamil text, punctuation, page provenance and verification states remain untouched.
 
 ## Future batches
 
 Continue in 25-quote sequence:
 
-`0176–0200`, `0201–0225`, `0226–0250`, …, `0451–0475`, followed by final `0476–0497`.
+`0201–0225`, `0226–0250`, `0251–0275`, …, `0451–0475`, followed by final `0476–0497`.
 
 After first-pass coverage reaches **497 / 497**, perform the full English fidelity/consistency review before consolidated publication.

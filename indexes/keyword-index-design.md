@@ -7,10 +7,10 @@ This document defines the construction protocol for the repository's **derived k
 - Design version: **0.1**
 - Scope: `chinna-chinna-malargal`
 - Canonical quote range available: `KQ-CCM-0001`–`KQ-CCM-0497`
-- Keyword assignment: **in progress — indexed through `KQ-CCM-0475` (475 / 497)**
+- Keyword assignment: **complete — indexed through `KQ-CCM-0497` (497 / 497)**
 - Construction cadence: **25 quotes per sequential batch**, with a shorter final batch when needed
 - Vocabulary state: **working — [`keyword-vocabulary.md`](keyword-vocabulary.md), version 0.8 with 182 keys**
-- Next keyword-index activity: **construct `KQ-CCM-0476`–`KQ-CCM-0497`, reusing or extending the working vocabulary only when the canonical text requires it**
+- Next keyword-index activity: **perform the full repository-wide keyword consistency pass across all 497 assignments before freezing the vocabulary and publishing the consolidated index**
 - Source verification states remain authoritative and unchanged: **496 `verified_from_scan`**, **1 `needs_review` (`KQ-CCM-0391`)**
 
 ## Purpose

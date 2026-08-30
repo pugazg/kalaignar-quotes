@@ -15,7 +15,10 @@ The English layer is **derived metadata**. Canonical transcription authority rem
 - Translation cadence: **25 sequential quote IDs per batch**, with the shorter final batch `0476`–`0497`
 - Pilot batch: `KQ-CCM-0001`–`KQ-CCM-0025`
 - Pilot first-pass translation: **complete**
-- Next activity: **pilot fidelity/style review and convention lock before translating `KQ-CCM-0026`–`KQ-CCM-0050`**
+- Pilot fidelity/style review: **complete** — see [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
+- Pilot convention lock: [`GLOSSARY.md`](GLOSSARY.md), version **1.0**
+- Current first-pass coverage: **25 / 497**
+- Next activity: **translate `KQ-CCM-0026`–`KQ-CCM-0050`**
 
 ## Source-authority hierarchy
 
@@ -37,6 +40,7 @@ translations/en/
   TRANSLATION_PLAN.md
   PROGRESS.md
   GLOSSARY.md
+  PILOT_REVIEW.md
   batches/
     translation-0001-0025.md
     translation-0026-0050.md
@@ -81,16 +85,18 @@ Each quote entry must include:
 
 ## Pilot style lock
 
-`KQ-CCM-0001`–`KQ-CCM-0025` is the mandatory pilot. Before Batch 2 begins, review the pilot for:
+`KQ-CCM-0001`–`KQ-CCM-0025` was the mandatory pilot. Its fidelity/style review is complete and recorded in [`PILOT_REVIEW.md`](PILOT_REVIEW.md).
+
+The review covered:
 
 - treatment of `இலட்சியம்`, `கொள்கை`, `அதிகாரம்`, `நீதி`, `அநீதி`, `பொதுவாழ்வு`, `பொதுத் தொண்டு`, `இயக்கம்` and recurring political/social vocabulary;
 - culturally specific terms such as `மோட்சம்`, `அஷ்டமா சித்து`, `புனுகு`, `ஜவ்வாது` and `எருக்கம்`;
 - Tamil wordplay that cannot be reproduced directly in English (`KQ-CCM-0004`, `0005`, `0011`, `0014`, `0025`);
 - rhetorical punctuation and exclamation density;
-- translation of idiomatic force such as `சூடு சொரணை`;
+- idiomatic force such as `சூடு சொரணை`;
 - consistency of `Anna` / `Arignar Anna` and other named references.
 
-Pilot decisions are recorded in `GLOSSARY.md`. After the pilot review they should be treated as locked conventions unless later canonical evidence requires an explicit revision.
+The reviewed decisions are locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Later batches may add new terminology, but an established pilot convention should change only where later canonical evidence requires an explicit revision recorded in the translation history.
 
 ## `KQ-CCM-0391` rule
 

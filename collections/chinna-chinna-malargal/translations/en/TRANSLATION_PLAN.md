@@ -16,12 +16,13 @@ The English layer is **derived metadata**. Canonical transcription authority rem
 - Pilot batch: `KQ-CCM-0001`–`KQ-CCM-0025`
 - Pilot first-pass translation: **complete**
 - Pilot fidelity/style review: **complete** — see [`PILOT_REVIEW.md`](PILOT_REVIEW.md)
-- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added
+- Glossary/style conventions: [`GLOSSARY.md`](GLOSSARY.md), version **1.3** — pilot conventions locked; Batch-2 through Batch-4 terminology added; Batch 5 required no glossary revision
 - Batch 2: `KQ-CCM-0026`–`KQ-CCM-0050` — **first pass complete**
 - Batch 3: `KQ-CCM-0051`–`KQ-CCM-0075` — **first pass complete**
 - Batch 4: `KQ-CCM-0076`–`KQ-CCM-0100` — **first pass complete**
-- Current first-pass coverage: **100 / 497**
-- Next activity: **translate `KQ-CCM-0101`–`KQ-CCM-0125`**
+- Batch 5: `KQ-CCM-0101`–`KQ-CCM-0125` — **first pass complete**
+- Current first-pass coverage: **125 / 497**
+- Next activity: **translate `KQ-CCM-0126`–`KQ-CCM-0150`**
 
 ## Source-authority hierarchy
 
@@ -49,6 +50,7 @@ translations/en/
     translation-0026-0050.md
     translation-0051-0075.md
     translation-0076-0100.md
+    translation-0101-0125.md
     ...
     translation-0476-0497.md
   TRANSLATION_REVIEW.md       # create for full consistency/fidelity review
@@ -101,7 +103,7 @@ The review covered:
 - idiomatic force such as `சூடு சொரணை`;
 - consistency of `Anna` / `Arignar Anna` and other named references.
 
-The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** adds Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. None of these extensions revises the locked pilot conventions.
+The reviewed decisions were locked in [`GLOSSARY.md`](GLOSSARY.md) version **1.0**. Version **1.1** added terminology required by Batch 2, version **1.2** added Batch-3 terminology, and version **1.3** added Batch-4 source-facing handling for `வாமனாவதாரம்`, mirror-context `ரசம் பூசுதல்`, `கடையேழு வள்ளல்கள்`, `பத்தாம் பசலி`, domination/fanaticism vocabulary, `வகுப்புவாதம்`, `கள்ளிச் செடி` and `பாதரசம்`. Batch 5 required no glossary-version change; its one-off source-specific expressions are documented in the batch file. None of these later batches revises the locked pilot conventions.
 
 Later batches may add new terminology, but an established convention should change only where later canonical evidence requires an explicit revision recorded in the translation history.
 

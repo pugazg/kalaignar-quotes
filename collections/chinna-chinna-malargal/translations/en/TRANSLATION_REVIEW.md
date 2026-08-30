@@ -9,9 +9,9 @@
 - Canonical source states: **496 `verified_from_scan`, 1 `needs_review` (`KQ-CCM-0391`)**
 - Canonical Tamil files changed by this review: **none**
 - Glossary/style baseline: [`GLOSSARY.md`](GLOSSARY.md), version **1.3**
-- Publication status: **review gate passed; consolidated `quotes.md` not yet published**
+- Publication status: **COMPLETE — [`quotes.md`](quotes.md), 497 / 497**
 
-This file records the post-construction English fidelity/consistency review required by [`TRANSLATION_PLAN.md`](TRANSLATION_PLAN.md). The twenty sequential batch files remain the first-pass construction/audit shards. The reviewed wording recorded here governs the later consolidated publication where it differs from a first-pass batch.
+This file records the post-construction English fidelity/consistency review required by [`TRANSLATION_PLAN.md`](TRANSLATION_PLAN.md). The twenty sequential batch files remain the first-pass construction/audit shards. The reviewed wording recorded here governs the consolidated publication where it differs from a first-pass batch.
 
 ## Review method
 
@@ -23,7 +23,7 @@ The review did not use OCR, internet quotations, modernized spellings, outside h
 
 The first-pass translation is substantially sound. **486 / 497** English entries are retained without wording changes. **11 / 497** receive English-only reviewed wording below. Of those eleven, two remove or avoid wording that exceeded what the canonical Tamil directly establishes (`KQ-CCM-0364`, `KQ-CCM-0495`); the remaining nine improve English clarity or syntax without changing the source proposition.
 
-The construction batch files are intentionally retained as first-pass audit history. The correction ledger below is authoritative for consolidated publication.
+The construction batch files are intentionally retained as first-pass audit history. The correction ledger below is authoritative for the consolidated publication in [`quotes.md`](quotes.md).
 
 ## Reviewed correction ledger
 
@@ -141,7 +141,7 @@ The review explicitly reaffirms the archive's source-critical boundaries:
 - `KQ-CCM-0466`: source-visible `வாணனைகள்` remains **vaananaigal**.
 - `KQ-CCM-0478`: source-visible `புனிதமோடதை` remains **punithamodathai**.
 - `KQ-CCM-0491`: source-visible `முக்குடைப்பட்டாலும்` remains **mukkudaipattaalum**.
-- `KQ-CCM-0496`: the canonical source's missing punctuation between `புரட்சிக் கவிஞர்` and `அதனால்தான்`, and its absent terminal punctuation, remain intentionally visible in the English review state.
+- `KQ-CCM-0496`: the canonical source's missing punctuation between `புரட்சிக் கவிஞர்` and `அதனால்தான்`, and its absent terminal punctuation, remain intentionally visible in the English publication.
 
 ## Publication gate result
 
@@ -151,5 +151,6 @@ The review explicitly reaffirms the archive's source-critical boundaries:
 - Wordplay/source-irregularity handling: **PASS**
 - Canonical Tamil unchanged: **PASS**
 - `KQ-CCM-0391` source limitation preserved: **PASS**
+- Consolidated publication: [`quotes.md`](quotes.md) — **497 / 497 PUBLISHED**
 
-The English review gate is therefore complete. The next activity is to publish `translations/en/quotes.md` by consolidating all 497 reviewed translations in quote-ID order, applying the eleven reviewed corrections above while retaining all twenty first-pass batch files as audit history.
+The English review and publication gate is complete. All twenty first-pass batch files remain retained as audit history. No further English translation construction or publication work is pending unless new canonical source evidence or an explicitly authorized editorial revision requires it.
